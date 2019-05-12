@@ -21,6 +21,15 @@
 事件经过：据BBC、路透社等多家海外媒体报道，所有泄露的信息都是通过一个名为“G0d”的Twitter帐户在之前的数周内放出的，账户信息显示，该账户目前有粉丝约17000人，地址位于汉堡，并使用了“安全研究”、“艺术家”、“讽刺与反讽”等标签形容自己。
 ```
 
+**3**
+- **SkyMed** Database Exposes Medical Info, PII Data of 137k People in U.S.
+```
+受害人数：137k People
+泄露目标：SkyMed members
+泄露内容：full names, addresses, dates of birth, email addresses, phone numbers
+link:https://www.bleepingcomputer.com/news/security/database-exposes-medical-info-pii-data-of-137k-people-in-us/
+```
+
 **4**
 - **Bilibili** 网站后台工程源代码被上传至[Github](https://github.com/openbilibili)(ikun大胜利?),官方回应:较老版本，已报案
 ```
@@ -64,6 +73,15 @@
 事件经过：据《彭博社》报导，网络保安公司 UpGuard 在亚马逊云端数据库上发现大量 Facebook 用户的个人资料，涉及至少5.4亿名用户，且数据开放予任何人下载。报导指出，墨西哥城媒体公司 Cultura Colectiva 的数据库储存了5.4亿名 Facebook 用户的个人资料，包括身份证号码、帐号称谓、网上评论及回应记录等。Cultura Colectiva 专门发布拉丁美洲娱乐及文化消息，在 Facebook、Instagram、Twitter、YouTube 等开设专页，拥有逾4500万用户追踪。《彭博社》向 Facebook 查询，Facebook 随后通报亚马逊，相关数据库已被封锁。Facebook 发言人表示，公司政策禁止将用户资料储存于公开数据库，此次发现事件后即时通知亚马逊处理；发言人称，公司致力与平台开发商合作保障用户私隐。
 ```
 
+**5**
+- **Ladders** Database Exposed 13M User Records
+```
+受害人数：13M User
+泄露目标：Ladders User
+link:https://securityaffairs.co/wordpress/84861/data-breach/ladders-data-leak.html
+```
+
+---
 
 # 2018
 **2**
@@ -178,6 +196,8 @@
 大致时间：公开于2018年12月3日
 事件经过：12月3日，美国知名问答社区 Quora 发公告称，1亿用户数据因为第三方黑客恶意攻击而遭到泄露，其中包括用户的邮箱、姓名和被加密的密码，以及他们在网站上分享的内容。
 ```
+
+---
 
 # 2017
 **8**
