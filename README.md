@@ -6,6 +6,7 @@
 
 ## Manual
 盘点近年来的各国各行各种数据泄露事件
+
 灵感来源:https://haveibeenpwned.com/PwnedWebsites
 
 <p align="center">
