@@ -4,17 +4,19 @@
 
 ---
 
-## Manual
-盘点近年来的各国各行各种数据泄露事件
+## Manual🎟
+盘点近年来的各国各行较知名的数据泄露事件
 
-灵感来源:https://haveibeenpwned.com/PwnedWebsites
+灵感来源: https://haveibeenpwned.com/PwnedWebsites
+
+消息源: [haveibeenpwned](haveibeenpwned)、[securityaffairs](https://securityaffairs.co/wordpress/tag/data-leak)、[hackernews](http://hackernews.cc/archives/category/%E6%95%B0%E6%8D%AE%E6%B3%84%E9%9C%B2)
 
 <p align="center">
     <img src=".//img/readme.jpg">
 </p>
 
 
-# 2019
+# 2019🤦‍
 **1月**
 - **德国政界** 数百德国政客个人数据泄露
 ```
@@ -23,13 +25,20 @@
 事件经过：据BBC、路透社等多家海外媒体报道，所有泄露的信息都是通过一个名为“G0d”的Twitter帐户在之前的数周内放出的，账户信息显示，该账户目前有粉丝约17000人，地址位于汉堡，并使用了“安全研究”、“艺术家”、“讽刺与反讽”等标签形容自己。
 ```
 
+- **华硕** 内网密码在 GitHub 上泄露
+```
+泄露内容：企业内网密码
+事件经过：北京时间3月28日早间消息，据美国科技媒体TechCrunch报道，一名信息安全研究员两个月前向华硕发出警告称，有华硕员工在GitHub代码库中错误地发布了密码。这些密码可以被用于访问该公司的企业内网。其中一个密码出现在一名员工分享的代码库中。通过该密码，研究员可以访问内部开发者和工程师使用的电子邮件帐号，从而与计算机的使用者分享夜间构建的应用、驱动和工具。有问题的代码库来自华硕的一名工程师，他将电子邮件帐号密码公开已有至少一年时间。目前，尽管GitHub帐号仍然存在，但这个代码库已被清理。
+link: http://hackernews.cc/archives/25173
+```
+
 **3月**
 - **SkyMed** Database Exposes Medical Info, PII Data of 137k People in U.S.
 ```
 影响人数：137k People
 泄露目标：SkyMed members
 泄露内容：full names, addresses, dates of birth, email addresses, phone numbers
-link:https://www.bleepingcomputer.com/news/security/database-exposes-medical-info-pii-data-of-137k-people-in-us/
+link: https://www.bleepingcomputer.com/news/security/database-exposes-medical-info-pii-data-of-137k-people-in-us/
 ```
 
 **4月**
@@ -76,11 +85,18 @@ link:https://www.bleepingcomputer.com/news/security/database-exposes-medical-inf
 ```
 
 **5月**
+- **三星** 多个项目代码泄露 包括SmartThings源代码和密钥
+```
+泄露内容：多个内部项目，包括三星SmartThings敏感的源代码、证书和密钥。
+事件经过：三星数十个自主编码项目出现在旗下Vandev Lab的GitLab实例中。该实例被三星员工用于分享并贡献各种应用、服务和项目的代码。由于这些项目被设置为“公开”，同时没有受到密码的保护，因此任何人都可以查看项目，获取并下载源代码。迪拜信息安全公司SpiderSilk的安全研究员莫撒布·胡赛因（Mossab Hussein）发现了这些泄露的文件。他表示，某个项目包含的证书允许访问正在使用的整个AWS帐号，包括100多个S3存储单元，其中保存了日志和分析数据。
+link: http://hackernews.cc/archives/25425
+```
+
 - **Ladders** Database Exposed 13M User Records
 ```
 影响人数：13M User
 泄露目标：Ladders User
-link:https://securityaffairs.co/wordpress/84861/data-breach/ladders-data-leak.html
+link: https://securityaffairs.co/wordpress/84861/data-breach/ladders-data-leak.html
 ```
 
 - **Instagram** 4900万条数据曝光，影响人数达数百万
@@ -89,7 +105,8 @@ link:https://securityaffairs.co/wordpress/84861/data-breach/ladders-data-leak.ht
 泄露目标：Instagram用户
 大致时间：2019年5月
 泄露内容：用户资料、图片、粉丝数据、以及验证过的国家/地区、私人联系信息（包括电话、电子邮件等），甚至还有用户已删除信息内容。
-link:https://www.freebuf.com/news/204360.html
+事件经过: 据TechCrunch网站报道，Instagram的一个大型数据库由于在AWS存储桶上没有受到保护，导致任何人都可以在没有身份验证的情况下访问它。该数据库首先由安全研究人员Anurag Sen发现，并立即报告给了TechCrunch网站。
+link: https://securityaffairs.co/wordpress/85905/data-breach/instagram-data-leak.html
 ```
 
 - **Hindustan** 大量员工和商业信息公开暴露
@@ -107,12 +124,21 @@ link:https://www.freebuf.com/news/204276.html
 大致时间：2019年5月
 泄露内容：个人信息、电子邮件、地址以及部分信用卡资料
 事件经过：日本最大的服装零售商迅销集团发布消息称，旗下优衣库以及GU品牌的在线商城遭到黑客攻击，约46万用户的数据泄漏，包括用户个人信息、电子邮件、地址以及部分信用卡资料等。迅销称，此事件仅限于日本网站，发生在4月23日至5月10日期间，是一次基于列表的攻击。当客户在多个网站上使用相同的用户名和密码组合时，可能会遭受此类攻击，建议用户更改密码。
-link:https://www.freebuf.com/news/203923.html
+link: https://www.freebuf.com/news/203923.html
+```
+
+- **OGUsers** 论坛遭遇了数据泄露,被竞争对手脱裤
+```
+影响人数：161,143
+大致时间：2019年5月19日
+泄露内容：Email addresses, IP addresses, Passwords, Private messages, Usernames
+事件经过：In May 2019, the account hijacking and SIM swapping forum OGusers suffered a data breach. The breach exposed a database backup from December 2018 which was published on a rival hacking forum. There were 161k unique email addresses spread across 113k forum users and other tables in the database. The exposed data also included usernames, IP addresses, private messages and passwords stored as salted MD5 hashes.
+link: https://haveibeenpwned.com/PwnedWebsites#OGUsers
 ```
 
 ---
 
-# 2018
+# 2018🤷‍
 **2月**
 - **MyFitnessPal** 1.5亿用户数据泄露
 ```
@@ -187,7 +213,7 @@ link:https://www.freebuf.com/news/203923.html
 泄露内容：出生日期，电子邮件地址，性别，地理位置，姓名，密码，用户名
 大致时间：2018年7月5日
 事件经过：In mid-2018, the online photography community 500px suffered a data breach. The incident exposed almost 15 million unique email addresses alongside names, usernames, genders, dates of birth and either an MD5 or bcrypt password hash. In 2019, the data appeared listed for sale on a dark web marketplace (along with several other large breaches) and subsequently began circulating more broadly. The data was provided to HIBP by a source who requested it to be attributed to "BenjaminBlue@exploit.im".
-link:https://haveibeenpwned.com/PwnedWebsites#500px
+link: https://haveibeenpwned.com/PwnedWebsites#500px
 ```
 
 **8月**
@@ -225,6 +251,17 @@ link:https://haveibeenpwned.com/PwnedWebsites#500px
 事情经过: 根据国泰航空的说法，他们于今年3月在系统中发现可疑活动后立即与网络安全公司合作进行调查，确定攻击者如何获得系统访问权限以及如何修复漏洞。调查进行至5月，国泰航空发现攻击者能够访问包含多达940万条乘客个人数据的系统。
 ```
 
+**11月**
+- **Amazon** 部分用户信息被泄露：包括姓名和邮件地址
+```
+影响人数：不详
+泄露目标：Amazon用户
+泄露内容：姓名、邮件地址
+大致时间：2018年11月22日
+事件经过：北京时间11月22日早间消息，据美国财经媒体CNBC报道，亚马逊向给用户发邮件称，由于出现技术问题，一些用户的姓名和邮件地址被泄露。目前已经有一些人在网上发布他们收到的邮件截图。这些邮件中说，用户没有必要因此次事故而修改密码。但CNBC指出，有了名字和邮件地址，黑客仍然可以借此重设用户帐号，或利用邮件发起“钓鱼攻击”。
+link: http://hackernews.cc/archives/24486
+```
+
 **12月**
 - **Quora** 1亿用户数据因为第三方黑客恶意攻击而遭到泄露
 ```
@@ -233,11 +270,12 @@ link:https://haveibeenpwned.com/PwnedWebsites#500px
 泄露内容：姓名、电子邮箱、加密密码、个人资料
 大致时间：公开于2018年12月3日
 事件经过：12月3日，美国知名问答社区 Quora 发公告称，1亿用户数据因为第三方黑客恶意攻击而遭到泄露，其中包括用户的邮箱、姓名和被加密的密码，以及他们在网站上分享的内容。
+link: http://hackernews.cc/archives/24547
 ```
 
 ---
 
-# 2017
+# 2017🙎‍
 **8月**
 - **Aadhaar印度国家身份认证系统** 11亿用户数据泄露(印度国家身份认证系统将公民信息卖给了乡村企业家?)
 ```
@@ -258,14 +296,23 @@ link:https://haveibeenpwned.com/PwnedWebsites#500px
 
 ---
 
-# 2016
+# 2016🙇‍
+**1月**
+- **BitTorrent** 的论坛遭到黑客攻击
+```
+影响人数：34,235
+泄露目标：BitTorrent用户
+泄露内容：Email addresses, IP addresses, Passwords, Usernames
+link: https://haveibeenpwned.com/PwnedWebsites#BitTorrent
+```
+
 **8月**
 - **Epic Games** 252k账户被曝光
 ```
 影响人数：251,661
 泄露目标：Epic Games用户
 泄露内容：Email addresses, IP addresses, Names, Passwords, Payment histories, Phone numbers, Physical addresses, Usernames, Website activity
-link:https://haveibeenpwned.com/PwnedWebsites#EpicGames
+link: https://haveibeenpwned.com/PwnedWebsites#EpicGames
 ```
 
 **9月**
@@ -274,14 +321,38 @@ link:https://haveibeenpwned.com/PwnedWebsites#EpicGames
 影响人数：6,496,778
 泄露目标：爱拍用户
 泄露内容：Email addresses, Passwords
-link:https://haveibeenpwned.com/PwnedWebsites#Aipai
+link: https://haveibeenpwned.com/PwnedWebsites#Aipai
 ```
 
 **12月**
-- **优酷** 遭遇数据泄露
+- **优酷** 遭遇数据泄露，暴露了9200万个唯一用户帐户和相应的MD5密码散列
 ```
 影响人数：91,890,110
 泄露目标：优酷用户
 泄露内容：Email addresses, Passwords
-link:https://haveibeenpwned.com/PwnedWebsites#Youku
+link: https://haveibeenpwned.com/PwnedWebsites#Youku
+```
+
+---
+
+# 2014🙅‍
+**5月**
+- **Avast** 论坛被黑，423k会员数据被曝光
+```
+影响人数：422,959
+泄露目标：Avast论坛用户
+泄露内容：Email addresses, Passwords, Usernames
+link: https://haveibeenpwned.com/PwnedWebsites#Avast
+```
+
+---
+
+# 2013😢
+**10月**
+- **Adobe** 1.53亿账号泄露
+```
+影响人数：152,445,165
+泄露目标：Adobe用户
+泄露内容：Email addresses, Password hints, Passwords, Usernames
+link: https://haveibeenpwned.com/PwnedWebsites#Adobe
 ```
