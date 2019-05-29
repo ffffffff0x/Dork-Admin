@@ -9,7 +9,7 @@
 
 灵感来源: https://haveibeenpwned.com/PwnedWebsites
 
-消息源: [haveibeenpwned](haveibeenpwned)、[securityaffairs](https://securityaffairs.co/wordpress/tag/data-leak)、[hackernews](http://hackernews.cc/archives/category/%E6%95%B0%E6%8D%AE%E6%B3%84%E9%9C%B2)
+消息源: [haveibeenpwned](haveibeenpwned)、[securityaffairs](https://securityaffairs.co/wordpress/tag/data-leak)、[hackernews](http://hackernews.cc/archives/category/%E6%95%B0%E6%8D%AE%E6%B3%84%E9%9C%B2)、[Freebuf](https://www.freebuf.com)、[bleepingcomputer](https://www.bleepingcomputer.com)、[zdnet](https://www.zdnet.com)、[Solidot](https://www.solidot.org)
 
 <p align="center">
     <img src=".//img/readme.jpg">
@@ -134,6 +134,24 @@ link: https://www.freebuf.com/news/203923.html
 泄露内容：Email addresses, IP addresses, Passwords, Private messages, Usernames
 事件经过：In May 2019, the account hijacking and SIM swapping forum OGusers suffered a data breach. The breach exposed a database backup from December 2018 which was published on a rival hacking forum. There were 161k unique email addresses spread across 113k forum users and other tables in the database. The exposed data also included usernames, IP addresses, private messages and passwords stored as salted MD5 hashes.
 link: https://haveibeenpwned.com/PwnedWebsites#OGUsers
+```
+
+- **Canva** 1.39 亿用户数据泄露
+```
+影响人数：1.39 亿
+泄露目标：Canva 用户
+泄露内容：用户名字、真名 、电邮地址、城市国家信息 、哈希密码、Google 令牌 、Gmail 地址
+事件经过：自称 GnosticPlayers 的黑客声称窃取了澳大利亚网站 Canva 的 1.39 亿用户数据。Canva 是一个非常受欢迎的平面设计服务，Alexa 排名在 200 以内。黑客窃取的数据包括了用户名字、真名 、电邮地址、城市国家信息，其中 6100 万用户有哈希密码，其他用户的信息还有用于登陆的 Google 令牌。有 7800 万用户使用了 Gmail 地址。Canva 证实它的数据库遭到非法访问，表示尚未发现账号被入侵，出于谨慎考虑它已经鼓励用户更改密码。
+link: https://www.zdnet.com/article/australian-tech-unicorn-canva-suffers-security-breach/
+```
+
+- **Ordine Avvocati di Roma** 遭到一个自称意大利匿名者的组织的数据泄露。
+```
+影响人数：41,960
+泄露目标：罗马律师
+泄露内容：Email addresses, Email messages, Geographic locations, Passwords, Phone numbers
+事件经过：In May 2019, the Lawyers Order of Rome suffered a data breach by a group claiming to be Anonymous Italy. Data on tens of thousands of Roman lawyers was taken from the breached system and redistributed online. The data included contact information, email addresses and email messages themselves encompassing tens of thousands of unique email addresses. A total of 42k unique addresses appeared in the breach.
+link: https://haveibeenpwned.com/PwnedWebsites#OrdineAvvocatiDiRoma
 ```
 
 ---
