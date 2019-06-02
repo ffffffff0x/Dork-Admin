@@ -2,9 +2,11 @@
     <img src=".//img/logo.png">
 </p>
 
+![image](https://img.shields.io/github/stars/No-Github/Dork-Admin.svg?label=Stars&style=popout) ![GitHub last commit](https://img.shields.io/github/last-commit/No-Github/Dork-Admin.svg?style=popout)
+
 ---
 
-## Manual🎟
+## Manual🦄
 盘点近年来的各国各行较知名的数据泄露事件
 
 灵感来源: https://haveibeenpwned.com/PwnedWebsites
@@ -153,6 +155,16 @@ link: https://www.zdnet.com/article/australian-tech-unicorn-canva-suffers-securi
 事件经过：In May 2019, the Lawyers Order of Rome suffered a data breach by a group claiming to be Anonymous Italy. Data on tens of thousands of Roman lawyers was taken from the breached system and redistributed online. The data included contact information, email addresses and email messages themselves encompassing tens of thousands of unique email addresses. A total of 42k unique addresses appeared in the breach.
 link: https://haveibeenpwned.com/PwnedWebsites#OrdineAvvocatiDiRoma
 ```
+
+- **Flipboard** 遭黑客攻击，用户名密码等信息泄露
+```
+泄露目标：Flipboard用户
+泄露内容：用户名、姓名、电子邮件地址和密码,Flipboard连接到第三方服务，例如Twitter和Facebook的数字令牌
+事件经过：本周，新闻聚合应用Flipboard就此前发生的信息泄露事件向用户发送电子邮件进行告知。在这次事件中，黑客获得了用户的用户名、电子邮件地址和受保护的密码。从2018年6月2日至2019年4月22日，Flipboard的数据库发生了“未经授权的访问”，导致用户的帐号信息泄露。Flipboard表示，黑客“有可能获得了”一些数据库的拷贝，但尚未透露有多少帐号被入侵等细节。
+link: https://tech.sina.com.cn/i/2019-05-30/doc-ihvhiqay2380994.shtml
+```
+
+
 
 ---
 
