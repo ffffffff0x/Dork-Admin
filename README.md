@@ -11,7 +11,7 @@
 
 灵感来源: https://haveibeenpwned.com/PwnedWebsites
 
-消息源: [haveibeenpwned](https://haveibeenpwned.com)、[securityaffairs](https://securityaffairs.co/wordpress/tag/data-leak)、[hackernews](http://hackernews.cc/archives/category/%E6%95%B0%E6%8D%AE%E6%B3%84%E9%9C%B2)、[Freebuf](https://www.freebuf.com)、[bleepingcomputer](https://www.bleepingcomputer.com)、[zdnet](https://www.zdnet.com)、[Solidot](https://www.solidot.org)
+消息源: [verizon DBIR](https://enterprise.verizon.com/resources/reports/dbir/)、[haveibeenpwned](https://haveibeenpwned.com)、[securityaffairs](https://securityaffairs.co/wordpress/tag/data-leak)、[hackernews](http://hackernews.cc/archives/category/%E6%95%B0%E6%8D%AE%E6%B3%84%E9%9C%B2)、[Freebuf](https://www.freebuf.com)、[bleepingcomputer](https://www.bleepingcomputer.com)、[zdnet](https://www.zdnet.com)、[Solidot](https://www.solidot.org)
 
 <p align="center">
     <img src=".//img/readme.jpg">
@@ -304,11 +304,12 @@ link: https://haveibeenpwned.com/PwnedWebsites#500px
 
 # 2017🙎‍
 **9月**
-- **Equifax** 一亿四千三百万美国人的数据泄露
+- **Equifax** 一亿四千三百万美国人数据泄露
 ```
 影响人数：一亿四千三百万
 泄露目标：基本上包括了美国的每一个成年人
 泄露内容：姓名、社会保险号码、生日、地址，驾照号码，信用卡号码，信用报告纠纷相关文件。
+事件经过：2017年9月Equifax发现5月至7月期间遭到黑客攻击导致1.43亿用户的个人信息遭到泄露将近一半美国人的隐私信息暴露在风险中包括姓名、社安号美国身份证号、地址、驾照号、社保账号等还包括20.9万人的信用卡号码18.2万人的个人税收信用文件是当时有史以来规模最大、破坏性最强的数据泄露事件之一。Equifax股价在事件公布一天内暴跌近14%两周内下跌了31%且面临4.39亿美元的法律、补救、保险和调查成本。Equifax的CEO、CSO首席安全官、CIO 首席信息官在事发后立即宣布退休。
 大致时间：公开于2018年12月3日
 ```
 
@@ -358,6 +359,67 @@ link: https://haveibeenpwned.com/PwnedWebsites#EpicGames
 泄露目标：BitTorrent用户
 泄露内容：Email addresses, IP addresses, Passwords, Usernames
 link: https://haveibeenpwned.com/PwnedWebsites#BitTorrent
+```
+
+---
+
+# 2015🙃
+**10月**
+- **Patreon** 被黑，超过16GB资料流落网络
+```
+泄露目标：内蒙古19万名高考考生
+泄露内容：注册名称、电子邮件位址、张贴内容、送货地址，以及2014年以前的某些帐单地址，Patreon网站的原始码
+事件经过：10月，独立安全研究人员Troy Hunt在他自己所设立的haveibeenpwned网站上公布：音乐众筹网站Patreon已遭骇客入侵，并有超过16GB的资料在网路上流窜， Patreon也已证实此事。Patreon是由音乐家Jack Conte及开发人员Sam Yam在2013年创立的众筹网站，主要是替音乐或影片的作者筹募创作基金。Hunt指出，黑客公布了超过16GB的Patreon资料，其中包含14GB的资料库纪录，还有逾230万个电子邮件位址与数百万封的讯息，甚至还有Patreon网站的原始码。
+link: http://www.ijiandao.com/safe/it/16278.html
+```
+
+**9月**
+- 内蒙古19万考生信息泄露
+```
+影响人数：19万
+泄露目标：内蒙古19万名高考考生
+泄露内容：姓名、身份证号码及其父母姓名、电话
+事件经过：据新华社电内蒙古自治区教育招生考试中心透露，内蒙古19万名高考考生信息近日遭泄露。9月2日上午得知此事后，教育招生考试中心立即组织人员进行研判，并确认网传信息基本属实。随后，该单位立即报警，希望警方进行彻查。这些信息中包括考生的姓名、身份证号码及其父母姓名、电话，名单覆盖了内蒙古自治区的12个盟市，数量最多的地方达4万多条。
+link: https://news.ifeng.com/a/20150908/44601584_0.shtml
+```
+
+- **TalkTalk** 400万人信息泄漏
+```
+影响人数：400万
+泄露目标：TalkTalk用户
+泄露内容：姓名、地址、生日、电话号码、电邮地址、账户详细情况、信用卡详细情况等
+事件经过：今年9月英国宽带服务提供商TalkTalk表示，该公司网站日前所遭受的网络攻击可能导致其400多万客户的个人数据被盗，这可能是英国史上最大规模的数据泄漏事件之一。该公司表示很客户的姓名、地址、生日、电话号码、电邮地址、账户详细情况、信用卡详细情况等数据很有可能都被窃取了。这是TalkTalk今年第三次遭受网络攻击，计算机安全专家格雷汉姆·克鲁利(Graham Cluley)指出：“他们的品牌将受损，他们的客户可能已经忍无可忍了。”
+link: http://news.mydrivers.com/1/453/453003.htm
+```
+
+**8月**
+- **大麦网** 600多万用户账号密码泄露 数据已被售卖
+```
+影响人数：600万
+泄露目标：大麦网用户
+泄露内容：用户注册信息数据库
+事件经过：8月27日，乌云漏洞报告平台发布报告显示，线上票务营销平台大麦网再次被发现存在安全漏洞，600余万用户账户密码遭到泄露。起初发现有大麦网用户数据库在黑产论坛被公开售卖，于是对泄露的用户数据进行验证，发现相邻账号的用户ID也是连续的，并均可登录。因此，丛技术的角度可以初步证明本次大麦网的数据泄露有被拖库嫌疑(网站用户注册信息数据库被黑客窃取)。
+link: http://tech.sina.com.cn/i/2015-08-27/doc-ifxhkafa9342416.shtml
+```
+
+**2月**
+- **Uber** 5万名优步司机信息遭泄露
+```
+影响人数：5万
+泄露目标：优步司机
+泄露内容：司机的个人信息
+事件经过：2月28日，大约5万名优步(Uber)司机的个人信息被不知名的第三方人士获取，成为该公司遭遇的最大规模的数据泄露事件。去年9月Uber系统中出现一个漏洞，能让外人在未经授权的情况下，获取部分司机的姓名和驾照号码。虽然Uber声称已堵上这一漏洞，但随后的调查显示，去年5月，相关数据曾遭遇“一次未授权的访问“。
+link: http://tech.huanqiu.com/original/2015-02/5777913.html
+```
+
+**1月**
+- **机锋论坛** 包括用户名、邮箱、加密密码的2300万用户信息泄漏
+```
+影响人数：2300万
+泄露目标：机锋用户
+泄露内容：用户名、注册邮箱、加密后的密码等信息
+事件经过：机锋科技旗下机锋论坛被曝出存在高危漏洞，多达2300万用户的信息遭遇安全威胁。这也成为2015年国内第一起网络信息泄露事件。据知情人士称，机锋论坛泄露的2300万用户数据包括用户名、注册邮箱、加密后的密码等信息，由于机构数据库对用户密码仅使用了简单的MD5（计算机安全领域广泛使用的一种散列函数）加密，黑客能够快速破解出绝大部分明文密码。
+link: http://tech.sina.com.cn/it/2015-01-06/01199932312.shtml
 ```
 
 ---
