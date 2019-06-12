@@ -11,14 +11,25 @@
 
 灵感来源: https://haveibeenpwned.com/PwnedWebsites
 
-消息源: [verizon DBIR](https://enterprise.verizon.com/resources/reports/dbir/)、[haveibeenpwned](https://haveibeenpwned.com)、[securityaffairs](https://securityaffairs.co/wordpress/tag/data-leak)、[hackernews](http://hackernews.cc/archives/category/%E6%95%B0%E6%8D%AE%E6%B3%84%E9%9C%B2)、[Freebuf](https://www.freebuf.com)、[bleepingcomputer](https://www.bleepingcomputer.com)、[zdnet](https://www.zdnet.com)、[Solidot](https://www.solidot.org)
+消息源: [verizon DBIR](https://enterprise.verizon.com/resources/reports/dbir/)、[haveibeenpwned](https://haveibeenpwned.com)、[securityaffairs](https://securityaffairs.co/wordpress/tag/data-leak)、[hackernews](http://hackernews.cc/archives/category/%E6%95%B0%E6%8D%AE%E6%B3%84%E9%9C%B2)、[Freebuf](https://www.freebuf.com)、[bleepingcomputer](https://www.bleepingcomputer.com)、[zdnet](https://www.zdnet.com)、[Solidot](https://www.solidot.org)、[Rainbowtabl.es](https://rainbowtabl.es/)
 
 <p align="center">
     <img src=".//img/readme.jpg">
 </p>
 
 # 2019🤦‍
+
 **6月**
+- **中国猎头公司 FMC Consulting** 配置错误的ElasticSearch集群造成数据泄露(据文章称涉事公司收到报告毫无反应，直到CNCERT出面才下线数据)
+```
+泄露内容：数百万份简历和公司记录，以及客户和员工的PII数据。
+事件经过：A misconfigured and publicly accessible ElasticSearch cluster owned by FMC Consulting, a Chinese headhunting company, leaked millions of resumes and company records, as well as customers and employees PII data.
+The database containing hundreds of thousands of customer records, internal emails, as well as employees daily tasks and calls they made while contacting clients was left unprotected, exposing all the data to anyone who knew where and how to look for it.
+According to the company's LinkedIn profile, "FMC has successfully helped our clients placing more than 10,000 competitive positions (by the end of 2018) in the dynamic market of China. These placements ranged from professional jobs, to middle managerial positions and regional business heads."
+Sanyam Jain, a member of the GDI Foundation and an independent security researcher, discovered the misconfigured ElasticSearch cluster and contacted BleepingComputer to have the database taken down.
+link: https://www.bleepingcomputer.com/news/security/headhunting-firm-leaks-millions-of-resumes-client-private-data/
+```
+
 - **PayID** 遭网络攻击 十万客户信息泄露
 ```
 影响人数：10万
@@ -28,6 +39,14 @@ link: https://www.smh.com.au/business/banking-and-finance/australians-private-de
 ```
 
 **5月**
+- **上海交大** 泄漏 8.4TB 邮件元数据 (你知道shodan搜这种未授权访问的业务有多容易吗？我来告诉你)[点击看看](https://www.shodan.io/search?query=port%3A%229200%22+all%3A%22elastic+indices%22)
+```
+泄露内容：8.4 TB 电子邮件元数据、发送电子邮件的人的IP地址和用户代理，设备类型等
+事件经过：安全研究员通过搜索 Shodan，发现了一个没有任何身份验证的 ElasticSearch 数据库。该数据库属于上海交大，包含了 8.4TB 邮件元数据，但不包含邮件正文内容。数据库包含了 95 亿行数据，5 月 23 日数据库容量只有 7TB，24 日就增加到了 8.4 TB。交大安全团队在收到报告之后就在当天关闭了开放访问。元数据包括了发送方，接收方，IP 地址、检查邮件时的用户代理，以及设备类型等。
+link: https://rainbowtabl.es/2019/06/09/shanghai-jiao-tong-university-email-metadata-leak/
+link: https://www.solidot.org/story?sid=60937
+```
+
 - **三星** 多个项目代码泄露 包括SmartThings源代码和密钥
 ```
 泄露内容：多个内部项目，包括三星SmartThings敏感的源代码、证书和密钥。
@@ -190,6 +209,7 @@ link: http://hackernews.cc/archives/25173
 ---
 
 # 2018🤷‍
+
 **12月**
 - **Quora** 1亿用户数据因为第三方黑客恶意攻击而遭到泄露
 ```
@@ -220,6 +240,8 @@ link: http://hackernews.cc/archives/24486
 泄露内容：乘客姓名；国籍；出生日期；电话号码；电邮地址；地址；护照号码；身份证号码；飞行常客计划的会员号码；顾客服务备注；及过往的飞行记录信息。
 大致时间：公开于2018年10月24日
 事情经过: 根据国泰航空的说法，他们于今年3月在系统中发现可疑活动后立即与网络安全公司合作进行调查，确定攻击者如何获得系统访问权限以及如何修复漏洞。调查进行至5月，国泰航空发现攻击者能够访问包含多达940万条乘客个人数据的系统。
+link: https://news.cathaypacific.com/%E5%9C%8B%E6%B3%B0%E8%88%AA%E7%A9%BA%E5%85%AC%E4%BD%88%E6%B6%89%E5%8F%8A%E4%B9%98%E5%AE%A2%E8%B3%87%E6%96%99%E7%9A%84%E8%B3%87%E6%96%99%E5%AE%89%E5%85%A8%E4%BA%8B%E4%BB%B6#
+link: https://www.solidot.org/story?sid=58359
 ```
 
 **9月**
@@ -340,6 +362,7 @@ link: https://haveibeenpwned.com/PwnedWebsites#LinuxForums
 ---
 
 # 2017🙎‍
+
 **10月**
 - **Disqus** 宣布他们遭受了数据泄露
 ```
@@ -371,6 +394,7 @@ link: https://haveibeenpwned.com/PwnedWebsites#Disqus
 ---
 
 # 2016🙇‍
+
 **12月**
 - **优酷** 遭遇数据泄露，暴露了9200万个唯一用户帐户和相应的MD5密码散列
 ```
@@ -473,6 +497,7 @@ link: https://haveibeenpwned.com/PwnedWebsites#uTorrent
 ---
 
 # 2015🙃
+
 **10月**
 - **Patreon** 被黑，超过16GB资料流落网络
 ```
@@ -534,6 +559,7 @@ link: http://tech.sina.com.cn/it/2015-01-06/01199932312.shtml
 ---
 
 # 2014🙅‍
+
 **12月**
 - **12306**大量用户资料泄露
 ```
@@ -593,6 +619,7 @@ link: https://haveibeenpwned.com/PwnedWebsites#Snapchat
 ---
 
 # 2013😢
+
 **10月**
 - **Adobe** 1.53亿账号泄露
 ```
@@ -621,6 +648,7 @@ link: https://haveibeenpwned.com/PwnedWebsites#Tumblr
 ```
 
 # 2012👀
+
 **7月**
 - **Dropbox** 遭遇了数据泄露，暴露了数千万客户的存储凭据。
 ```
@@ -649,6 +677,7 @@ link: https://haveibeenpwned.com/PwnedWebsites#VK
 ```
 
 # 2011🤔
+
 **12月**
 - 2011年底，中国发生的一系列数据泄露事件影响了1亿用户，其中包括来自 **17173游戏网站** 的750万用户。
 ```
@@ -694,3 +723,4 @@ link: https://haveibeenpwned.com/PwnedWebsites#Dangdang
 link: https://haveibeenpwned.com/PwnedWebsites#Sony
 ```
 
+`“我想，你们这帮家伙应该考虑比这大得多的问题。”`
