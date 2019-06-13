@@ -929,6 +929,7 @@
 
 **4月**
 - 攻击者试图在 **Mailparser** 中植入后门
+
     事件经过：在4月底，NPM包管理团队（Node Package Manager）发现，有攻击者意欲想在流行的JavaScript软件包Mailparser中植入后门。
 
     link: http://blog.npmjs.org/post/173526807575/reported-malicious-module-getcookies
@@ -957,11 +958,13 @@
 
 **9月**
 - **PyPI** 上发现十余个恶意Python库
+
     事件经过：2017年，斯洛伐克国家安全办公室发现，在PyPI库中存在十余款恶意的Python软件包，之后，这些软件包被Python官方迅速移除。
 
     link: https://www.bleepingcomputer.com/news/security/ten-malicious-libraries-found-on-pypi-python-package-index/
 
 - **CCleaner** 被植入恶意代码
+
     事件经过：近日，有安全研究团队表示，著名的系统优化工具CCleaner被发现植入恶意代码。大量使用该工具的用户恐将面临泄密风险。这是继Xshell后门事件后，又一起严重的软件供应链来源攻击事件。据研究人员估算全球2000万用户受到感染，但CCleaner官方称只有227万用户受到影响。
 
     link: http://it.rising.com.cn/dongtai/18995.html
@@ -1117,6 +1120,7 @@
 
 **3月**
 - **WordPress**的盗版插件后门程序
+
     事件经过：2011年，WordPress团队发现目前在WordPress流行的一些插件存在安全隐患，插件被恶意插入后门程序，以便获取用户的数据，主要是用户的管理员密码。
 
     这些恶意后台并非是插件作者有意作为，而是第三方的人在破解了插件作者的管理信息之后插入后门信息的。
@@ -1179,6 +1183,7 @@
 
 **11月**
 - **ProFTPD** 镜像服务器被入侵
+
     事件经过：流行的开源FTP服务器ProFTPD在2010年发现被人在代码中放了一个后门。 在安装了包含有后门的ProFTPD服务器版本后，攻击者可以获得系统控制权限，攻击者的IP地址来自沙特阿拉伯地区。在该版本中，输入命令“HELP ACIDBITCHEZ”会出现一个root shell。攻击者利用了一个尚未修复的0day漏洞。受影响的版本是从11月28日到2日在官方镜像下载的ProFTPD 1.3.3c。
 
     link: https://www.exploit-db.com/exploits/15662
@@ -1189,6 +1194,7 @@
 
 **11月**
 - **Linux内核** 后门
+
     事件经过：早在2003年，有人试图向Linux内核插入一个微妙后门源代码。该代码被写入到给一个后门，没有外在标志，被托管的服务器入侵与Linux源相连的其他电脑。只有两行代码被更改， 并有可能轻轻松松瞒过大多数的眼睛。幸运的是，后门代码审计人员发现了。关于谁应该对此负责的猜测仍然很多。也许某个要求Linus Torvalds向Linux添加后门程序的三个字母的机构可能知道。
 
     link: https://freedom-to-tinker.com/2013/10/09/the-linux-backdoor-attempt-of-2003/
@@ -1199,6 +1205,7 @@
 
 **1月**
 - **Borland** 的数据库软件后门
+
     事件经过：Borland公司的InterBase数据库软件中的一个“后门”使得任何拥有适当口令的人都可以对数据库和运行数据库的计算机系统实施严重的破坏行为。
 
     计算机紧急反应小组在当地时间星期三发表的咨询报告中称，这一“后门”可以使黑客改变存储在数据库中的信息，甚至在计算机中运行造成更大破坏的程序。用户名和口令写在程序里，很容易被发现，而且不能通过改变设置清除掉。
