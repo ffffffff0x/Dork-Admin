@@ -7,9 +7,10 @@
 ---
 
 # Manual🦄
+
 盘点近年来的各国各行较知名的数据泄露、供应链污染事件
 
-灵感来源: https://haveibeenpwned.com/PwnedWebsites
+灵感来源: https://haveibeenpwned.com/PwnedWebsites、https://www.freebuf.com/articles/paper/147403.html
 
 消息源: [verizon DBIR](https://enterprise.verizon.com/resources/reports/dbir/)、[haveibeenpwned](https://haveibeenpwned.com)、[securityaffairs](https://securityaffairs.co/wordpress/tag/data-leak)、[hackernews](http://hackernews.cc/archives/category/%E6%95%B0%E6%8D%AE%E6%B3%84%E9%9C%B2)、[Freebuf](https://www.freebuf.com)、[bleepingcomputer](https://www.bleepingcomputer.com)、[zdnet](https://www.zdnet.com)、[Solidot](https://www.solidot.org)、[Rainbowtabl.es](https://rainbowtabl.es/)
 
@@ -234,6 +235,19 @@
     泄露内容：full names, addresses, dates of birth, email addresses, phone numbers
 
     link: https://www.bleepingcomputer.com/news/security/database-exposes-medical-info-pii-data-of-137k-people-in-us/
+
+
+- **北京机到网络科技有限公司** 3300万份国人简历泄露
+
+    影响人数：3300万
+
+    泄露内容：求职者的用户名，性别，年龄，当前城市，家庭住址，电子邮件地址，电话号码，婚姻状况，工作经历，教育历史和工资历史
+
+    事件经过：A large database with approximately 33 million profiles for people seeking jobs in China has been fully accessible and unprotected online. This information included sensitive information that could have been used for scammers and identity theft.
+
+    The database was discovered by Sanyam Jain, a security researcher and member of GDI.Foundation, who found the database using the Shodan search engine.
+
+    link: https://www.bleepingcomputer.com/news/security/unsecured-database-exposed-33-million-job-profiles-in-china/
 
 **1月**
 - **德国政界** 数百德国政客个人数据泄露
@@ -890,6 +904,7 @@
 
 ---
 
+
 # 供应链攻击
 ## 2018
 
@@ -904,7 +919,58 @@
 
     link: https://www.anquanke.com/post/id/169683
 
+**5月**
+- **Python** 官方库SSH-Decorator被植入后门
+
+    事件经过：据 Reddit 用户报告，在 Python 库的SSH-Decorator 软件包中发现了窃取用户 SSH 私钥及帐号密码的后门，目前该库已被Python官方移除。SSH-Decorator 为以色列开发人员Uri Goren开发，主要用途为解决用户从Python代码中发起的SSH通信连接。
+
+    link: https://www.reddit.com/r/Python/comments/8hvzja/backdoor_in_sshdecorator_package/
+    link: http://www.arkteam.net/?p=3601
+
+**4月**
+- 攻击者试图在 **Mailparser** 中植入后门
+    事件经过：在4月底，NPM包管理团队（Node Package Manager）发现，有攻击者意欲想在流行的JavaScript软件包Mailparser中植入后门。
+
+    link: http://blog.npmjs.org/post/173526807575/reported-malicious-module-getcookies
+
 ## 2017
+
+**12月**
+- **Wordpress** Keylogger事件
+
+    事件经过：Catalin Cimpanu发现几起针对WordPress站点的攻击，主要通过加载恶意脚本进行键盘记录，挖矿或者挂载广告。并且有证据表明，这种攻击从4月份活跃至今。起因是WordPress被注入了一个混淆的js脚本，从主题的function.php文件进行植入。加载的js脚本地址为：
+    ```
+    <script type='text/javascript' src='hxxp://cloudflare[.]solutions/ajax/libs/reconnecting-websocket/1.0.0/reconnecting-websocket.js'></script>
+    <script type='text/javascript' src='hxxp://cloudflare[.]solutions/ajax/libs/cors/cors.js'></script>
+    ```
+    其中reconnecting-websocket.js用作websocket通信，cors.js中包含后门。Cors.js更改前端页面，释放javascript脚本进行输入监听，之后将数据发送给攻击者（wss://cloudflare[.]solutions:8085/）。
+
+    link: https://www.bleepingcomputer.com/news/security/keylogger-found-on-nearly-5-500-infected-wordpress-sites/
+    link: https://www.anquanke.com/post/id/89941
+
+**10月**
+- **Elmedia Player** 软件攻击事件
+
+    事件经过：Elmedia Player是一款专门为Mac OS X 打造的免费媒体播放器，通过它可播放和管理Mac上的Flash影片、电影视频等等。2017年10月19日ESET注意到Elmedia Player软件的制造商Eltima正在其官方网站上发布一个被植入OSX/Proton恶意软件的应用程序。ESET联系Eltima之后2017年10月20日Eltima官方发布安全公告，公告称旗下macOS平台下的Folx 和 Elmedia Player两款软件的DMG因为官网被入侵而被篡改并被植入了恶意代码，具体影响到了2017年10月19日在官网下载该两款软件的用户。该软件用户数大约在100万左右。这是今年既XshellGhost和CCleaner之后又一起严重的针对供应链攻击的事件。
+
+    link: https://www.anquanke.com/post/id/87063
+
+**9月**
+- **PyPI** 上发现十余个恶意Python库
+    事件经过：2017年，斯洛伐克国家安全办公室发现，在PyPI库中存在十余款恶意的Python软件包，之后，这些软件包被Python官方迅速移除。
+
+    link: https://www.bleepingcomputer.com/news/security/ten-malicious-libraries-found-on-pypi-python-package-index/
+
+- **CCleaner** 被植入恶意代码
+    事件经过：近日，有安全研究团队表示，著名的系统优化工具CCleaner被发现植入恶意代码。大量使用该工具的用户恐将面临泄密风险。这是继Xshell后门事件后，又一起严重的软件供应链来源攻击事件。据研究人员估算全球2000万用户受到感染，但CCleaner官方称只有227万用户受到影响。
+
+    link: http://it.rising.com.cn/dongtai/18995.html
+
+- **Chrome插件User–Agent Switcher** 供应链攻击事件
+
+    事件经过：在此处事件中User-Agent Switcher为广大的攻击者提供了一种新型的供应链攻击模式—从大分发机构出发,对交付这一过程进行攻击,作者通过混淆自己的恶意代码进入图片接着在插件运行的时候再从图片中解密出恶意代码进行运行,从而绕过了Chrome商店的严格审查机制,成功的堂而皇之的登录到了Chrome应用商店,然而对用户而言,官方的应用商店无疑是代表着官方的认证,以及质量和安全,时至今日已经Chrome商店的统计数据显示:累计有458,450的用户已经安装了该插件,可以看到Chrome商店在这之中扮演着重要的角色,交付这一环节上,就让chrome成功收录了自己的应用,然后利用chrome应用商店这个更为广大的品台吸引到更多的用户进行下载使用,从而造成更大的危害。
+
+    link: https://www.anquanke.com/post/id/86892
 
 **8月**
 - **NetSarang** 旗下多款软件的关键模块被植入了高级后门
@@ -916,6 +982,231 @@
     NetSarang系列软件的关键网络通信组件nssock2.dll被植入了恶意代码，厂商在发布软件时并未发现恶意代码，并给感染组件打上了合法的数字签名随新版软件包一起发布，用户机器一旦启动软件，将会加载组件中的恶意代码，将主机的用户信息通过特定DGA(域名生成算法)产生的DNS域名传送至黑客的远程命令控制服务器，同时黑客的服务器会动态下发任意的恶意代码至用户机器执行。
 
     link: https://www.freebuf.com/articles/terminal/144842.html
+
     link: https://slab.qq.com/news/tech/1637.html
+
+- **假冒“老毛桃”工具** 推广木马
+
+    事件经过：2017年8月，360安全中心接到多起网友反馈，称电脑中所有浏览器的主页都被篡改，而且强制锁定为http://dh936.com/?00804推广页面。据360安全专家分析，这是一款假冒“老毛桃”PE盘制作工具的推广木马在恶意作祟。下载该制作工具后，其捆绑的“净网管家”软件会释放木马驱动篡改首页。当发现中招者试图安装安全软件时，还会弹出“阻止安装”提示，诱导中招者停止安装。专家进一步分析后发现，该驱动还设置了不少保护措施逃避安全软件查杀，如禁止自身文件和注册表的浏览和读取等。
+
+    link: http://bobao.360.cn/interref/detail/207.html
+
+- **WireX Android Botnet** 污染 Google Play 应用市场
+
+    事件经过：2017年8月17日，名为WireX BotNet的僵尸网络通过伪装普通安卓应用的方式大量感染安卓设备并发动了较大规模的DDoS攻击，此举引起了部分CDN提供商的注意，此后来自Akamai, Cloudflare, Flashpoint, Google, Oracle Dyn, RiskIQ, Team Cymru等组织联合对该事件进行分析，并于8月28日发布了该事件的安全报告。
+
+    报告发现大约有300种不同的移动应用程序分散在Google Play商店中，WireX引发的DDoS事件源自至少7万个独立IP地址，8月17日攻击数据的分析显示，来自100多个国家的设备感染了WireX BotNet。
+
+    link: https://blog.cloudflare.com/the-wirex-botnet/?utm_content=buffer9e1c5
+
+    link： https://slab.qq.com/news/kuaixun/1641.html
+
+- **Arris** 为AT&T家庭用户定制版调制解调器内置后门事件
+
+    事件经过：2017年8月，安全研究人员发现知名电信设备制造商Arris生产的调制解调器存在5个安全漏洞，其中有3个是硬编码后门账号漏洞。攻击者利用三个后门账号均可控制设备，提升至ROOT权限、安装新固件，乃至于架设僵尸网络等。有问题的调制解调器型号为Arris NVG589、Arris NVG599，主要在美国宽带运营商AT&T的网络里使用，但在Arris官网找不到信息（停产产品？）。Nomotion研究人员推测，它们可能是专为AT&T家庭用户定制的入网设备。研究人员认为易受漏洞攻击调制解调器至少有22万台。
+
+    link: https://www.4hou.com/info/news/7522.html
+
+**7月**
+- **基于域名bjftzt.cdn.powercdn.com** 的软件升级劫持攻击
+
+    事件经过：360安全卫士在2017年7月5日披露，有多款软件用户密集反映360“误报了软件的升级程序”，但事实上，这些软件的升级程序已经被不法分子恶意替换。这次事件其实是基于域名bjftzt.cdn.powercdn.com的一组大规模软件升级劫持事件。用户尝试升级若干知名软件客户端时，运营商将HTTP请求重定向至恶意软件并执行。恶意软件会在表面上正常安装知名软件客户端的同时，另外在后台偷偷下载安装推广其他软件。山东、山西、福建、浙江等多省的软件升级劫持达到空前规模，360安全卫士对此类攻击的单日拦截量突破40万次。
+
+    link: http://www.mottoin.com/detail/1324.html
+
+**5月**
+- **惠普** 笔记本音频驱动内置键盘记录后门事件
+
+    事件经过：2017年5月，来自瑞士安全公司Modzero的研究人员在检查Windows Active Domain的基础设施时发现惠普音频驱动中存在一个内置键盘记录器监控用户的所有按键输入。研究人员指出，惠普的缺陷代码（CVE-2017-8360）不但会抓取特殊键，而且还会记录每次按键并将其存储在人类可读取的文件中。这个记录文件位于公用文件夹C:\Users\Public\MicTray.log中，包含很多敏感信息如用户登录数据和密码，其他用户或第三方应用程序都可访问。因此安装到计算机上的恶意软件甚至是能物理接近计算机的人都能够复制日志文件并访问所有的用户按键、提取敏感数据如银行详情、密码、聊天日志和源代码。2015年，这个按键记录功能以新的诊断功能身份在惠普音频驱动版本1.0.0.46中推出，并自此有近30款惠普计算机都内置有这种功能。
+
+    link: https://www.anquanke.com/post/id/86085
+
+**2月**
+- **百度** 旗下网站暗藏恶意代码,官方回应:外包团队干的,已报案
+
+    事件经过：经火绒安全实验室截获、分析、追踪并验证，当用户从百度旗下的http://www.skycn.net/和 http://soft.hao123.com/这两个网站下载任何软件时，都会被植入恶意代码。该恶意代码进入电脑后，会通过加载驱动等各种手段防止被卸载，进而长期潜伏，并随时可以被“云端”远程操控，用来劫持导航站、电商网站、广告联盟等各种流量。
+
+    link: https://www.huorong.cn/info/148826116759.html
+
+## 2016
+
+**10月**
+- **索尼** 80款监控摄像头被曝存在后门,索尼拒绝回复
+
+    事件经过：2016年10月，安全公司SEC Consult曝出了索尼安防摄像头的后门漏洞，竟然影响了高达80款索尼“IPELA ENGINE”的网络摄像头产品。
+    在就在最新固件中，SEC发现了两大后门——
+
+    1、Hardcoded密码和root账户
+
+    学过编程应该知道，Hardcoded也就是硬编码，并非变量，是写死的固定内容，SEC开发的工具软件IoT侵入者于是便通过穷举法来获取到密码内容。同时，SEC还发现了隐藏的root口令，达到让所有人以超级管理员身份登录。
+
+    2、两个Debugging账户
+
+    索尼挖的坑还不止于此。索尼为固件修复留了两个debug调试账户，一个用户名“primana”密码“primana”，还有一个用户名“debug”密码“popeyeConnection”。
+
+    debug账户因为可以远程访问，所以危险系数更高，比如被不法分子用集群服务器攻击。SEC已经将报告递交索尼，后者也在新固件对上述问题进行了修复。至于为什么要留后门以及到底用来干什么，索尼拒绝回复。
+
+    link: https://news.mydrivers.com/1/510/510837.htm
+
+<p align="center">
+    <img src=".//img/sony.jpg">
+</p>
+
+## 2015
+
+**12月**
+- **Juniper** VPN后门事件
+
+    事件经过：2015年12月15日著名网络设备厂商Juniper公司发出风险声明，其防火墙、VPN设备使用的操作系统具有重大安全风险，建议尽快升级相关版本。根据声明，设备的SSH登录系统在输入任意用户名的情况下，使用超级密码就可以最高权限登录系统，设备的VPN安全通道上传递的数据可以被攻击人解密、篡改和注入。全球上万NetScreen设备被攻击。
+
+    link: https://www.anquanke.com/post/id/83148
+
+**10月**
+- **百度**旗下应用开发SDK Moplus被曝其中内含后门
+
+    事件经过：2015年11月百度moplus SDK的一个被称为虫洞（Wormhole）的漏洞被漏洞报告平台wooyun.org所披露，研究人员发现Moplus SDK具有后门功能，但这不一定是由于漏洞或跟漏洞相关，之所以称之为漏洞是基于Moplus SDK的访问权限控制以及应该如何限制这种访问的角度。因此，它虽然具有漏洞相关的概念而实际上是一个后门程序，如推送钓鱼网页，插入任意联系人，发送伪造短信，上传本地文件到远程服务器，未经用户授权安装任意应用到Android设备。而执行这些行为唯一的要求是该设备首先需要连接互联网。由于Moplus SDK已经被集成到众多的Android应用程序中，这就意味着有上亿的Android用户受到了影响。
+
+    研究结果还表明，已经有恶意软件在利用Moplus SDK的漏洞，它被植入到14000款app当中，这些app有接近4000个都是由百度出品的。经统计有2846个app包含后门库，苹果设备感染量未知。
+
+    link: https://www.leiphone.com/news/201511/N9FR2E1434teyADU.html
+
+**9月**
+- **XcodeGhost** 事件
+
+    事件经过：2015年9月，XcodeGhost事件爆发，超过4000个不同版本的苹果应用被感染，影响了中国近一亿苹果手机用户。
+    Xcode非官方版本恶意代码污染事件
+
+    Xcode 是由苹果公司发布的运行在操作系统Mac OS X上的集成开发工具（IDE），是开发OS X 和 iOS 应用程序的最主流工具。2015年9月14日起，一例Xcode非官方版本恶意代码污染事件被披露，多数分析者将这一事件称为“XcodeGhost”。攻击者通过向非官方版本的Xcode注入病毒Xcode Ghost，它的初始传播途径主要是通过非官方下载的 Xcode 传播，通过 CoreService 库文件进行感染。当应用开发者使用带毒的Xcode工作时，编译出的App都将被注入病毒代码，从而产生众多携带病毒的APP。至少692种APP受污染，过亿用户受影响，受影响的包括了微信、滴滴、网易云音乐等著名应用。
+
+    link: https://unit42.paloaltonetworks.com/novel-malware-xcodeghost-modifies-xcode-infects-apple-ios-apps-and-hits-app-store/
+
+    link: https://security.tencent.com/index.php/blog/msg/96
+
+- **幽灵推Ghost Push**
+
+    事件经过：2015年8月，酷派大神手机用户在安装官方提供的系统升级包后，手机便被预安装了MonkeyTest和TimeService等未知软件。截止到9月18日，该类病毒的每日感染量已经扩大到了最高70万台/天，有上万种机型收到了Ghost Push的影响，典型的有酷派、三星、MOTO等等。
+
+    link: https://www.freebuf.com/articles/terminal/78781.html
+
+**2月**
+- **方程式组织** 硬盘固件程序攻击
+
+    事件经过：卡巴斯基安全实验室在2015年2月16日起发布系列报告披露了一个网络攻击组织：“方程式”组织（Equation Group）。该组织拥有一套用于植入恶意代码的超级信息武器库（在卡巴的报告中披露了其中6个），其中包括两个可以对数十种常见品牌的硬盘固件重编程的恶意模块，这可能是该组织掌握的最具特色的攻击武器，同时也是首个已知的能够感染硬盘固件的恶意代码。而通过相关安全公司分析的结论可以看出，在此次硬盘固件程序攻击事件中可以做到如此有针对性（特定目标、行业），部分攻击方式极有可能属于物流链劫持，即在特定目标采购、返修主机或硬盘的过程中修改了硬盘固件。
+
+    link: https://www.freebuf.com/news/59185.html
+
+## 2014
+
+**8月**
+- **磊科(NetCore)** 全系列路由器中的“疑似后门”程序
+
+    事件经过：磊科(NetCore)路由器中内置了一个叫做IGDMPTD的程序，按照它的描述应该是IGD MPT Interface daemon 1.0。该程序会随路由器启动，并在公网上开放端口，攻击者可以执行任意系统命令、上传下载文件，控制路由器。
+
+    一切的开始源自于今年8月份买了一个磊科(NetCore)家用路由器。随后发现IGDMPTD，并做了测试工具验证。Google后发现在今年8月25日，趋势科技的研究员Tim Yeh发表文章描述了这个”疑似后门”的IGDMPTD，并报告厂商。
+
+    随后在今年10月3日Tim Yeh再次发表文章，指出磊科官方并未完全删掉这个”后门程序”。
+
+    link: http://blog.trendmicro.com/trendlabs-security-intelligence/netis-routers-leave-wide-open-backdoor/
+
+    link: http://blog.trendmicro.com/trendlabs-security-intelligence/netis-router-backdoor-patched-but-not-really/
+
+**4月**
+- **Joomla** 插件后门
+
+    link: https://blog.sucuri.net/2014/04/joomla-plugin-constructor-backdoor.html
+
+**3月**
+- **WordPress**的盗版插件后门程序
+    事件经过：2011年，WordPress团队发现目前在WordPress流行的一些插件存在安全隐患，插件被恶意插入后门程序，以便获取用户的数据，主要是用户的管理员密码。
+
+    这些恶意后台并非是插件作者有意作为，而是第三方的人在破解了插件作者的管理信息之后插入后门信息的。
+
+    link: https://blog.sucuri.net/2014/03/unmasking-free-premium-wordpress-plugins.html
+
+## 2013
+
+**12月**
+- **NetGear** 多款路由器存在后门
+
+    事件经过：NetGear生产的多款路由器存在后门。该后门为厂商设置的超级用户和口令，攻击者可以利用后门，在相邻网络内可获取到路由器的root权限，进而植入木马完全控制用户的路由器。后续可发起dns劫持攻击。
+
+    link: https://www.cnvd.org.cn/flaw/show/CNVD-2013-15013
+
+**10月**
+- **腾达Tenda** 路由器后门
+
+    事件经过：在友讯科技（D-Link）路由器发现后门之后，安全研究员又在另一家路由器制造商腾达（Tenda）的产品中发现了后门。安全研究人员分析了腾达路由器W302R的最新固件， 发现了名叫MfgThread的独立线程，捆绑了7329端口，接收 UDP数据包，会对含有特殊字符的指令作出反应，这些特殊字符包括了e、1和X——对于e，会返回一个预定义的字符串，基本上是一个ping测试；对于 1，它将允许你运执行iwpriv命令， iwpriv命令可用于配置路由器网络端口；对于X，它给予你root权限，可以执行任何命令。作者认为，这个后门可能最早是在腾达的W302R路由器上 实现的，存在于W330R路由器和Medialink的路由器MWN-WAPR150N中。
+
+    link: http://www.devttys0.com/2013/10/from-china-with-love/
+
+    link: https://www.freebuf.com/articles/terminal/14425.html
+
+**6月**
+- **美国** "棱镜门"事件
+
+    事件经过：棱镜计划（PRISM）是一项由美国国家安全局（NSA）自2007年起开始实施的绝密电子监听计划，该计划的正式名号为“US-984XN”，直接进入美国网际网路公司的中心服务器里挖掘数据、收集情报，包括微软、雅虎、谷歌、苹果等在内的9家国际网络巨头皆参与其中。
+
+    其中以思科公司为代表的科技巨头利用其占有的市场优势在科技产品中隐藏“后门”，协助美国政府对世界各国实施大规模信息监控，随时获取各国最新动态。思科公司多款主流路由器产品被曝出在VPN隧道通讯和加密模块存在预置式“后门”，即技术人员在源码编写过程中已经将“后门”放置在产品中，利用“后门”可以获取密钥等核心敏感数据。
+
+- **DLink** 存在管理后门
+
+    事件经过：当攻击者请求中的User Agent（Http请求包中用于标识浏览器的字段）包含特殊的字符串“xmlset_roodkcableoj28840ybtide”，该用户可以绕过路由器的帐号密码验证直接访问其Web管理界面。
+
+    link: http://blog.jobbole.com/49959/
+    link: https://bbs.pediy.com/thread-182012.htm
+
+## 2012
+
+**6月**
+- **F5** BIG-IP内置SSH私钥
+
+    事件经过：  F5公司是应用交付网络(ADN)领域全球领导者.提供应用安全,数据中心防火墙,负载均衡,数据存储,广域网优化,虚拟化及云计算解决方案。
+
+    2012年6月，安全研究人员发现F5多个产品（F5 BIG-IP）存在一个未明配置错误，允许未身份验证的用户以“root”账户登录设备。问题原因是SSH private key对应的公钥内置于漏洞设备中，使得用户可以绕过验证直接登录F5设备。
+
+    link: https://www.trustmatta.com/advisories/MATTA-2012-002.txt
+
+    link: https://www.trustmatta.com/advisories/matta-disclosure-policy-01.txt
+
+**1月**
+- **中文版putty等** SSH远程管理工具被曝存在后门
+
+    事件经过：2012年1月，中文版putty等SSH远程管理工具被曝存在后门，窃取用户名与口令发送至指定服务器上。
+
+    link: https://www.cnbeta.com/articles/tech/171116.htm
+
+## 2010
+
+**11月**
+- **ProFTPD** 镜像服务器被入侵
+    事件经过：流行的开源FTP服务器ProFTPD在2010年发现被人在代码中放了一个后门。 在安装了包含有后门的ProFTPD服务器版本后，攻击者可以获得系统控制权限，攻击者的IP地址来自沙特阿拉伯地区。在该版本中，输入命令“HELP ACIDBITCHEZ”会出现一个root shell。攻击者利用了一个尚未修复的0day漏洞。受影响的版本是从11月28日到2日在官方镜像下载的ProFTPD 1.3.3c。
+
+    link: https://www.exploit-db.com/exploits/15662
+
+    link: http://www.h-online.com/security/news/item/Back-door-in-ProFTPD-FTP-server-1146592.html
+
+## 2003
+
+**11月**
+- **Linux内核** 后门
+    事件经过：早在2003年，有人试图向Linux内核插入一个微妙后门源代码。该代码被写入到给一个后门，没有外在标志，被托管的服务器入侵与Linux源相连的其他电脑。只有两行代码被更改， 并有可能轻轻松松瞒过大多数的眼睛。幸运的是，后门代码审计人员发现了。关于谁应该对此负责的猜测仍然很多。也许某个要求Linus Torvalds向Linux添加后门程序的三个字母的机构可能知道。
+
+    link: https://freedom-to-tinker.com/2013/10/09/the-linux-backdoor-attempt-of-2003/
+
+    link: https://lwn.net/Articles/57135/
+
+## 2001
+
+**1月**
+- **Borland** 的数据库软件后门
+    事件经过：Borland公司的InterBase数据库软件中的一个“后门”使得任何拥有适当口令的人都可以对数据库和运行数据库的计算机系统实施严重的破坏行为。
+
+    计算机紧急反应小组在当地时间星期三发表的咨询报告中称，这一“后门”可以使黑客改变存储在数据库中的信息，甚至在计算机中运行造成更大破坏的程序。用户名和口令写在程序里，很容易被发现，而且不能通过改变设置清除掉。
+
+    Borland公司承认存在这样一个“后门”，并且已经开始发布补丁，并通知用户和合作伙伴将于本周推出修改后的版本，这一漏洞存在于4、5、6版的InterBase中。
+
+    link: https://www.kb.cert.org/vuls/id/247371/
+
+---
 
 `“我想，你们这帮家伙应该考虑比这大得多的问题。”`
