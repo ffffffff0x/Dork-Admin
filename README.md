@@ -26,10 +26,10 @@
 
     泄露内容：数百万份简历和公司记录，以及客户和员工的PII数据。
 
-    事件经过：A misconfigured and publicly accessible ElasticSearch cluster owned by FMC Consulting, a Chinese headhunting company, leaked millions of resumes and company records, as well as customers and employees PII data.
-    The database containing hundreds of thousands of customer records, internal emails, as well as employees daily tasks and calls they made while contacting clients was left unprotected, exposing all the data to anyone who knew where and how to look for it.
-    According to the company's LinkedIn profile, "FMC has successfully helped our clients placing more than 10,000 competitive positions (by the end of 2018) in the dynamic market of China. These placements ranged from professional jobs, to middle managerial positions and regional business heads."
-    Sanyam Jain, a member of the GDI Foundation and an independent security researcher, discovered the misconfigured ElasticSearch cluster and contacted BleepingComputer to have the database taken down.
+    事件经过：FMC Consulting（一家中国猎头公司）拥有一个配置错误且可公开访问的ElasticSearch集群，泄露了数百万份简历和公司记录，以及客户和员工的PII数据。
+     包含数十万条客户记录，内部电子邮件以及员工日常任务的数据库以及他们在联系客户时所做的调用都没有受到保护，将所有数据暴露给知道在哪里以及如何查找它的人。
+     根据该公司的LinkedIn简介，“FMC成功地帮助我们的客户在中国充满活力的市场中放置了10,000多个竞争职位（截至2018年底）。这些职位包括专业职位，中层管理职位和区域业务负责人。“
+     作为GDI基金会成员和独立安全研究员的Sanyam Jain发现了错误配置的ElasticSearch集群，并联系了BleepingComputer以取消数据库。
 
     link: https://www.bleepingcomputer.com/news/security/headhunting-firm-leaks-millions-of-resumes-client-private-data/
 
@@ -42,6 +42,87 @@
     事件经过：西太平洋银行（Westpac）的实时支付平台PayID系统遭网络攻击，近10万客户的私人信息泄露。这次袭击行为还会影响到其它银行的客户。计算机安全专家警告，这些被窃取的私人信息可能会被用于欺诈。根据悉尼晨锋报获得的一份机密备忘录，西太平洋银行向澳洲银行业和金融业披露了有关这次网攻事件的信息。其中说：“2019年5月22日，西太平洋银行注意到，澳洲支付平台PayID（NPPA PayID）的大量查询（约60万个）来自七个被泄露的西太平洋银行有效账户，约9.8万个查询成功解析了一个短名字，并暴露给了欺诈者。”
 
     link: https://www.smh.com.au/business/banking-and-finance/australians-private-details-exposed-in-attack-on-westpac-s-payid-20190603-p51u2u.html
+
+- **格雷斯兰大学** 未经授权的用户访问当前员工的电子邮件帐户
+
+    泄露内容：全名、社會安全號碼、出生日期、位址、電話號碼、電子郵件地址、父母/兒童、工資資訊、格雷斯蘭的註冊或可能註冊的財政援助資訊
+
+    事件经过：在6月14日发布的数据泄露通知中称，Graceland 已經意識到三個實例,即未經授權的使用者訪問當前員工的電子郵件帳戶,包括與這些帳戶相關的內容和附件。未經授權的使用者分別于 2019 年 3 月 29 日以及 2019 年 4 月 1 日至 30 日和 2019 年 5 月 12 日至 5 月 1 日訪問這些個人帳戶。這些帳戶現已得到保護,但是,已經確定,在過去幾年中與這些電子郵件帳戶交互的一些人的個人資訊在未經授權的使用者訪問期間可用。格雷斯蘭曾試圖使用檔案上的位址向這些人發送一封物理信件。
+
+    link: https://www.graceland.edu/notice-of-data-breach
+
+    link: https://www.bleepingcomputer.com/news/security/three-us-universities-disclose-data-breaches-over-two-day-span/
+
+- **俄勒冈州立大学 (OSU)** 資料隱私事件
+
+    事件经过：俄勒岡州立大學週五宣佈,5月初發生的資料隱私事件可能影響到636份包含個人識別資訊的學生記錄和家庭記錄。
+
+    一名 OSU 員工的電子郵件帳戶被大學外的個人入侵,用於向全國發送網路釣魚電子郵件。OSU 和法醫專家進行的一項調查發現,在 OSU 員工電子郵件帳戶的收件匣中發現了幾份檔,這些檔包含 636 名學生和學生家庭成員的個人資訊。
+
+    "OSU正在繼續調查此事,並確定網路攻擊者是否用個人資訊查看或複製這些檔,"該大學負責大學關係和行銷的副校長史蒂夫·克拉克(Steve Clark)說。"雖然我們目前沒有跡象表明個人資訊已被查看或使用,但 OSU 已將這一事件通知了這些學生和家庭成員。我們還提供了有關現有支援服務的資訊,包括該大學將免費提供的 12 個月信用監控服務。
+
+    克拉克說,OSU正在審查許多保護程式和IT系統,該大學使用來保護其資訊系統,電子郵件帳戶,學生和家庭記錄。他說:"我們將繼續監控此類工作和系統,並採取進一步措施保護大學的資訊技術和敏感性資料。
+
+    link: https://today.oregonstate.edu/news/oregon-state-university-reports-it-security-incident
+
+- **密蘇里州南部州立大學(MSSU)** 造網路釣魚攻擊，資料洩露
+
+    泄露内容：名字和姓氏，出生日期，家庭住址，电子邮件地址，电话号码和社会安全号码
+
+    事件经过：它在发送给佛蒙特州司法部长办公室的数据泄露通知中表示，它已被警告1月9日网络钓鱼邮件可能引发网络攻击。
+
+    网络钓鱼攻击使该大学的员工中有几名受害者提出了执法通知。事后，大学官员被告知要延迟通知受影响的个人，直到调查完成为止。
+
+    MSSU还聘请了一家领先的法证调查公司来调查安全事件并“阻止潜在的电子邮件利用，包括重置所有员工Office 365帐户的密码”。
+
+    在分析受影响的Office 365帐户的内容后，MSSU发现电子邮件包含在存储的“名字和姓氏，出生日期，家庭住址，电子邮件地址，电话号码和社会安全号码”中。
+
+    link: https://www.documentcloud.org/documents/6153866-Missouri-Southern-State-University-Notice-of.html
+
+- **芝加哥大學** 超過150萬捐贈者的私人資訊暴露
+
+    影响人数：150万
+
+    泄露内容：全名、出生日期、完整地址、电话号码、电子邮件、性别、婚姻状况、财富信息和当前状态、通讯说明
+
+    事件经过：超過160萬潛在和現有的芝加哥大學醫學捐贈者的個人資訊被一個配置錯誤和未受保護的彈性搜尋伺服器暴露在互聯網上沒有密碼。
+
+    5月28日,安全發現研究員鮑勃·迪亞琴科(Bob Diachenko)發現了這個可公開訪問的ElasticSearch實例,一天前,連接互聯網的設備搜尋引擎Shodan將其添加到其公開伺服器索引中。
+
+    在仔細查看公開的資料後,Diachenko 瞭解到,名為"data-ucmbsd2"的 34GB 大小彈性搜索群集包含 1,679,993 條記錄,任何知道在哪裡以及如何查找它的人都可以訪問這些記錄。
+
+    link: https://www.bleepingcomputer.com/news/security/private-info-of-over-15m-donors-exposed-by-uchicago-medicine/
+
+
+- **复古遊戲網站 Emuparadise** 遭受 110 萬帳戶的資料洩露
+
+    影响人数：110萬
+
+    泄露内容：电子邮件地址，IP地址，用户名和密码
+
+    事件经过：“在2018年4月，自称”地球上最大的复古游戏网站“，Emupardise遭遇了日期违规。受损的vBulletin论坛公开了110万个电子邮件地址，IP地址，用户名和密码存储为盐渍MD5哈希。数据提供通过dehashed.com到HIBP。“
+
+    link: https://www.bleepingcomputer.com/news/security/gaming-site-emuparadise-suffered-data-breach-of-11m-accounts/
+
+- **AMCA** 数据泄露1900万客户受影响
+
+    影响人数：1900万
+
+    泄露内容：银行账户数据和信用卡号，社会安全号码
+
+    事件经过：正如美国证券交易委员会诊断的SEC通知中所述，AMCA告知该公司“2019年8月1日至2019年3月30日期间，未经授权的用户可以访问AMCA的系统，该系统包含AMCA从各种实体收到的信息，包括Quest Diagnostics，以及AMCA收集的信息。““截至2019年5月31日，AMCA认为，其信息包含在AMCA受影响系统中的Quest Diagnostics患者人数约为1190万人，” 美国证券交易委员会的通知也表示。
+
+    Quest Diagnostics表示，它无法确认从AMCA收到的信息的准确性，并且没有实验室测试结果受到安全事件的影响，因为它们没有提供给AMCA。
+
+    诊断信息服务提供商补充说，它“非常重视此事，致力于保护患者的个人，医疗和财务信息的隐私和安全。”
+
+    AMCA告诉Quest Diagnostics他们“已就此事件与执法部门联系”，但尚未提供有关违规行为的“详细或完整信息”。
+
+    link: https://www.bleepingcomputer.com/news/security/billing-details-for-119m-quest-diagnostics-clients-exposed/
+
+    link: https://www.bleepingcomputer.com/news/security/quest-labcorp-amca-sued-for-breach-impacting-over-19-million/
+
+    link: https://www.bleepingcomputer.com/news/security/over-400-000-opko-health-clients-impacted-by-amca-data-breach/
 
 **5月**
 - **上海交大** 泄漏 8.4TB 邮件元数据 (你知道shodan搜这种未授权访问的业务有多容易吗？我来告诉你)[点击看看](https://www.shodan.io/search?query=port%3A%229200%22+all%3A%22elastic+indices%22)
