@@ -22,6 +22,79 @@
 ## 2019🤦‍
 
 **6月**
+- **NASA** 自曝遭入侵，黑客利用树莓派窃取500MB火星任务数据
+
+    实际发生时间: 2018年4月
+
+    事件经过: 根据一份49页的OIG报告，黑客通过入侵一个共享网络网关然后利用该入口深入JPL网络，之后进入了存有NASA JPL管理的火星任务信息的网络。NASA OIG表示：“攻击者从23个文件中窃取了大约500MB的数据，其中2个文件包含有跟火星科学实验室任务有关的国际武器管制信息。”调查人员表示，除了进入JPL的任务网络，2018年4月的入侵者还访问了JPL的DSN IT网络。由于担心攻击者可能也会转向他们的系统，NASA的其他几家机构在遭受入侵的同时切断了与JPL和DSN网络的连接。
+
+    link: https://threatpost.com/feds-hackers-mission-control-data-nasa-jpl/145842/
+
+    link: https://www.extremetech.com/internet/293563-a-rogue-raspberry-pi-let-hackers-into-nasas-jpl-network
+
+    link: https://www.freebuf.com/news/206651.html
+
+- **Social Engineered** 遭遇数据泄露
+
+    影响人数：8.9万
+
+    泄露内容：电子邮件地址，IP地址，密码，私人消息，用户名
+
+    事件经过: 2019年6月，“人类黑客艺术”网站 Social Engineered 遭遇数据泄露。其中包括论坛 55k 用户和数据库中其他表中的 89k 个唯一电子邮件地址。公开的数据还包括用户名，IP 地址，私人消息和加盐的 MD5 哈希的密码。
+
+    link: https://haveibeenpwned.com/PwnedWebsites#SocialEngineered
+
+- **X Social Media** 泄露了美国退伍军人在战斗中受伤的数据
+
+    影响人数：15万
+
+    泄露内容：全名，电子邮件地址，家庭住址，电话号码以及与其案件相关的详细信息
+
+    事件经过: 一家总部位于美国佛罗里达州的广告代理商在互联网上公开了一个数据库，该数据库泄露了过去广告活动的详细信息，包括有关医疗事故案件的信息以及美国退伍军人在战斗中受伤的敏感细节。研究人员表示，该数据库包含了填写表格的用户的150,000多条回复。这些表格中包含的数据通常包括全名、电子邮件地址、家庭住址、电话号码以及与其案件相关的详细信息——主要涉及医疗损伤。
+
+    link: https://www.zdnet.com/article/ad-agency-leaks-data-on-us-military-veterans-combat-injuries/#ftag=RSSbaffb68
+
+    link: https://www.freebuf.com/news/206411.html
+
+- **美国俄勒冈州人力资源服务部门** 发生数据泄露，影响645000名客户
+
+    影响人数：64万
+
+    实际泄露时间: 2019年1月8日
+
+    泄露内容：姓名，物理地址，出生日期，社会安全号码（SSN），病例号，受保护的健康信息（PHI）以及各种DHS计划中使用的其他详细信息
+
+    事件经过: 美国俄勒冈州人力资源服务部门官员证实，该组织在今年1月发生了数据泄漏事件，645000名用户的个人详细信息和健康信息受影响。受数据泄露影响的个人参加了该部门的福利和针对儿童安全事件的服务计划。违规行为发生在1月8日针对该部门的电子邮件”网络钓鱼“攻击中，九名员工打开了该电子邮件，并点击了一个链接，让攻击者能够访问他们的电子邮件帐户，然后进一步访问数据。
+
+    link: https://securityaffairs.co/wordpress/87348/data-breach/oregon-department-of-human-services-data-breach.html
+
+    link: https://www.bleepingcomputer.com/news/security/phishing-attack-exposes-data-of-645-000-oregon-dhs-clients/
+
+    link: https://www.freebuf.com/news/206528.html
+
+- **Desjardins** 发生数据泄露事件，290万会员受影响
+
+    影响人数：290万
+
+    泄露内容：姓名、出生日期、社会保险号码、地址、电话号码、电子邮件地址、及银行信息和Desjardins产品的详细信息,公司名称、公司地址、公司电话号码、所有者姓名和AccèsDAffaires帐户上的用户名称，以及与AccèsDAffaires帐户用户相关的一些个人信息
+
+    事件经过: Desjardins集团是北美最大的信用合作社协会，根据其官方推特账户，也是加拿大最大的合作金融集团。大约290万Desjardins集团成员的个人敏感信息在未经授权的访问中向公司外部人员泄露。泄露的个人会员信息包括：姓名、出生日期、社会保险号码、地址、电话号码、电子邮件地址、及银行信息和Desjardins产品的详细信息。 对于商业会员，泄露的数据包括公司名称、公司地址、公司电话号码、所有者姓名和AccèsDAffaires帐户上的用户名称，以及与AccèsDAffaires帐户用户相关的一些个人信息。
+    在发现数据泄漏后，Desjardins通知了加拿大隐私专员办公室，魁北克信息委员会和Autoritédesmarchés金融家，并解雇了这名恶意雇员。
+
+    link: https://www.bleepingcomputer.com/news/security/desjardins-group-data-leak-exposes-info-of-29-million-members/
+
+    link: https://www.freebuf.com/news/206528.html
+
+- 黑客窃取 **EatStreet Data Breach** 中的客户付款信息
+
+    泄露内容：姓名，地址，电话号码，电子邮件地址以及银行帐户等信息
+
+    实际泄露时间: 2019年5月
+
+    事件经过: EatStreet表示，黑客能够在5月3日至5月17日检测到漏洞时访问其数据库，在2019年5月3日，未经授权的第三方访问了我们在2019年5月17日发现的数据库。未经授权的第三方能够获取2019年5月3日在我们数据库中的信息。但是我们能够，当我们发现事件时，立即终止对我们系统的未授权访问。
+
+    link: https://www.bleepingcomputer.com/news/security/hacker-steals-customer-payment-info-in-eatstreet-data-breach/
+
 - **中国猎头公司 FMC Consulting** 配置错误的ElasticSearch集群造成数据泄露(据文章称涉事公司收到报告毫无反应，直到CNCERT出面才下线数据)
 
     泄露内容：数百万份简历和公司记录，以及客户和员工的PII数据。
@@ -307,6 +380,19 @@
     事件经过：据《彭博社》报导，网络保安公司 UpGuard 在亚马逊云端数据库上发现大量 Facebook 用户的个人资料，涉及至少5.4亿名用户，且数据开放予任何人下载。报导指出，墨西哥城媒体公司 Cultura Colectiva 的数据库储存了5.4亿名 Facebook 用户的个人资料，包括身份证号码、帐号称谓、网上评论及回应记录等。Cultura Colectiva 专门发布拉丁美洲娱乐及文化消息，在 Facebook、Instagram、Twitter、YouTube 等开设专页，拥有逾4500万用户追踪。《彭博社》向 Facebook 查询，Facebook 随后通报亚马逊，相关数据库已被封锁。Facebook 发言人表示，公司政策禁止将用户资料储存于公开数据库，此次发现事件后即时通知亚马逊处理；发言人称，公司致力与平台开发商合作保障用户私隐。
 
 **3月**
+- **丰田** 已经证实，在日本经销商遭到袭击之后，多达310万份丰田和雷克萨斯客户数据可能遭到破坏。
+
+    影响人数：310万
+
+    事件经过: 该公司表示，黑客破坏了其IT系统并访问了属于多个销售子公司的数据。
+    该名单包括丰田东京销售控股，东京东京汽车，东京Toyopet，丰田东京卡罗拉，Nets丰田东京，雷克萨斯Koishikawa销售，Jamil Shoji（雷克萨斯练马）和丰田西东京卡罗拉。
+    丰田表示，黑客访问的服务器存储了多达310万客户的销售信息。该汽车制造商表示正在进行调查，以确定黑客是否泄露了他们可以访问的任何数据。
+    丰田表示，客户财务细节并未存储在黑客服务器上。但是，该公司没有透露黑客可能访问过什么类型的信息。
+
+    link: https://www.zdnet.com/article/toyota-announces-second-security-breach-in-the-last-five-weeks/
+
+    link: https://www.forbes.com/sites/daveywinder/2019/03/30/toyota-and-lexus-dealerships-hacked-leaving-customers-at-risk-what-you-need-to-do-now/#3362feee5092
+
 - **SkyMed** Database Exposes Medical Info, PII Data of 137k People in U.S.
 
     影响人数：13万
@@ -346,6 +432,28 @@
     事件经过：北京时间3月28日早间消息，据美国科技媒体TechCrunch报道，一名信息安全研究员两个月前向华硕发出警告称，有华硕员工在GitHub代码库中错误地发布了密码。这些密码可以被用于访问该公司的企业内网。其中一个密码出现在一名员工分享的代码库中。通过该密码，研究员可以访问内部开发者和工程师使用的电子邮件帐号，从而与计算机的使用者分享夜间构建的应用、驱动和工具。有问题的代码库来自华硕的一名工程师，他将电子邮件帐号密码公开已有至少一年时间。目前，尽管GitHub帐号仍然存在，但这个代码库已被清理。
 
     link: http://hackernews.cc/archives/25173
+
+**2月**
+- **抖音** 上百万账号遭撞库攻击
+
+    事件经过: 今年2月，海淀公安分局双榆树派出所接到辖区北京字节跳动公司报案，称其公司旗下抖音APP遭人恶意撞库达上千万账户密码，其中上百万账户密码被黑客撞出。为防止黑客利用撞出账户实施不法行为，公司通过安全系统对所有疑似被盗账号设置了二次登录验证。
+
+    接到报警后，警方立刻展开侦查，并迅速锁定了一名湖北籍男子汪某。5月22日，民警远赴湖北将汪某抓获归案，并起获了其作案时使用的笔记本电脑。
+
+    经讯问，汪某交代，毕业后一直无业，便利用掌握的计算机技术，编写了大量撞库代码，对目前网络上比较热门的社交平台进行撞库，然后控制撞库获取的账户，在网上承接点赞刷量、发布广告等业务牟利，短短两个月的时间就获利上百万元。
+
+    link: https://www.secrss.com/articles/11524
+
+- **丰田** 澳大利亚经销商遭到网络攻击，公司发言人表示黑客没有访问私人员工或客户的数据
+
+    事件经过: 公司发言人周四在一份声明中表示，“丰田澳大利亚公司可以证实它已成为网络攻击企图的受害者”。
+    “在这个阶段，我们认为没有访问私人员工或客户数据。”
+    该发言人表示，该公司正在与国际网络安全专家合作，尽快让其系统恢复正常运行。
+    “我们对造成的不便深表歉意，并感谢客户的耐心等待。”
+
+    link: https://www.theguardian.com/business/2019/feb/21/toyota-australia-says-no-customer-data-taken-in-attempted-cyber-attack
+
+    link: https://www.toyota.com.au/news/toyota-australia-statement-re-attempted-cyber-attack
 
 ---
 
