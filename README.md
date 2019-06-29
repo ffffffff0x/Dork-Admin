@@ -22,6 +22,71 @@
 ## 2019🤦‍
 
 **6月**
+
+- **Attunity** 的 AWS S3存储桶泄露 Netflix，福特，TD Bank等数据
+
+    影响目标：Netflix，福特，TD Bank、Attunity
+
+    泄露内容：Netflix:认证字符串、D Bank:软件升级发票(谁能解释一下这个是啥?)、福特:项目文档、Attunity:IP地址、等
+
+    事件经过: 总部位于以色列的数据集成和大数据管理公司 Attunity 未能正确管理三个 Amazon S3 存储桶，暴露了多伦多道明银行（TD），福特和Netflix等财富100强客户的数据。
+
+    Attunity 是一家目前与至少与一半财富100强公司合作的公司，根据其网站拥有超过2000名客户，该公司泄露了客户和自己的数据，UpGuard研究人员下载了超过1TB的信息进行分析。
+
+    虽然 Upguard 发现的开放 S3 存储桶的总大小不确定，但其中包含的数据包括高度敏感的业务和个人信息，如“电子邮件通信，系统密码，销售和营销联系信息，项目规范等”。
+
+    Upguard于5月13日发现了这些数据库，最初的上传时间是2014年9月，最近上传的文件的时间戳是被发现前几天。
+
+    link: https://www.bleepingcomputer.com/news/security/netflix-ford-td-bank-data-exposed-by-open-amazon-s3-buckets/
+
+- **MedicareSupplement.com** 的 MongoDB 数据库泄露 500 万份个人记录
+
+    泄露内容：全名，邮政地址，电子邮件地址，出生日期，性别，电话号码和IP地址
+
+    事件经过: 一个属于健康保险营销网站 MedicareSupplement.com 的无担保 MongoDB 实例上个月在网上被发现，其中包含多达 500 万条记录。数据缓存包括个人信息和健康详细信息。
+
+    MedicareSupplement.com 由 TZ Insurance Solutions 拥有并运营。其目的是帮助个人找到合适的 Medigap 保险计划，这是一种私人医疗保险，涵盖原始医疗保险没有的费用。根据其 Facebook 页面，该服务帮助超过40万人找到了合适的保险计划。
+
+    5月13日，Compariteh 的研究人员与 Bob Diachenko 一起发现了公共数据库。
+
+    研究人员指出，他们发现的 MongoDB 实例似乎是该网站营销线索数据库的一部分。，研究人员联系了 MedicareSupplement.com 以提醒他们接触，但网站代表没有回复。他们确实修改了 MongoDB 服务器的配置以保护数据库。
+
+    link: https://www.bleepingcomputer.com/news/security/open-marketing-database-exposes-5-million-personal-records/
+
+- **SocialEngineered.net** 被黑客攻击，数据在黑客论坛上被共享
+
+    影响人数：5.5万
+
+    泄露内容：用户名、加盐MD5密码、电子邮件地址，IP地址和私人消息
+
+    事件经过: 大约两周前，一个专门讨论社会工程主题的论坛遭到破坏，数万名成员的数据在黑客攻击的同一天在网上泄露。
+
+    社交网站SocialEngineered.net的一篇帖子周四宣布，该论坛被MyBB论坛软件的一个漏洞攻破。
+
+    黑客成功利用 XSS 和文件写入，导致远程代码执行并完全接管目标站点。尽管MyBB前一天推出了一个补丁版本，但网站安装安全补丁的速度通常很慢，这给攻击者提供了一个浏览网页寻找目标并攻击他们的机会。
+
+    link: https://www.bleepingcomputer.com/news/security/social-engineering-forum-hacked-data-shared-on-leak-sites/
+
+- **维也纳图书馆(Wiener Buchereien)** 发生数据泄露。
+
+    影响人数：22万
+
+    泄露内容：出生日期，电子邮件地址，姓名，电话号码，实际地址
+
+    事件经过: 2019年6月，维也纳图书馆（WienerBüchereien）遭遇数据泄露。受损数据包括224k唯一的电子邮件地址，姓名，实际地址，电话号码和出生日期。随后，被指控的违规行为人将违规数据发布到推特上。
+
+    link: https://futurezone.at/digital-life/wiener-buechereien-gehackt-daten-von-77000-nutzern-im-netz/400524190
+
+    link: https://haveibeenpwned.com/PwnedWebsites#WienerBuchereien
+
+- **WeTransfer** 发生安全事件，文件通过电子邮件发送给错误的人
+
+    事件经过: WeTransfer 发布公告称，部分通过电子邮件通道传输的文件于6月16日和17日被发送到非预期的电子邮件地址。事件发生后，一些用户已退出帐户并重置密码。此外，该公司表示，它阻止了受影响的转移链接。WeTransfer 警告受影响的个人要留意任何“可疑或不寻常的电子邮件”。至少有一位安全专家推测 WeTransfer 可能已被黑客入侵。
+
+    link: https://www.freebuf.com/news/206785.html
+
+    link: https://www.securityweek.com/wetransfer-security-incident-file-transfer-emails-sent-wrong-people
+
 - **NASA** 自曝遭入侵，黑客利用树莓派窃取500MB火星任务数据
 
     实际发生时间: 2018年4月
