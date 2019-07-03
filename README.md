@@ -21,8 +21,24 @@
 # 数据泄露
 ## 2019🤦‍
 
-**6月**
+**7月**
+- **Orvibo** 旗下的一个可公开访问的ElasticSearch集群泄露了超过20亿条敏感数据
 
+    泄露内容：电子邮件地址、密码、帐户重置代码、精确的用户地理位置、IP地址、用户名和用户ID、姓氏和家庭ID、设备名称和访问帐户的设备、通过智能相机记录的会话、计划信息
+
+    事件经过: 中国智能家居解决方案提供商Orvibo旗下的一个可公开访问的ElasticSearch集群泄露了超过20亿条用户日志，其中包含来自世界各国的客户敏感数据。
+
+    Orvibo为其客户提供智能解决方案，旨在通过智能系统帮助他们管理房屋，办公室和酒店客房，提供安全和能源管理，以及使用智能家居云平台进行远程控制和数据记录/分析。
+
+    在Orvibo的智能家居解决方案允许其用户控制的设备中，该公司的云平台支持交互中心，智能照明，家庭安全，HVAC，能源管理和家庭娱乐设备。
+
+    暴露的Orvibo数据库“包含超过20亿条日志，记录从用户名，电子邮件地址和密码到精确位置的所有内容”，并且由于公司未对6月16日联系的vpnMentor研究团队做出回应，因此仍然在线。
+
+    正如研究人员还指出的那样，“只要数据库保持开放，每天的可用数据量就会持续增加，”来自世界各地的用户，包括中国，日本，泰国，美国，英国，墨西哥，法国，澳大利亚和巴西受到数据泄露的影响。
+
+    link: https://www.bleepingcomputer.com/news/security/billions-of-records-including-passwords-leaked-by-smart-home-vendor/
+
+**6月**
 - **Attunity** 的 AWS S3存储桶泄露 Netflix，福特，TD Bank等数据
 
     影响目标：Netflix，福特，TD Bank、Attunity
@@ -1158,8 +1174,18 @@
 
 ---
 
-
 # 供应链攻击
+## 2019
+
+**6月**
+- **Triada** 恶意程序被预装在数百万台设备上
+
+    事件经过：Google 本月初披露了一起 Android 供应链攻击，称一家供应商在数百万台设备上预装了 Triada 恶意程序去展示广告。那么 Triada 是谁开发的呢？Google 称供应商使用了野火（Yehuo 或 Blazefire）这个名字。Krebsonsecurity 对这个名字以及相关域名，域名注册邮箱进行了一番跟踪，认为 Triada 与上海野火网络科技有限公司有关，该公司的 CEO 叫楚达。公司域名 blazefire.com 的注册邮箱是 tosaka1027@gmail.com，同一邮箱被用于注册了至少 24 个域名，至少 7 个域名被用于传播 Android 恶意程序，其中两个域名被用于传播 Triada，另外五个被用于传播 Hummer 木马。Brian Krebs 称 Google 拒绝置评，而野火网络则没有回应。
+
+    link: https://security.googleblog.com/2019/06/pha-family-highlights-triada.html
+
+    link: https://www.solidot.org/story?sid=61139
+
 ## 2018
 
 **12月**
