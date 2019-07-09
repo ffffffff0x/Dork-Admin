@@ -22,6 +22,51 @@
 ## 2019🤦‍
 
 **7月**
+- **中国江苏省公安厅** 开放的ElasticSearch服务器泄露超过9000万条记录
+
+    影响人数：9000万
+
+    泄露内容：个人身份信息（PII）名称，出生日期，性别，身份证号码，位置坐标，以及有关个人的city_relations，city_open_id和province_open_id的信息。
+
+    事件经过: 中国江苏省公安厅拥有的一个可公开访问和无担保的ElasticSearch服务器 泄漏了两个数据库，其中包含超过9000万人和商业记录。这两个现在安全的数据库包含26 GB的数据，其形式包括个人身份信息（PII）名称，出生日期，性别，身份证号码，位置坐标，以及有关个人的city_relations，city_open_id和province_open_id的信息。对于企业，记录包括业务ID，业务类型，位置坐标，city_open_id和用于跟踪业务所有者是否已知的备忘录。
+
+    除了两个暴露的ElasticSearch数据库外，江苏省公安厅还有一个公安网络管理控制台，需要一个有效的用户/密码组合才能访问，以及在服务器上运行的可公开访问的Kibana安装，这将有助于浏览和使用基于GUI的界面分析存储的数据。
+
+    但是，与暴露的Kibana安装的其他情况不同，这个没有完全配置，一旦加载到Web浏览器中，它将直接进入“创建索引模式页面”。
+
+    虽然Jain和BleepingComputer在联系江苏省公安厅后没有收到任何回复，但CNCERT / CC响应迅速，并且有所帮助，立即联系数据库所有者并在周末将其取消。
+
+    link: https://www.bleepingcomputer.com/news/security/over-90-million-records-leaked-by-chinese-public-security-department/
+
+- **美国土地产权协会ALTA** 成员被网络钓鱼攻击
+
+    泄露内容：域名，IP地址，用户名和密码
+
+    事件经过: 美国土地产权协会（ALTA）发布了一项警告，警告称数百家公司唱片的记录被认为是针对ALTA成员的网络钓鱼活动的一部分而被盗。
+
+    ALTA是美国的一个全国贸易协会，自1907年成立以来，它代表着6,000多家产权保险公司，产权和结算代理人，房地产律师和独立抽象人。
+
+    “声称自己是道德黑客的人通过Twitter联系ALTA并提供包含大约600个数据条目的文件，包括域名，IP地址，用户名和密码。这些数据还包含非标题公司的信息，”ALTA警告说。
+
+    ALTA的IT部门仍在分析网络犯罪分子可能获得的高度敏感信息，如果找到与他们相关的任何连接，将联系受此行业违规影响的公司。
+
+    link: https://www.bleepingcomputer.com/news/security/industry-breach-alert-published-by-us-national-trade-association-alta/
+
+
+- **美国马里兰州政府机构** 数据库遭到未经授权的访问
+
+    影响人数：7万
+
+    泄露内容：受影响的LWIS文件来自2009年，2010年和2014年。这些文件可能包含名字，姓氏，社会安全号码，出生日期，城市或居住地，毕业日期和记录号。受失业保险服务数据库影响的文件来自2013年，可能包含名字，姓氏和社会安全号码。
+
+    事件经过: 马里兰州劳工部（Maryland DoL）今天发布了一份新闻稿，解释说，未经授权的一方可以访问大约78,000名客户的敏感信息，包括姓名和社会安全号码。
+
+    马里兰州信息技术部（Maryland DoIT）目前正在调查数据泄露情况，该数据泄露信息存储在“扫盲工程信息系统和遗留失业保险服务数据库”中。
+
+    到目前为止，马里兰州DoIT的调查没有发现任何证据表明“任何个人身份信息是从工作服务器下载或提取的”。
+
+    link: https://www.bleepingcomputer.com/news/security/maryland-govt-agency-breach-exposes-names-ssns-of-78k-people/
+
 - **Orvibo** 旗下的一个可公开访问的ElasticSearch集群泄露了超过20亿条敏感数据
 
     泄露内容：电子邮件地址、密码、帐户重置代码、精确的用户地理位置、IP地址、用户名和用户ID、姓氏和家庭ID、设备名称和访问帐户的设备、通过智能相机记录的会话、计划信息
