@@ -22,6 +22,12 @@
 ## 2019🤦‍
 
 **7月**
+- **招聘平台简历买卖产业链 (反正我无fuck说)**
+    - [你的求职简历可能被卖了：价格从0.3元到2.5元](https://www.thepaper.cn/newsDetail_forward_3903162)
+    - [用智联招聘求职引来骚扰电话不断 记者亲测发现这些猫腻](https://www.cnbeta.com/articles/tech/866949.htm)
+    - [智联招聘员工参与倒卖个人信息，16万个人简历被出售](https://tech.sina.com.cn/i/2019-07-08/doc-ihytcitm0576205.shtml)
+    - [智联招聘回应16万份简历泄露：积极协助公安机关进行调查](https://www.pingwest.com/w/190932)
+
 - **中国江苏省公安厅** 开放的ElasticSearch服务器泄露超过9000万条记录
 
     影响人数：9000万
@@ -1221,6 +1227,32 @@
 
 # 供应链攻击
 ## 2019
+
+**7月**
+- **Canonical** GitHub 账号被入侵，未观察到修改源代码
+
+    事件经过：Canonical 在 GitHub 的账号周六被入侵。Ubuntu 安全团队在一份声明中称，入侵者使用该账号创建了库和问题等活动，但没有观察到任何修改源代码的指示。该账号已经移除，Canonical 正在调查入侵的范围，它切断了用于构建和维护 Ubuntu 发行版的 Launchpad 基础设施与 GitHub 之间的连接。安全团队表示它将在事故调查完成之后发布新的更新报告。在入侵期间，攻击者创建了 11 个空的库。
+
+    link: https://www.zdnet.com/article/canonical-github-account-hacked-ubuntu-source-code-safe/
+
+    link: https://www.solidot.org/story?sid=61262
+
+- **Rubygem** Strong_password  被劫持
+
+    事件经过：一个流行的 Ruby 密码强度检查程序遭到劫持，攻击者将 strong_password 的版本从 v0.0.6 升级到 v0.0.7，嵌入了一个可编辑的 Pastebin 网址。整合 strong_password 的应用会下载和执行 Pastebin 网址中的代码，这意味着攻击者可以根据需要执行任意代码。strong_password v0.0.6 合法下载量有 3.7 万次，不清楚有多少人下载了恶意版本。 RubyGems 已经将恶意版本移除。
+
+    link: https://withatwist.dev/strong-password-rubygem-hijacked.html
+
+    link: https://www.solidot.org/story?sid=61268
+
+
+- **Pale Moon** 存档服务器被入侵和感染木马
+
+    事件经过：Firefox 开源分支 Pale Moon 披露它的存档服务器 archive.palemoon.org 遭到入侵，而入侵时间很有可能发生在两年前，入侵者运行脚本感染了所有存档的 Pale Moon 可执行文件。根据文件修改的时间戳，感染发生在 2017 年 12 月 27 日下午 3 点半，入侵细节已经难以判断，原因是服务器在今年 5 月发生过一次数据损坏故障，导致系统日志丢失。受影响的存档是 Pale Moon 27.6.2 以及之前的版本，如果用户从未在存档服务器下载文件，那么应该没有感染恶意程序，如果下载并执行了修改版的文件，那么最好使用杀毒软件进行一次全盘扫描。
+
+    link: https://forum.palemoon.org/viewtopic.php?f=17&t=22526
+
+    link: https://www.solidot.org/story?sid=61333
 
 **6月**
 - **Triada** 恶意程序被预装在数百万台设备上
