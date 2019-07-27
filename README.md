@@ -22,7 +22,15 @@
 ## 2019🤦‍
 
 **7月**
-- **国内某移动应用营销公司** 约900G数据泄漏，数百万泄露的记录来自100多款手机贷款应用
+- 俄罗斯联邦安全局承包商 **SyTech** 被黑客窃取 7.5TB 的数据
+
+    事件经过: 2019年7月13日，一群名为0v1ru $的黑客入侵了SyTech的活动目录服务器，从那里他们获得了访问该公司整个IT网络的权限，包括一个JIRA实例。为了证明他们可以访问Sytech的服务器，0v1ru $发布了Sytech网站的内部页面以及Windows域控制器中的服务器驱动器和用户的图像。这些被盗数据随后被传递给另一个名为DigitalRevolution的黑客组织  ，后者与俄罗斯媒体分享了这些数据。DigitalRevolution声称在2018年攻击了俄罗斯研究机构“Kvant”。
+
+    link: https://www.bleepingcomputer.com/news/security/russian-fsb-intel-agency-contractor-hacked-secret-projects-exposed/
+
+    link: https://securityaffairs.co/wordpress/88657/intelligence/fsb-contractor-sytech-hacked.html
+
+- **国内某移动应用营销公司** 约 900G 数据泄漏，数百万泄露的记录来自 100 多款手机贷款应用
 
     泄露内容: 身份信息、信用卡、银行、设备、位置、贷款记录、交易信息、风险管理数据、账单、已安装应用程序列表、app tracking data、用户密码。
 
@@ -48,7 +56,7 @@
 
     影响人数: 14万
 
-    事件经过: 在2019年7月，黑客网站BlackSpigotMC遭遇了数据泄露。据称，基于XenForo论坛的网站遭到竞争对手黑客网站的攻击，导致8.5GB数据被泄露，包括数据库和网站本身。暴露的数据包括140k唯一的电子邮件地址，用户名，IP地址，性别，地理位置和存储为bcrypt哈希的密码。
+    事件经过: 在2019年7月，黑客网站 BlackSpigotMC 遭遇了数据泄露。据称，基于 XenForo 论坛的网站遭到竞争对手黑客网站的攻击，导致 8.5GB 数据被泄露，包括数据库和网站本身。暴露的数据包括 140k 唯一的电子邮件地址，用户名，IP 地址，性别，地理位置和存储为 bcrypt 哈希的密码。
 
     link: https://haveibeenpwned.com/PwnedWebsites#BlackSpigotMC
 
@@ -100,7 +108,7 @@
 
     link: https://www.bleepingcomputer.com/news/security/over-90-million-records-leaked-by-chinese-public-security-department/
 
-- **美国土地产权协会ALTA** 成员被网络钓鱼攻击
+- **美国土地产权协会 ALTA** 成员被网络钓鱼攻击
 
     泄露内容: 域名，IP地址，用户名和密码
 
@@ -588,6 +596,18 @@
     事件经过: 据《彭博社》报导，网络保安公司 UpGuard 在亚马逊云端数据库上发现大量 Facebook 用户的个人资料，涉及至少5.4亿名用户，且数据开放予任何人下载。报导指出，墨西哥城媒体公司 Cultura Colectiva 的数据库储存了5.4亿名 Facebook 用户的个人资料，包括身份证号码、帐号称谓、网上评论及回应记录等。Cultura Colectiva 专门发布拉丁美洲娱乐及文化消息，在 Facebook、Instagram、Twitter、YouTube 等开设专页，拥有逾4500万用户追踪。《彭博社》向 Facebook 查询，Facebook 随后通报亚马逊，相关数据库已被封锁。Facebook 发言人表示，公司政策禁止将用户资料储存于公开数据库，此次发现事件后即时通知亚马逊处理；发言人称，公司致力与平台开发商合作保障用户私隐。
 
 **3月**
+- **Citrix** 遭到未经授权访问内部网络
+
+    泄露内容: 商业文档和文件
+
+    事件经过: 攻击者在2018年10月13日至2019年3月8日期间间歇性地访问了 Citrix 的基础设施。通知称，他们主要从一个用于存储当前和历史业务文档的公司共享网络驱动器，以及一个与我们咨询业务中使用的基于web的工具相关联的驱动器中窃取业务文档和文件。
+
+    link: https://www.citrix.com/blogs/2019/03/08/citrix-investigating-unauthorized-access-to-internal-network/
+
+    link: https://www.citrix.com/blogs/2019/05/20/citrix-updates-on-unauthorized-internal-network-access/
+
+    link: https://www.citrix.com/blogs/2019/07/19/citrix-concludes-investigation-of-unauthorized-internal-network-access/
+
 - **MindJolt** 遭遇数据泄露
 
     影响人数: 2836万
@@ -771,6 +791,14 @@
     事件经过: 网络犯罪团伙Magecart在Newegg网站上注入了信用卡略读代码。每当消费者在线购买东西时，支付信息会直接发送到Magecart的C＆C（命令和控制服务器）上。
 
 **7月**
+- **Stronghold Kingdoms** 遭遇数据泄露
+
+    影响人数: 518万
+
+    泄露内容: 电子邮件地址，用户名，密码
+
+    事件经过: 2018年7月，大型多人在线游戏Stronghold Kingdoms遭遇数据泄露。这次入侵暴露了近520万个帐户，电子邮件地址，用户名和密码存储为salted SHA-1哈希值。
+
 - **Animoto** 遭遇数据泄露
 
     泄露内容: 出生日期，电子邮件地址，地理位置，姓名，密码
@@ -1281,6 +1309,17 @@
     link: https://haveibeenpwned.com/PwnedWebsites#Tumblr
 
 ## 2012👀
+
+**8月**
+- 疑似 **小米论坛** 用户数据泄露
+
+    影响人数: 708万
+
+    泄露内容: 电子邮件地址，IP地址，密码，用户名
+
+    事件经过: 2012年8月，小米用户论坛网站遭遇数据泄露。总共有700万个电子邮件地址被入侵，尽管其中很大一部分是bbs_ml_as_uid.xiaomi.com域中的数字别名。 用户名、IP地址和存储为加盐MD5哈希的密码也被暴露。
+
+    link: https://haveibeenpwned.com/PwnedWebsites#Xiaomi
 
 **7月**
 - **Dropbox** 遭遇了数据泄露，暴露了数千万客户的存储凭据。
