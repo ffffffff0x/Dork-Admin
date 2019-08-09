@@ -10,9 +10,11 @@
 
 盘点近年来的各国各行较知名的数据泄露、供应链污染事件
 
-灵感来源: https://haveibeenpwned.com/PwnedWebsites、https://www.freebuf.com/articles/paper/147403.html
+灵感来源: https://haveibeenpwned.com/PwnedWebsites、 https://www.freebuf.com/articles/paper/147403.html
 
 消息源: [verizon DBIR](https://enterprise.verizon.com/resources/reports/dbir/)、[haveibeenpwned](https://haveibeenpwned.com)、[securityaffairs](https://securityaffairs.co/wordpress/tag/data-leak)、[hackernews](http://hackernews.cc/archives/category/%E6%95%B0%E6%8D%AE%E6%B3%84%E9%9C%B2)、[Freebuf](https://www.freebuf.com)、[bleepingcomputer](https://www.bleepingcomputer.com)、[zdnet](https://www.zdnet.com)、[Solidot](https://www.solidot.org)、[Rainbowtabl.es](https://rainbowtabl.es/)
+
+配合隐私解决方案食用效果更佳：[Digital-Privacy](https://github.com/No-Github/Digital-Privacy)
 
 <p align="center">
     <img src=".//img/readme.png">
@@ -21,10 +23,86 @@
 # 数据泄露
 ## 2019🤦‍
 
+**8月**
+- **本田** 汽车云端数据库未保护，CEO 及全球员工大量资料险遭泄露
+
+    泄露内容: 经查这批资料包括几乎所有 Honda 电脑相关资料，其中一个表格包含员工电子邮件、部门名称、Honda 机器主机名称、MAC 地址、内网 IP、作业系统版本。另一个表格则有员工姓名、部门、​​员工编号、帐号、手机号码及最近登入时间。
+
+    事件经过: 安全研究人员发现日本汽车大厂本田汽车（Honda Motor）一个云端数据库，内含超过1亿份文件，包含员工电脑主机名称、IP、使用哪套安全软件等信息。该数据库没有设置身份验证措施，任何人均可访问，本田公司已经在接获通报后迅速修补了该隐患。
+
+    link: https://www.freebuf.com/news/210249.html
+
+- [30亿条信息泄露，96家互联网公司遭殃，案子破了！](https://www.leiphone.com/news/201908/L1mPvhOLN9Hg0kGW.html)
+
+- **StockX** 遭黑客攻击，暴露了数百万用户记录
+
+    泄露内容: 姓名，电子邮件地址，哈希密码（加盐 MD5）以及其他个人资料信息，如鞋码和交易货币。受损数据还包括用于内部目的的设备信息和其他信息。
+
+    事件经过: 运动鞋交易平台 StockX 上周向用户发送一封密码重置的电子邮件，但并没有说明原因。一位未透露姓名的数据卖家向媒体透露，黑客在 5 月份从网站上窃取了 680 多万条记录。卖家提供 1000 条数据样本，经证实这些信息确实是真实的。
+
+    link: https://techcrunch.com/2019/08/03/stockx-hacked-millions-records/
+
+    link: https://securityaffairs.co/wordpress/89464/data-breach/stockx-hacked.html
+
+    link: https://www.bleepingcomputer.com/news/security/stockx-hack-exposes-personal-information-of-customers/
+
+- **Poshmark** 数据泄露事件
+
+    泄露内容: 用户名，哈希密码，姓名，性别信息和居住城市
+
+    事件经过: 8月1日，美国社交商务市场 Poshmark 披露了数据泄露事件。该公司发现未经授权访问其服务器，入侵者窃取 个人信息 用户，包括 用户名，哈希密码，姓名，性别信息和居住城市。攻击者还可以访问服装尺寸偏好，用户电子邮件和客户的社交媒体资料信息。当时事件发生时尚不清楚。
+
+    link: https://securityaffairs.co/wordpress/89384/data-breach/poshmark-data-breach.html
+
+- **ESA** 网站漏洞导致超过 2000 名参与报道 E3 的记者个人信息泄漏
+
+    事件经过: 在参与报道了全球最大的视频游戏大会E3之后，由于组织方系统存在的安全漏洞导致大量记者的个人联系信息被公开曝光。在报告中称目前已经有超过2000人受到影响，除了各大新闻机构和媒体的记者、编辑之外，还有YouTube和Twitch等视频网站上的网红主播，以及高盛、IMDb和其他公司的工作人员。
+
+    link: https://www.cnbeta.com/articles/science/874939.htm
+
 **7月**
+
+- **LAPD** 数据泄露致 2500 名警官个人信息被盗
+
+    泄露内容: 姓名、电子邮件地址、出生日期、部分职工序列号及密码。
+
+    事件经过: 洛杉矶警察局（LAPD）遭遇数据泄露，暴露了数千名警察和申请人的姓名，电子邮件地址，密码和出生日期。
+
+    NBCLosAngeles 证实，数据泄露是在 2019 年 7 月 20 日发现的，当地媒体透露，有2,500名洛杉矶警察局官员和大约 17,500 名警务人员的个人信息被曝光。
+
+    “一名黑客声称他或她偷走了大约 2,500 名洛杉矶警察局官员，受训人员和新兵的个人信息，以及大约 17,500 名警察申请人“。报道的媒体。
+
+    该市机构总经理特德罗斯说：“该市的信息技术机构上周表示，有人声称访问并下载了数据，并且该人提供了一些示例文件，表明他们实际上已经获得了数据。”
+
+    link: https://www.bleepingcomputer.com/news/security/lapd-data-breach-exposes-personal-info-of-roughly-25k-officers/
+
+    link: https://securityaffairs.co/wordpress/89134/data-breach/lapd-data-breach.html
+
+    link: https://www.cnbeta.com/articles/tech/873075.htm
+
+- **Capital One** 超一亿人信用数据外泄案
+
+    泄露内容: 14万个美国社保号码、1百万个加拿大社会保险号码和约8万个银行账号，包括用户姓名、住址、信用值、信用额度等大量信息遭到泄露。
+
+    事件经过: 7月30日讯 据美国广播公司新闻网（ABC News）消息，当地时间本周一早晨，西雅图地区一女子因涉嫌参与窃取美国第一资本金融公司（Capital One）超一亿名用户的信用数据被逮捕。
+
+    美国第一资本金融公司当地时间本周一发表声明表示，其在7月19日发现一个安全漏洞，有一个未经授权的来源获得了该公司信用卡用户的“特定类型的个人信息”，此次信息泄露共涉及到大约1亿美国人以及6百万加拿大人。
+
+    link: https://securityaffairs.co/wordpress/89114/data-breach/capital-one-data-breach.html
+
+    link: https://www.cnbeta.com/articles/tech/873011.htm
+
+- **CPRewritten** 遭遇数据泄露
+
+    泄露内容: 电子邮件地址，IP 地址，密码，用户名
+
+    事件经过: 2019年7月，儿童游戏网站 Club Penguin Rewritten（CPRewritten）遭遇数据泄露（注：CPRewritten是迪士尼俱乐部企鹅游戏的独立娱乐）。 除了影响 170 万个帐户的早期数据泄露之外，随后的漏洞还暴露了 400 万个唯一的电子邮件地址以及存储为 bcrypt 哈希的 IP 地址，用户名和密码。
+
+    link: https://haveibeenpwned.com/PwnedWebsites#ClubPenguinRewrittenJul2019
+
 - 俄罗斯联邦安全局承包商 **SyTech** 被黑客窃取 7.5TB 的数据
 
-    事件经过: 2019年7月13日，一群名为0v1ru $的黑客入侵了SyTech的活动目录服务器，从那里他们获得了访问该公司整个IT网络的权限，包括一个JIRA实例。为了证明他们可以访问Sytech的服务器，0v1ru $发布了Sytech网站的内部页面以及Windows域控制器中的服务器驱动器和用户的图像。这些被盗数据随后被传递给另一个名为DigitalRevolution的黑客组织  ，后者与俄罗斯媒体分享了这些数据。DigitalRevolution声称在2018年攻击了俄罗斯研究机构“Kvant”。
+    事件经过: 2019年7月13日，一群名为 0v1ru $ 的黑客入侵了 SyTech 的活动目录服务器，从那里他们获得了访问该公司整个IT网络的权限，包括一个 JIRA 实例。为了证明他们可以访问 Sytech 的服务器，0v1ru $ 发布了 Sytech 网站的内部页面以及 Windows 域控制器中的服务器驱动器和用户的图像。这些被盗数据随后被传递给另一个名为 DigitalRevolution 的黑客组织  ，后者与俄罗斯媒体分享了这些数据。DigitalRevolution 声称在 2018 年攻击了俄罗斯研究机构“Kvant”。
 
     link: https://www.bleepingcomputer.com/news/security/russian-fsb-intel-agency-contractor-hacked-secret-projects-exposed/
 
@@ -34,7 +112,7 @@
 
     泄露内容: 身份信息、信用卡、银行、设备、位置、贷款记录、交易信息、风险管理数据、账单、已安装应用程序列表、app tracking data、用户密码。
 
-    事件经过: 最初发现数据泄露的研究人员安努拉格森(Anurag Sen)表示，尽管在阿里云下线该服务器后，泄露的数据库现在无法访问，但拥有该数据库的公司却不为人知。然而，根据研究人员的意见，泄露的数据似乎归移动应用程序营销机构所有，该机构将大量信息存储在租用的服务器上。在阿里云下线，可公开访问的数据库将超过460万个移动设备的数据在开放状态下保留了大约两周。
+    事件经过: 最初发现数据泄露的研究人员安努拉格森(Anurag Sen)表示，尽管在阿里云下线该服务器后，泄露的数据库现在无法访问，但拥有该数据库的公司却不为人知。然而，根据研究人员的意见，泄露的数据似乎归移动应用程序营销机构所有，该机构将大量信息存储在租用的服务器上。在阿里云下线，可公开访问的数据库将超过 460 万个移动设备的数据在开放状态下保留了大约两周。
 
     link: https://www.bleepingcomputer.com/news/security/real-time-location-of-millions-exposed-by-mobile-loan-apps/
 
@@ -60,7 +138,7 @@
 
     link: https://haveibeenpwned.com/PwnedWebsites#BlackSpigotMC
 
-- **保加利亚国家税务局** 500万公民数据被窃，占比全国70%
+- **保加利亚国家税务局** 500 万公民数据被窃，占比全国 70%
 
     影响人数: 500万
 
@@ -76,49 +154,49 @@
 
     影响人数: 未知
 
-    泄露内容: 电话号码，设备类型，设备ID，每月经常性费用，用户ID，帐号，帐户创建日期，升级资格，姓名，帐单地址和添加 - 关于服务。
+    泄露内容: 电话号码，设备类型，设备 ID，每月经常性费用，用户ID，帐号，帐户创建日期，升级资格，姓名，帐单地址和添加 - 关于服务。
 
-    美国电信公司Sprint在发送给客户的违规通知信中说，黑客设法使用Samsung.com“Add A Line”网站作为其攻击的跳板，渗透到他们的账户。
+    美国电信公司 Sprint 在发送给客户的违规通知信中说，黑客设法使用 Samsung.com“Add A Line”网站作为其攻击的跳板，渗透到他们的账户。
 
-    “6月22日，黑客通过Samsung.com“Add A Line”网站使用您的帐户凭据获知未经授权访问您的Sprint帐户，”违规警报信中说。针对此事件，移动网络运营商于6月25日重置其用户的PIN码。美国电信公司没有透露受影响客户的数量。
+    “6月22日，黑客通过 Samsung.com“Add A Line”网站使用您的帐户凭据获知未经授权访问您的 Sprint 帐户，”违规警报信中说。针对此事件，移动网络运营商于6月25日重置其用户的 PIN 码。美国电信公司没有透露受影响客户的数量。
 
     link: https://www.bleepingcomputer.com/news/security/sprint-accounts-breached-by-hackers-using-samsung-site/
 
     link: https://securityaffairs.co/wordpress/88514/data-breach/sprint-data-breach.html
 
-- **招聘平台简历买卖产业链 (反正我无fuck说)**
+- **招聘平台简历买卖产业链 (反正我无 fuck 说)**
     - [你的求职简历可能被卖了: 价格从0.3元到2.5元](https://www.thepaper.cn/newsDetail_forward_3903162)
     - [用智联招聘求职引来骚扰电话不断 记者亲测发现这些猫腻](https://www.cnbeta.com/articles/tech/866949.htm)
     - [智联招聘员工参与倒卖个人信息，16万个人简历被出售](https://tech.sina.com.cn/i/2019-07-08/doc-ihytcitm0576205.shtml)
     - [智联招聘回应16万份简历泄露: 积极协助公安机关进行调查](https://www.pingwest.com/w/190932)
 
-- **中国江苏省公安厅** 开放的ElasticSearch服务器泄露超过9000万条记录
+- **中国江苏省公安厅** 开放的 ElasticSearch 服务器泄露超过 9000 万条记录
 
     影响人数: 9000万
 
-    泄露内容: 个人身份信息（PII）名称，出生日期，性别，身份证号码，位置坐标，以及有关个人的city_relations，city_open_id和province_open_id的信息。
+    泄露内容: 个人身份信息（PII）名称，出生日期，性别，身份证号码，位置坐标，以及有关个人的city_relations，city_open_id 和 province_open_id 的信息。
 
-    事件经过: 中国江苏省公安厅拥有的一个可公开访问和无担保的ElasticSearch服务器 泄漏了两个数据库，其中包含超过9000万人和商业记录。这两个现在安全的数据库包含26 GB的数据，其形式包括个人身份信息（PII）名称，出生日期，性别，身份证号码，位置坐标，以及有关个人的city_relations，city_open_id和province_open_id的信息。对于企业，记录包括业务ID，业务类型，位置坐标，city_open_id和用于跟踪业务所有者是否已知的备忘录。
+    事件经过: 中国江苏省公安厅拥有的一个可公开访问和无担保的 ElasticSearch 服务器 泄漏了两个数据库，其中包含超过9000万人和商业记录。这两个现在安全的数据库包含 26 GB 的数据，其形式包括个人身份信息（PII）名称，出生日期，性别，身份证号码，位置坐标，以及有关个人的 city_relations，city_open_id 和 province_open_id 的信息。对于企业，记录包括业务ID，业务类型，位置坐标，city_open_id 和用于跟踪业务所有者是否已知的备忘录。
 
-    除了两个暴露的ElasticSearch数据库外，江苏省公安厅还有一个公安网络管理控制台，需要一个有效的用户/密码组合才能访问，以及在服务器上运行的可公开访问的Kibana安装，这将有助于浏览和使用基于GUI的界面分析存储的数据。
+    除了两个暴露的 ElasticSearch 数据库外，江苏省公安厅还有一个公安网络管理控制台，需要一个有效的用户/密码组合才能访问，以及在服务器上运行的可公开访问的Kibana安装，这将有助于浏览和使用基于 GUI 的界面分析存储的数据。
 
-    但是，与暴露的Kibana安装的其他情况不同，这个没有完全配置，一旦加载到Web浏览器中，它将直接进入“创建索引模式页面”。
+    但是，与暴露的 Kibana 安装的其他情况不同，这个没有完全配置，一旦加载到Web浏览器中，它将直接进入“创建索引模式页面”。
 
-    虽然Jain和BleepingComputer在联系江苏省公安厅后没有收到任何回复，但CNCERT / CC响应迅速，并且有所帮助，立即联系数据库所有者并在周末将其取消。
+    虽然 Jain 和 BleepingComputer 在联系江苏省公安厅后没有收到任何回复，但 CNCERT / CC 响应迅速，并且有所帮助，立即联系数据库所有者并在周末将其取消。
 
     link: https://www.bleepingcomputer.com/news/security/over-90-million-records-leaked-by-chinese-public-security-department/
 
 - **美国土地产权协会 ALTA** 成员被网络钓鱼攻击
 
-    泄露内容: 域名，IP地址，用户名和密码
+    泄露内容: 域名，IP 地址，用户名和密码
 
     事件经过: 美国土地产权协会（ALTA）发布了一项警告，警告称数百家公司唱片的记录被认为是针对ALTA成员的网络钓鱼活动的一部分而被盗。
 
-    ALTA是美国的一个全国贸易协会，自1907年成立以来，它代表着6,000多家产权保险公司，产权和结算代理人，房地产律师和独立抽象人。
+    ALTA 是美国的一个全国贸易协会，自 1907 年成立以来，它代表着 6,000 多家产权保险公司，产权和结算代理人，房地产律师和独立抽象人。
 
-    “声称自己是道德黑客的人通过Twitter联系ALTA并提供包含大约600个数据条目的文件，包括域名，IP地址，用户名和密码。这些数据还包含非标题公司的信息，”ALTA警告说。
+    “声称自己是道德黑客的人通过 Twitter 联系 ALTA 并提供包含大约 600 个数据条目的文件，包括域名，IP 地址，用户名和密码。这些数据还包含非标题公司的信息，”ALTA 警告说。
 
-    ALTA的IT部门仍在分析网络犯罪分子可能获得的高度敏感信息，如果找到与他们相关的任何连接，将联系受此行业违规影响的公司。
+    ALTA 的 IT 部门仍在分析网络犯罪分子可能获得的高度敏感信息，如果找到与他们相关的任何连接，将联系受此行业违规影响的公司。
 
     link: https://www.bleepingcomputer.com/news/security/industry-breach-alert-published-by-us-national-trade-association-alta/
 
@@ -127,27 +205,27 @@
 
     影响人数: 7万
 
-    泄露内容: 受影响的LWIS文件来自2009年，2010年和2014年。这些文件可能包含名字，姓氏，社会安全号码，出生日期，城市或居住地，毕业日期和记录号。受失业保险服务数据库影响的文件来自2013年，可能包含名字，姓氏和社会安全号码。
+    泄露内容: 受影响的 LWIS 文件来自 2009 年，2010 年和 2014 年。这些文件可能包含名字，姓氏，社会安全号码，出生日期，城市或居住地，毕业日期和记录号。受失业保险服务数据库影响的文件来自 2013 年，可能包含名字，姓氏和社会安全号码。
 
-    事件经过: 马里兰州劳工部（Maryland DoL）今天发布了一份新闻稿，解释说，未经授权的一方可以访问大约78,000名客户的敏感信息，包括姓名和社会安全号码。
+    事件经过: 马里兰州劳工部（Maryland DoL）今天发布了一份新闻稿，解释说，未经授权的一方可以访问大约 78,000 名客户的敏感信息，包括姓名和社会安全号码。
 
     马里兰州信息技术部（Maryland DoIT）目前正在调查数据泄露情况，该数据泄露信息存储在“扫盲工程信息系统和遗留失业保险服务数据库”中。
 
-    到目前为止，马里兰州DoIT的调查没有发现任何证据表明“任何个人身份信息是从工作服务器下载或提取的”。
+    到目前为止，马里兰州 DoIT 的调查没有发现任何证据表明“任何个人身份信息是从工作服务器下载或提取的”。
 
     link: https://www.bleepingcomputer.com/news/security/maryland-govt-agency-breach-exposes-names-ssns-of-78k-people/
 
-- **Orvibo** 旗下的一个可公开访问的ElasticSearch集群泄露了超过20亿条敏感数据
+- **Orvibo** 旗下的一个可公开访问的 ElasticSearch 集群泄露了超过 20 亿条敏感数据
 
-    泄露内容: 电子邮件地址、密码、帐户重置代码、精确的用户地理位置、IP地址、用户名和用户ID、姓氏和家庭ID、设备名称和访问帐户的设备、通过智能相机记录的会话、计划信息
+    泄露内容: 电子邮件地址、密码、帐户重置代码、精确的用户地理位置、IP 地址、用户名和用户 ID、姓氏和家庭 ID、设备名称和访问帐户的设备、通过智能相机记录的会话、计划信息
 
-    事件经过: 中国智能家居解决方案提供商Orvibo旗下的一个可公开访问的ElasticSearch集群泄露了超过20亿条用户日志，其中包含来自世界各国的客户敏感数据。
+    事件经过: 中国智能家居解决方案提供商 Orvibo 旗下的一个可公开访问的 ElasticSearch 集群泄露了超过 20 亿条用户日志，其中包含来自世界各国的客户敏感数据。
 
-    Orvibo为其客户提供智能解决方案，旨在通过智能系统帮助他们管理房屋，办公室和酒店客房，提供安全和能源管理，以及使用智能家居云平台进行远程控制和数据记录/分析。
+    Orvibo 为其客户提供智能解决方案，旨在通过智能系统帮助他们管理房屋，办公室和酒店客房，提供安全和能源管理，以及使用智能家居云平台进行远程控制和数据记录/分析。
 
-    在Orvibo的智能家居解决方案允许其用户控制的设备中，该公司的云平台支持交互中心，智能照明，家庭安全，HVAC，能源管理和家庭娱乐设备。
+    在 Orvibo 的智能家居解决方案允许其用户控制的设备中，该公司的云平台支持交互中心，智能照明，家庭安全，HVAC，能源管理和家庭娱乐设备。
 
-    暴露的Orvibo数据库“包含超过20亿条日志，记录从用户名，电子邮件地址和密码到精确位置的所有内容”，并且由于公司未对6月16日联系的vpnMentor研究团队做出回应，因此仍然在线。
+    暴露的 Orvibo 数据库“包含超过 20 亿条日志，记录从用户名，电子邮件地址和密码到精确位置的所有内容”，并且由于公司未对6月16日联系的 vpnMentor 研究团队做出回应，因此仍然在线。
 
     正如研究人员还指出的那样，“只要数据库保持开放，每天的可用数据量就会持续增加，”来自世界各地的用户，包括中国，日本，泰国，美国，英国，墨西哥，法国，澳大利亚和巴西受到数据泄露的影响。
 
@@ -160,11 +238,11 @@
 
     泄露内容: 电子邮件地址，姓名，密码，称呼，用户名
 
-    事件经过: 2019年6月，总部位于法国的艺术评估网站Artvalue.com将其158,000名会员用户群公开在其网站上的文本文件中公开。 公开的数据包括以MD5哈希值存储的名称，用户名，电子邮件地址和密码。 网站运营商在联系事件时没有回复，尽管随后删除了暴露的文件。
+    事件经过: 2019年6月，总部位于法国的艺术评估网站 Artvalue.com 将其 158,000 名会员用户群公开在其网站上的文本文件中公开。 公开的数据包括以 MD5 哈希值存储的名称，用户名，电子邮件地址和密码。 网站运营商在联系事件时没有回复，尽管随后删除了暴露的文件。
 
     link: https://haveibeenpwned.com/PwnedWebsites#Artvalue
 
-- **Attunity** 的 AWS S3存储桶泄露 Netflix，福特，TD Bank等数据
+- **Attunity** 的 AWS S3 存储桶泄露 Netflix，福特，TD Bank 等数据
 
     影响目标: Netflix，福特，TD Bank、Attunity
 
@@ -701,6 +779,18 @@
 
     link: https://www.toyota.com.au/news/toyota-australia-statement-re-attempted-cyber-attack
 
+- **CafePress** 遭遇数据泄露
+
+    泄露内容: 电子邮件地址，姓名，密码，电话号码，物理地址
+
+    事件经过: 据HIBP称，CafePress于2019年2月遭到黑客入侵，并为23,205,290名用户公开了个人信息。此外公开数据包括电子邮件地址，名称，密码，电话号码和物理地址。
+
+    link: https://securityaffairs.co/wordpress/89495/data-breach/cafepress-data-breach.html
+
+    link: https://www.bleepingcomputer.com/news/security/cafepress-data-breach-exposes-personal-info-of-23-million-users/
+
+    link: https://haveibeenpwned.com/PwnedWebsites#CafePress
+
 ---
 
 ## 2018🤷‍
@@ -1060,6 +1150,15 @@
 
     link: https://haveibeenpwned.com/PwnedWebsites#CrossFire
 
+**7月**
+- **Clash of Kings** 的论坛遭遇数据泄露
+
+    泄露内容: 电子邮件地址，IP 地址，密码，用户名
+
+    事件经过: 2016 年 7 月，“国王冲突”游戏论坛遭遇数据泄露，影响了 160 万用户。 受影响的数据包括用户名，IP 和电子邮件地址以及存储为 MD5 哈希值的密码。
+
+    link: https://haveibeenpwned.com/PwnedWebsites#ClashOfKings
+
 **3月**
 - **CD Projekt RED** 论坛遭遇数据泄露
 
@@ -1085,6 +1184,22 @@
     link: https://haveibeenpwned.com/PwnedWebsites#LinuxMint
 
 **1月**
+- **EpicNPC** 遭遇数据泄露
+
+    泄露内容: 电子邮件地址，IP 地址，密码，用户名
+
+    事件经过: 2016 年 1 月，被黑客入侵的账户经销商 EpicNPC 遭遇数据泄露，影响了 40.9 万用户。 受影响的数据包括用户名，IP 和电子邮件地址以及存储为 salted MD5 哈希值的密码。
+
+    link: https://haveibeenpwned.com/PwnedWebsites#EpicNPC
+
+- **Anime-Planet** 遭遇数据泄露
+
+    泄露内容: 出生日期，电子邮件地址，IP 地址，密码，用户名
+
+    事件经过: 在大约 2016 年，动漫网站 Anime-Planet 遭遇数据泄露，影响了 369,000 名订阅者。 暴露的数据包括用户名，IP 和电子邮件地址，出生日期和密码存储为无保留的 MD5 哈希值，以及较新的帐户，bcrypt 哈希值。
+
+    link: https://haveibeenpwned.com/PwnedWebsites#AnimePlanet
+
 - **BitTorrent** 的论坛遭到黑客攻击
 
     影响人数: 3万
