@@ -2,7 +2,11 @@
     <img src=".//img/logo.png">
 </p>
 
-![image](https://img.shields.io/github/stars/No-Github/Dork-Admin.svg?label=Stars&style=popout) ![GitHub last commit](https://img.shields.io/github/last-commit/No-Github/Dork-Admin.svg?style=popout)
+<p align="center">
+    <img src="https://img.shields.io/badge/Category-Data Leakage-red.svg">
+    <img src="https://img.shields.io/github/last-commit/No-Github/Dork-Admin.svg?style=popout">
+    <img src="https://img.shields.io/badge/Count->182-blue.svg">
+</p>
 
 ---
 
@@ -24,6 +28,104 @@
 ## 2019🤦‍
 
 **8月**
+
+- **德邦快递员工** 卷入货到付款诈骗：窃取 50 万用户信息 案值 1200 万
+
+    事件经过: 据央视报道，今年 7 月，南京的刘女士报警称，女儿替她签收了一份“99 元货到付款”包裹，在付钱后，她发现，包裹里的东西竟是一个看上去价值仅有几元钱的劣质灯，而事实上，刘女士并没有在下过单。而更加令她惊讶的是，包裹上的个人信息，完全和她本人相符。
+
+    南京警方一查，竟然牵出了德邦快递多名员工大肆窃取用户信息，并勾结电商公司老板，全国撒网进行"99 元货到付款"精准诈骗的黑幕。
+
+    据警方介绍，犯罪嫌疑人为了窃取信息，还说服了河南郑州的三个区域经理。这三个区域经理为了增加自己营业部的发货量，主动将自己的账户密码交给犯罪嫌疑人，以供其窃取用户信息。为了提高诈骗成功率，电商老板郑某还会筛选，选择那些网购量大同时又喜欢货到付款的用户进行诈骗。
+
+    经警方初步核算，案值超过 1200 万，被侵犯的公民个人信息数量总数不少于 50 万。目前，包括德邦快递 6 名员工在内的 13 名犯罪嫌疑人，因涉嫌侵犯公民个人信息罪或诈骗罪被刑事拘留。
+
+    link: https://linux.cn/article-11249-1.html
+
+- 成人网站 **Luscious** 的 119.5 万用户个人数据遭泄露
+
+    泄露内容: 用户名、所在地、性别以及用户活动日志也遭到泄露，活动日志包含了视频上传、建立图册、评论、发帖、收藏夹、关注列表等内容
+
+    事件经过: 近日，据外媒报道，vpnMentor 发布报告称，成人网站 Luscious 的 119.5 万用户个人数据遭泄露，泄露内容包括个人电子邮件地址（部分包含用户全名）。 除此之外，包括用户名、所在地、性别以及用户活动日志也遭到泄露，活动日志包含了视频上传、建立图册、评论、发帖、收藏夹、关注列表等内容。据估计，大约 20％ 的 Luscious 帐户使用一次性或假电子邮件帐户，但这仍然会留下大约 800,000 个合法电子邮件地址和私人资料。
+
+    link: https://www.cnbeta.com/articles/tech/880657.htm
+
+- **Choice Hotels** 700,000条记录在线泄露
+
+    泄露内容: 姓名，电子邮件地址和电话号码
+
+    事件经过: Comparitech 的专家在研究员 Bob Diachenko 的帮助下发现了一个不安全的数据库，其中包含来自酒店特许经营连锁酒店的 700,000 条记录。在归档被BinaryEdge搜索引擎索引之后，专家们在2019年7月2日发现了包含 560 万条记录的未授权 MongoDB 档案。
+
+    Diachenko 立即通知公司暴露的 MongoDB 实例，但似乎黑客首先得到它。他们留下了赎金票据要求0.4比特币 Choice Hotels 试图淡化问题，解释说档案中的大多数记录都包含测试信息，除了 700,000 个真实的条目。
+    暴露的记录包含访客数据，包括姓名，电子邮件地址和电话号码。
+
+    Diachenko 立即向 Choice Hotels 报告了他的调查结果，然而，骗子们已经获得了数据，并试图勒索这项业务。
+
+    在分析数据库时，Diachenko 发现黑客留下的赎金票据要求该公司提供 0.4 BTC（4,000美元）。可能入侵者已经对数据进行了备份，并且在要求支付赎金之前将要擦除档案。
+
+    link: https://securityaffairs.co/wordpress/90146/hacking/ruby-libraries-backdoor.html
+
+- **新西兰航空** 遭受钓鱼攻击，客户信息被泄露
+
+    事件经过: 新西兰航空公司向注册其 Airpoints 忠诚度计划的客户发送电子邮件，警告他们网络钓鱼攻击成功破坏了两名员工的电子邮件帐户，这可能导致攻击者访问个人信息。
+
+    虽然电子邮件确实说安全事件中没有访问客户的 Airpoints 帐户，但 O'Brien 的电子邮件声明“我们的内部文件中可能会显示与您的会员资料相关的一些信息。您的Airpoints密码和您的信用卡卡详情不受影响。“
+
+    在发现网络钓鱼攻击后，该公司保护了两个受感染的电子邮件帐户，并开始调查以了解攻击者如何能够访问数据。奥布莱恩还表示，新西兰航空公司现在也在“进一步加强我们的安全流程，以帮助防止未来发生任何类似事件。”
+
+    link: https://www.bleepingcomputer.com/news/security/customer-information-exposed-in-air-new-zealand-phishing-attack/
+
+- 知名约会软件 **3Fun** 泄露大量用户隐私和地理定位
+
+    泄露内容: 出生日期、性偏好、聊天信息和私人照片。
+
+    事件经过: 近期，为“好奇和单身人士”服务的 3Fun 手机约会应用被曝出发生了会员数据数据泄露事件，涉及用户隐私和地理定位。
+
+    3Fun 声称在全球拥有超过 150 万会员。每天会产生超过 18 万条交流信息。
+
+    Pen Test Partners 的安全研究人员发现，这款约会应用存在几个严重的安全漏洞，导致用户的实时位置和其他敏感数据被泄露。具体数据包括出生日期、性偏好、聊天信息和私人照片。此外，信息泄漏和用户设置无关，即使用户正确地启用了隐私设置，个人数据也会被泄漏。
+
+    研究人员注意到，该应用对数据的管理过滤只在客户端实现，攻击者只需使用简单的流量中转软件，即可绕过安全限制，查看到敏感信息。
+
+    link: https://nosec.org/home/detail/2854.html
+
+    link: https://securityaffairs.co/wordpress/89655/data-breach/3fun-data-leak.html
+
+    link: https://www.bleepingcomputer.com/news/security/3fun-dating-app-exposes-exact-location-of-users-and-personal-info/
+
+- **Sephora** 数据泄露事件
+
+    泄露内容: 登录名，加密密码，注册日期和最后活动，注册IP，最后IP，性别，姓名，种族，眼睛颜色，肤色，皮肤类型，头发颜色，头发问题，化妆品必需品他说，以及护肤程序
+
+    事件经过: 总部位于新加坡的网络安全公司 Group-IB 表示，它发现了两个数据库，地下论坛上的客户数据“可能与丝芙兰有关”。首席执行官 Ilya Sachkov 在发布中表示，第一个数据库分别于7月7日和7月17日在两个地下论坛上做广告。根据卖方的说法，该数据库包含 500,000 条记录，包括 Sephora 印度尼西亚和泰国网站的用户名和散列密码。
+
+    link： https://www.channelnewsasia.com/news/singapore/sephora-data-breach-customer-records-for-sale-dark-web-11772722
+
+- 安全漏洞导致 **Suprema Biostar** 1百万人指纹数据曝光
+
+    泄露内容: 指纹，面部识别信息，未加密的用户名和密码以及员工的个人信息。
+
+    事件经过: 据悉，研究人员在Suprema的系统中发现了一个安全漏洞，使之能够访问超过100万人的身份验证数据。英国《卫报》指出，这些数据包括了指纹/面部识别数据、未加密的用户名和密码、甚至员工的个人信息。以色列研究人员Noam Rotem、Ran Locar与vpnmentor一起寻找到了Suprema的安全漏洞，并且获得了Biostar 2数据库的访问权限。在获得访问权限后，安全研究人员发现该数据库缺乏应有的保护，且大多数据处于未加密的存储状态，很容易访问到总量超过2780万条（23GB+）的记录。除了敏感信息，安全研究人员还能够轻松监控存储的生物识别数据的实际使用情况。比如实时查看哪个用户通过特定的安全门进入任何设施，甚至查看到管理员账户的密码。
+
+    link: https://bgr.com/2019/08/14/suprema-biostar-2-data-security-breach-exposes-actual-fingerprint-data/
+
+    link: https://securityaffairs.co/wordpress/89929/data-breach/suprema-biostar-2-data-leak.html
+
+- 数以万计的 **MoviePass** 客户的信用卡号码在网上曝光
+
+    泄露内容: MoviePass 借记卡号及其到期日，卡的余额和激活时间
+
+    事件经过: 一位安全专家发现了电影票订阅服务商 MoviePass 已经暴露了数以千计的客户卡号和个人信用卡信息。由于数据库未加密，包含信用卡数据的数据库被泄露，涉及包含 1.61 亿条记录，并且数据量继续实时增长。
+
+    link: https://securityaffairs.co/wordpress/90165/data-breach/moviepass-data-leak.html
+
+- 12 万人数据被泄露？**雪球** 回应：已进行核实
+
+    泄露内容: 姓名，身份证，手机，账号/邮箱，密码，持股前3支，持股数，交易风格。
+
+    事件经过: 8月21日消息，网上流传称雪球网数据泄露，涉及12万人的数据只卖75美元，包含姓名，身份证，手机，账号/邮箱，密码，持股前3支，持股数，交易风格。对此雪球回应称，不会以任何方式将个人信息泄露给第三方，对此问题已进行核实。
+
+    link: http://hackernews.cc/archives/27064
+
 - **本田** 汽车云端数据库未保护，CEO 及全球员工大量资料险遭泄露
 
     泄露内容: 经查这批资料包括几乎所有 Honda 电脑相关资料，其中一个表格包含员工电子邮件、部门名称、Honda 机器主机名称、MAC 地址、内网 IP、作业系统版本。另一个表格则有员工姓名、部门、​​员工编号、帐号、手机号码及最近登入时间。
@@ -61,6 +163,16 @@
     link: https://www.cnbeta.com/articles/science/874939.htm
 
 **7月**
+
+- **Club Penguin Rewritten** 遭遇数据泄露
+
+    泄露账户：400万
+
+    泄露内容: 电子邮件地址，IP地址，密码，用户名
+
+    事件经过: 2019年7月，儿童游戏网站Club Penguin Rewritten（CPRewritten）遭遇数据泄露（注：CPRewritten是迪士尼俱乐部企鹅游戏的独立娱乐）。 除了影响170万个帐户的早期数据泄露之外，随后的漏洞还暴露了400万个唯一的电子邮件地址以及存储为bcrypt哈希的IP地址，用户名和密码。
+
+    link: https://haveibeenpwned.com/PwnedWebsites#ClubPenguinRewrittenJul2019
 
 - **LAPD** 数据泄露致 2500 名警官个人信息被盗
 
@@ -674,6 +786,14 @@
     事件经过: 据《彭博社》报导，网络保安公司 UpGuard 在亚马逊云端数据库上发现大量 Facebook 用户的个人资料，涉及至少5.4亿名用户，且数据开放予任何人下载。报导指出，墨西哥城媒体公司 Cultura Colectiva 的数据库储存了5.4亿名 Facebook 用户的个人资料，包括身份证号码、帐号称谓、网上评论及回应记录等。Cultura Colectiva 专门发布拉丁美洲娱乐及文化消息，在 Facebook、Instagram、Twitter、YouTube 等开设专页，拥有逾4500万用户追踪。《彭博社》向 Facebook 查询，Facebook 随后通报亚马逊，相关数据库已被封锁。Facebook 发言人表示，公司政策禁止将用户资料储存于公开数据库，此次发现事件后即时通知亚马逊处理；发言人称，公司致力与平台开发商合作保障用户私隐。
 
 **3月**
+- **纽约市消防局** 丢失载有员工医疗记录和社会保险号的硬盘
+
+    泄露内容: 社会保险号码、医疗记录
+
+    事件经过: 纽约市消防局（FDNY）披露了2019年3月发生的“数据泄露”。与其他数据泄露事件（通常涉及未经授权的一方利用易受攻击的网络）不同，FDNY的问题是由于一枚可移动硬盘丢失造成的。根据纽约市官员发布的声明，这一驱动器属于一名被授权访问该信息的员工。
+
+    link: https://www.cnbeta.com/articles/tech/877453.htm
+
 - **Citrix** 遭到未经授权访问内部网络
 
     泄露内容: 商业文档和文件
@@ -732,23 +852,6 @@
 
     link: https://www.bleepingcomputer.com/news/security/unsecured-database-exposed-33-million-job-profiles-in-china/
 
-**1月**
-- **德国政界** 数百德国政客个人数据泄露
-
-    泄露目标: 除极右翼民主党以外的所有其他政党，其中还包括一些名人和记者。
-
-    泄露内容: 电子邮件地址、手机号码、身份证照片以及相当一部分聊天记录
-
-    事件经过: 据BBC、路透社等多家海外媒体报道，所有泄露的信息都是通过一个名为“G0d”的Twitter帐户在之前的数周内放出的，账户信息显示，该账户目前有粉丝约17000人，地址位于汉堡，并使用了“安全研究”、“艺术家”、“讽刺与反讽”等标签形容自己。
-
-- **华硕** 内网密码在 GitHub 上泄露
-
-    泄露内容: 企业内网密码
-
-    事件经过: 北京时间3月28日早间消息，据美国科技媒体TechCrunch报道，一名信息安全研究员两个月前向华硕发出警告称，有华硕员工在GitHub代码库中错误地发布了密码。这些密码可以被用于访问该公司的企业内网。其中一个密码出现在一名员工分享的代码库中。通过该密码，研究员可以访问内部开发者和工程师使用的电子邮件帐号，从而与计算机的使用者分享夜间构建的应用、驱动和工具。有问题的代码库来自华硕的一名工程师，他将电子邮件帐号密码公开已有至少一年时间。目前，尽管GitHub帐号仍然存在，但这个代码库已被清理。
-
-    link: http://hackernews.cc/archives/25173
-
 **2月**
 - **YouNow** 的数据在暗网市场上出现
 
@@ -764,7 +867,7 @@
 
     接到报警后，警方立刻展开侦查，并迅速锁定了一名湖北籍男子汪某。5月22日，民警远赴湖北将汪某抓获归案，并起获了其作案时使用的笔记本电脑。
 
-    经讯问，汪某交代，毕业后一直无业，便利用掌握的计算机技术，编写了大量撞库代码，对目前网络上比较热门的社交平台进行撞库，然后控制撞库获取的账户，在网上承接点赞刷量、发布广告等业务牟利，短短两个月的时间就获利上百万元。
+    经讯问，汪某交代，毕业后一直无业，便利用掌握的计算机技术，编写了大量撞库代码，对目前网络上比较热门的社交平台进行撞库，然后控制撞库获取的账户，在网上承接点赞刷量、发布广告等业务牟利，短短两个月的时间���获利上百万元。
 
     link: https://www.secrss.com/articles/11524
 
@@ -790,6 +893,23 @@
     link: https://www.bleepingcomputer.com/news/security/cafepress-data-breach-exposes-personal-info-of-23-million-users/
 
     link: https://haveibeenpwned.com/PwnedWebsites#CafePress
+
+**1月**
+- **德国政界** 数百德国政客个人数据泄露
+
+    泄露目标: 除极右翼民主党以外的所有其他政党，其中还包括一些名人和记者。
+
+    泄露内容: 电子邮件地址、手机号码、身份证照片以及相当一部分聊天记录
+
+    事件经过: 据BBC、路透社等多家海外媒体报道，所有泄露的信息都是通过一个名为“G0d”的Twitter帐户在之前的数周内放出的，账户信息显示，该账户目前有粉丝约17000人，地址位于汉堡，并使用了“安全研究”、“艺术家”、“讽刺与反讽”等标签形容自己。
+
+- **华硕** 内网密码在 GitHub 上泄露
+
+    泄露内容: 企业内网密码
+
+    事件经过: 北京时间3月28日早间消息，据美国科技媒体TechCrunch报道，一名信息安全研究员两个月前向华硕发出警告称，有华硕员工在GitHub代码库中错误地发布了密码。这些密码可以被用于访问该公司的企业内网。其中一个密码出现在一名员工分享的代码库中。通过该密码，研究员可以访问内部开发者和工程师使用的电子邮件帐号，从而与计算机的使用者分享夜间构建的应用、驱动和工具。有问题的代码库来自华硕的一名工程师，他将电子邮件帐号密码公开已有至少一年时间。目前，尽管GitHub帐号仍然存在，但这个代码库已被清理。
+
+    link: http://hackernews.cc/archives/25173
 
 ---
 
@@ -994,6 +1114,16 @@
 
     事件经过: 运营商向在线客户公开存储在亚马逊AWS S3存储桶中的个人数据。泄露的数据还包括身份证件的扫描，数据一直保留至4月12日，当时该公司限制访问。
     安全研究人员Niall Merrigan发现了大量数据，试图将此问题告知TrueMove H，但运营商没有回应。Merrigan透露，该AWS存储桶包含总计32GB的46,000条记录。
+
+- **Chegg** 遭遇数据泄露
+
+    泄露账户：3972万
+
+    泄露内容: 电子邮件地址、姓名、密码、用户名
+
+    事件经过: 2018年4月，教科书租赁服务 Chegg 遭遇数据泄露，影响了 4000 万用户。 暴露的数据包括存储为未加盐的MD5哈希值的电子邮件地址，用户名，名称和密码。
+
+    link: https://haveibeenpwned.com/PwnedWebsites#Chegg
 
 **3月**
 - **Facebook** 用户数据泄露，影响美国大选(小扎你看你就像个外星人)
@@ -1534,6 +1664,31 @@
 # 供应链攻击
 ## 2019
 
+**8月**
+
+- 恶意程序包 bb-builder 已从 **npm** 存储库中删除
+
+    事件经过: 今天早些时候，npm 从存储库中取出了包“bb-builder”，标记为恶意并具有严重的严重性。
+    该通报警告说，安装或运行此软件包的计算机应被视为“完全受损”，因为它为Windows操作系统部署了一个可执行文件，将敏感信息发送到远程服务器。
+
+    “存储在该计算机上的所有机密和密钥应立即从另一台计算机上旋转，” npm建议道。
+
+    npm收到了来自ReversingLabs的联合创始人兼首席软件架构师Tomislav Pericin的一揽子提示，该公司提供自动静态分析和文件信誉服务。研究人员告诉BleepingComputer他在扫描整个npm存储库以查找危险条目后发现了坏包 - 大约有900万个包转换为35TB的解压缩数据。在基于扫描结果收集和索引的1.6TB元数据中，存在用于Windows的可执行代码。
+
+    Pericin告诉我们，在破坏帐户所有者的凭据后，“bb-builder”已被添加到npm。它一年未被发现。该项目的1.0.1版是第一个包含密码恢复工具的项目。“bb-builder”的每次新迭代都添加了新功能，例如将凭据提交给作者的Web服务器，更改被盗数据的存储位置，修复错误或在发送到远程计算机后删除它。
+
+    link: https://www.bleepingcomputer.com/news/security/npm-pulls-malicious-package-that-stole-login-passwords/
+
+- 11个 **Ruby** 库被植入挖矿后门代码 删除前已被下载3584次
+
+    事件经过: RubyGems 工作人员表示，他们已经移除了 18 个包含后门机制的恶意版本 Ruby 库。自 7 月 8 日以来，其已被下载 3584 次。如剔除同一库的不同版本，则有 11 个 Ruby 库被污染。这些 Ruby 库被软件包存储库的恶意维护者破解并植入了后门代码，可在其他人启用的 Ruby 项目中开展隐匿的加密货币挖掘任务。
+
+    link: https://www.cnbeta.com/articles/tech/880767.htm
+
+    link: https://securityaffairs.co/wordpress/90146/hacking/ruby-libraries-backdoor.html
+
+    link: https://github.com/rubygems/rubygems.org/issues/2097
+
 **7月**
 - **npm** 的 **PureScript** 包被污染
 
@@ -1622,7 +1777,7 @@
 **12月**
 - **Wordpress** Keylogger事件
 
-    事件经过: Catalin Cimpanu发现几起针对WordPress站点的攻击，主要通过加载恶意脚本进行键盘记录，挖矿或者挂载广告。并且有证据表明，这种攻击从4月份活跃至今。起因是WordPress被注入了一个混淆的js脚本，从主题的function.php文件进行植入。加载的js脚本地址为: 
+    事件经过: Catalin Cimpanu发现几起针对WordPress站点的攻击，主要通过加载恶意脚本进行键盘记录，挖矿或者挂载广告。并且有证据表明，这种攻击从4月份活跃至今。起因是WordPress被注入了一个混淆的js脚本，从主题的function.php文件进行植入。加载的js脚本地址为:
     ```
     <script type='text/javascript' src='hxxp://cloudflare[.]solutions/ajax/libs/reconnecting-websocket/1.0.0/reconnecting-websocket.js'></script>
     <script type='text/javascript' src='hxxp://cloudflare[.]solutions/ajax/libs/cors/cors.js'></script>
