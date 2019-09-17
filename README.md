@@ -1,11 +1,11 @@
 <p align="center">
-    <img src=".//img/logo.png">
+    <img src=".//assets/img/logo.png">
 </p>
 
 <p align="center">
     <img src="https://img.shields.io/badge/Category-Data Leakage-red.svg">
     <img src="https://img.shields.io/github/last-commit/No-Github/Dork-Admin.svg?style=popout">
-    <img src="https://img.shields.io/badge/Count->182-blue.svg">
+    <img src="https://img.shields.io/badge/Count->=182-blue.svg">
 </p>
 
 ---
@@ -21,13 +21,210 @@
 配合隐私解决方案食用效果更佳：[Digital-Privacy](https://github.com/No-Github/Digital-Privacy)
 
 <p align="center">
-    <img src=".//img/readme.png">
+    <img src=".//assets/img/readme.png">
 </p>
 
 # 数据泄露
 ## 2019🤦‍
+**9月**
+- **厄瓜多尔** 超 2000 万公民数据泄露
+
+    泄露内容: 全名（第一，中，最后）、性别、出生日期、出生地、家庭地址、电子邮件地址、家庭，工作和手机号码、婚姻状况、结婚日期（如适用）、死亡日期（如适用）、教育程度
+
+    事件经过: vpnMentor 的研究团队发现了一个可能影响厄瓜多尔数百万人的大规模数据泄露事件。泄露的数据库包括超过 2000 万人。
+    在线数据存储在配置错误的 ElasticSearch 服务器上，使其变得十分危险。公开的数据包括完整的 PII、婚姻状况和结婚日期、教育水平、财务信息等。
+    这也许是目前最大的国家性数据泄露，这些数据的暴露对于厄瓜多尔公民构成严重威胁。
+    令人在意的事，厄瓜多尔全国人数也只有1700多万，但 ElasticSearch 服务器总共包含大约 2000 万个用户记录，这个记录大于这个国家的人口总数。
+    泄露数据量约有 18GB，其中多出的数据来自重复记录或旧记录，比如已去世者的记录。
+    对数据的分析表明，数据来源从政府来源（大多数来自厄瓜多尔政府）和私人数据库收集的数据组成。
+    专家们还发现，泄露信息中有18万名18岁以下儿童，其中包含姓名， cedulas，出生地，性别，家庭住址。
+    该数据库泄露问题于2019年9月11日被 vpnMentor 通知厄瓜多尔 CERT（计算机应急响应小组）团队。
+
+    link: https://www.vpnmentor.com/blog/report-ecuador-leak/
+
+    link: https://securityaffairs.co/wordpress/91337/data-breach/ecuador-data-leak.html
+
+- **Delaler Leads** 泄露了 1.98 亿条记录
+
+    泄露内容: 姓名，电子邮件，电话，地址，IP
+
+    事件经过: 研究员 Jeremiah Fowler 发现了一个在线暴露的无担保数据库，属于汽车经销商营销公司 Dealer Leads。其中包含 1.98 亿条记录，总计 413GB 的数据，涵盖潜在购车者，车辆，贷款和财务查询的信息，以及访客IP地址的日志数据等。
+
+    经销商 Leads 为特许经营和独立汽车经销商提供与汽车行业相关的内容，公司网站用以下声明描述自己。
+
+    “汽车数字营销行业占主导地位，汽车搜索字符串使用频率高nto在线库存 广告分类网站，服务冰坐es，财务网站等。汽车购物者有需求，和 DealerLeads 火柴 实时搜索中的那些需求。“
+
+    任何浏览器都可以访问 Elastic 数据库，其记录包括纯文本中的姓名，电子邮件，电话，地址，IP 和其他敏感或可识别信息。
+
+    存档还包括 IP 地址，端口，路径和存储信息。
+
+    好消息是，在专家向公司报告他的发现之后，它已经确保数据库限制了对存档的公共访问。
+
+    link: https://securityaffairs.co/wordpress/91264/data-breach/delaler-leads-data-leak.html
+
+- **Option Way** 数据泄露事件
+
+    泄露内容: 客户姓名，出生日期，性别，电子邮件地址，电话，号码，家庭住址和邮政编码以及有关用户航班和旅行安排的信息
+
+    事件经过: 研究人员 vpnMentor 在飞行预订平台 Option Way 中发现了一个巨大的数据泄露事件，作为网络映射项目的一部分。
+
+    Option Way服务允许其用户查找往返世界各地的航班优惠。
+
+    Noam Rotem 和 Ran Locar 领导的研究团队扫描熟悉的 IP 模块，找出导致组织数据泄露的安全漏洞。
+    专家们发现，Option Way 平台使用的大部分数据库完全不受保护且未加密。
+
+    “该公司使用 Elasticsearch 数据库，该数据库通常不是为 URL 使用而设计的。但是，我们能够通过浏览器访问它并操纵 URL 搜索标准来暴露大量数据。“读取专家发布的分析。
+
+    “Option Way 客户和他们平台上的航空公司必须意识到他们在使用技术方面所承担的风险，这些技术只需要很少的努力来保护用户。”
+
+    专家们发现了超过 100GB 的数据，包括客户的未加密个人详细信息（客户姓名，出生日期，性别，电子邮件地址，电话，号码，家庭住址和邮政编码）以及有关用户航班和旅行安排的信息。专家声称，平台网站上发布的以下声明不正确，因为客户的个人身份信息（PII）未加密。
+
+    link: https://securityaffairs.co/wordpress/90688/uncategorized/option-way-data-breach.html
+
+- **XKCD** 论坛遭网络攻击：大量用户数据被盗
+
+    影响人数: 56 万
+
+    泄露内容: 用户名、电子邮件和 IP 地址以及 MD5 phpBB3 格式存储的密码
+
+    事件经过: 据外媒报道，黑客攻击了人气网络漫画网站 XKCD 的论坛并从中窃取了约 56 万个用户名、电子邮件和IP地址以及散列密码。
+
+    论坛方面表示，等到他们能够检查漏洞并确保论坛已经安全之后才会重新上线这个论坛。“如果你是 echochamber.me/xkcd 用户，那么你应当立即更改你使用了同一个或类似密码的另一个账号的密码。”
+
+    XKCD 是 Randall Munroe 创作的流行网络漫画，其已经有14年的历史、主要关注科技、科学和互联网文化。Munroe 还以其现在的标志性简笔人物画风格出过几本书，包括《How To》、 《Thing Explainer》、《What If》。
+
+    Hunt 表示，这些数据由白帽子公安全研究员 Adam Davies 发现。
+
+    link: https://www.cnbeta.com/articles/tech/885565.htm
+
+    link: https://securityaffairs.co/wordpress/90748/data-breach/xkcd-data-breach.html
+
+    link: https://www.bleepingcomputer.com/news/security/xkcd-forum-breach-exposes-emails-passwords-of-562-000-users/
+
+- **Facebook** 超过4亿用户电话号码泄漏
+
+    泄露内容: Facebook ID 和电话号码,一些记录还包含了用户的姓名、性别和国别。
+
+    事件经过: 储存数亿 Facebook 用户关联电话号码的服务器被发现没有任何密码保护就能访问。暴露的服务器包含了超过 4.19 亿条记录，其中包括 1.33 亿美国用户，1800 万英国用户，5000 多万越南用户。每一条记录包含了用户唯一的 Facebook ID 和电话号码。一些记录还包含了用户的姓名、性别和国别。GDI Foundation 的安全研究员 Sanyam Jain 发现了无密码保护的数据库，因无法识别所有者而联络了 TechCrunch，在联络了托管商之后数据库已经下线。Facebook 发言人 Jay Nancarrow 称，该公司去年关闭了对用户电话号码数据的访问，这些数据是在关闭前抓取的。Facebook 声称这些数据不是新的，但几乎没有人会频繁更换电话号码。
+
+    link: https://www.solidot.org/story?sid=61980
+
+    link: https://securityaffairs.co/wordpress/90860/data-breach/facebook-phone-numbers-exposed.html
+
+    link: https://www.hackread.com/unsecured-database-leaks-phone-numbers-of-facebook-users/
+
+- **Garmin SA** 购物网站付款数据被盗
+
+    泄露内容: 付款信息，支付卡的号码，到期日期和 CVV 代码，以及姓名，实际地址，电话号码和电子邮件地址
+
+    事件经过: Garmin 南非（Garmin SA）今天在向客户发送的一系列通知中披露，这些付款和敏感的个人信息是从 shop.garmin.co.za 购物门户网站上的订单中窃取的。
+
+    Garmin SA 之前曾是 Garmin 经销商，名为 Garmin Distribution Africa（GDA），之后于2011年9月被卫星导航全球领导者 Garmin 收购。
+
+    在2019年7月31日发布的新闻稿中，Garmin 宣布“创纪录的第二季度收入为9.55亿美元，增长7％，其中航空，航海，健身和户外集团比去年同期增长12％。”
+
+    “我们最近发现通过 shop.garmin.co.za（由 Garmin 南非运营）下订单中的客户数据被盗，这些订单损害了您通过网站下达的订单的个人数据，”南非的 Jennifer Van Niekerk 说。常务董事。
+
+    “受损数据仅限于 Garmin 的南非网站，并包含付款信息，包括您的支付卡的号码，到期日期和CVV代码，以及您的姓名，实际地址，电话号码和电子邮件地址。”
+
+    Garmin SA 建议其客户审查并监控所有未经授权的购买的所有支付卡记录。
+
+    link: https://www.bleepingcomputer.com/news/security/garmin-sa-shopping-portal-breach-leads-to-theft-of-payment-data/
+
+    link: https://securityaffairs.co/wordpress/91220/data-breach/garmin-sa-data-breach.html
 
 **8月**
+- **万事达** "Priceless Specials" 活动遭遇数据泄露
+
+    影响人数: 89,388
+
+    泄露内容: 电子邮件地址，IP地址，姓名，部分信用卡数据，电话号码
+
+    事件经过: 万事达卡向德国和比利时数据保护机构（DPA）披露了数据泄露事件，涉及该公司Priceless Specials忠诚度计划的客户数据。
+
+    数据在互联网上公布，客户姓名，支付卡号，电子邮件地址，家庭住址，电话号码，性别和出生日期都包含在泄露的信息中。
+
+    万事达卡表示“此事件仅限于特价计划”，而且泄露的唯一支付卡信息是支付卡的数量。
+
+    在发现数据泄露后，万事达卡暂停了德国 Priceless Specials 并取消了其网站，只留下一条消息说“此问题与万事达卡的支付网络无关。”
+
+    link: https://www.bleepingcomputer.com/news/security/mastercard-reports-data-breach-to-german-and-belgian-dpas/
+
+    link: https://securityaffairs.co/wordpress/90286/data-breach/mastercard-priceless-specials-loyalty-data-breach.html
+
+    link: https://haveibeenpwned.com/PwnedWebsites#MastercardPricelessSpecials
+
+    link: https://www.mastercard.de/de-de/faq-pricelessspecials.html
+
+- **币安** 数千名客户的 KYC 泄露，官方回应：泄露的KYC数据来自第三方供应商
+
+    事件经过: 8月初，一些人的细节（即相片持有身份证的个人，如护照和选民身份证）在网上泄露。现在 Binance 确认黑客从第三方供应商那里获得了其用户的 KYC 数据。
+
+    交易所最近证实，一些泄露的照片与实际账户相符，但其他人则被攻击者用 Photoshop 操纵。
+
+    “这项调查的最新证据表明，一些泄露的图像与第三方供应商处理的图像重叠，而 Binance 在2017年12月初至2018年2月底之间签订了几次合同。” 该公司发布的最新消息。
+
+    “在我们审查泄露的图像时，有多个 Photoshop 处理或者更改了与我们数据库中的 KYC 图像不匹配的图像，并将其纳入综合调查。此外，通过 Binance 处理的每个用于 KYC 目的的图像都嵌入了隐藏的数字水印，这在所有泄露的图像中都是显而易见的。
+
+    该公司指出，通过 Binance 处理的用于 KYC 目的的图像嵌入了隐藏的数字水印，该水印在所有泄露的图像中都不存在。
+
+    Binance 补充说，在线泄露的 KYC 数据可能已被更改或用于设置欺诈性的 Binance 帐户。
+
+    该公司仍在调查此事件，同时，它正在通知潜在的受害者，为他们提供“隐私保护和恢复原状的指导”，并建议受影响的用户应在各自的地区申请新的身份证明文件。
+
+    Binance 还通过终身 Binance VIP 会员资格来补偿受影响的用户，包括优惠交易费，支持和更多服务。
+
+    link: https://securityaffairs.co/wordpress/90391/cyber-crime/binance-leaked-kyc-data.html
+
+- **福昕** 通知客户服务器遭到黑客入侵
+
+    泄露内容: 用户名 、电邮地址、企业名称、电话号码、用户账号密码和 IP 地址
+
+    事件经过: 福昕 PDF 阅读器和编辑器的开发商福建福昕软通知客户，黑客入侵了它的服务器访问了用户数据。在给受影响客户的邮件通知中，福昕称，未经授权的黑客访问了 My Account 区域，可能访问的用户数据包括了用户名 、电邮地址、企业名称、电话号码、用户账号密码和 IP 地址。它声称信用卡或其它支付信息没有暴露。福昕没有解释泄露的密码是否是加密或加盐还是明文储存，它建议用户下一次登陆时修改密码。
+
+    link: https://www.solidot.org/story?sid=61920
+
+    link: https://securityaffairs.co/wordpress/90580/data-breach/foxit-software-data-breach.html
+
+    link: https://www.bleepingcomputer.com/news/security/foxit-software-discloses-data-breach-exposing-user-passwords/
+
+    link: https://www.foxitsoftware.com/support/security-advisories.php
+
+- **Imperva** 数据泄露,客户信息曝光
+
+    泄露内容: 电子邮件地址、加盐的 Hash 密码
+
+    事件经过: 网络安全 Imperva 公司披露了一项数据泄露事件，该数据泄露事件暴露了云网应用防火墙（WAF）产品（以前称为 Incapsula）的部分客户的敏感信息。
+
+    mperva 首席执行官 Chris Hylen 透露，该公司于2019年8月20日获悉该事件，当时该公司了解了影响云网络应用防火墙（WAF）产品的数据风险。
+
+    "在2019年8月20日，我们从第三方那里了解到数据曝光会影响我们的云 WAF 产品的一部分客户，这些客户的账户截至2017年9月15日。截至2017年9月15日，Incapsula 客户数据库的元素已曝光。其中包括：电子邮件 地址 哈希和盐渍密码 “
+
+    泄露的数据包括2017年9月15日之前注册的所有Cloud WAF客户的电子邮件地址和散列和盐渍密码。
+
+    Hylen 此外，对于 Incapsula 客户的一部分，截至2017年9月15日，已公开 API 密钥和客户提供的SSL证书。
+
+    link: https://securityaffairs.co/wordpress/90464/data-breach/imperva-data-breach.html
+
+    link: https://www.bleepingcomputer.com/news/security/cybersecurity-firm-suffers-security-breach-client-info-exposed/
+
+- **Hostinger** 披露了影响 1400 万客户的数据泄露事件
+
+    泄露内容: 用户名，电子邮件，散列密码，名字和IP地址
+
+    事件经过: Hostinger，最大的托管服务提供商之一，披露了最近的安全漏洞，允许攻击者访问客户端数据库。
+
+    安全漏洞发生在8月23日，可能已经影响了1400万 Hostinger 顾客。
+
+    “2019年8月23日，我们收到了一条信息警报，指出我们的某台服务器已被未经授权的第三方访问过。该服务器包含一个授权令牌，用于获取对我们的系统 RESTful API Server * 的进一步访问和升级权限。此 API Server * 用于查询有关客户及其帐户的详细信息。
+
+    暴露的数据包括Hostinger 用户名，散列密码（SHA1），客户的IP地址，名字和姓氏以及联系信息（即。电话号码，电子邮件和家庭住址）。根据Hostinger的说法，财务数据没有暴露在攻击中。
+
+    为了应对这一事件，该公司重置了所有受影响客户的密码。
+
+    link: https://securityaffairs.co/wordpress/90377/data-breach/hostinger-data-breach.html
+
+    link: https://www.bleepingcomputer.com/news/security/hostinger-data-breach-affects-almost-14-million-customers/
 
 - **德邦快递员工** 卷入货到付款诈骗：窃取 50 万用户信息 案值 1200 万
 
@@ -166,7 +363,7 @@
 
 - **Club Penguin Rewritten** 遭遇数据泄露
 
-    泄露账户：400万
+    影响人数：400万
 
     泄露内容: 电子邮件地址，IP地址，密码，用户名
 
@@ -1117,7 +1314,7 @@
 
 - **Chegg** 遭遇数据泄露
 
-    泄露账户：3972万
+    影响人数：3972万
 
     泄露内容: 电子邮件地址、姓名、密码、用户名
 
@@ -1194,11 +1391,19 @@
 
     泄露目标: 印度公民
 
-    泄露内容: Aadhaar号码、姓名、电子邮箱、住址、电话号码以及照片
+    泄露内容: Aadhaar 号码、姓名、电子邮箱、住址、电话号码以及照片
 
     大致时间: 2017年8月—2018年1月
 
-    事件经过: 2018年1月4日，印度乡村企业家 Bharat Bhushan Gupta爆料说，有人在移动社交工具WhatsApp上向他推销Aadhaar数据库，购买之后，Aadhaar数据库确实为他提供了大量意想不到的用户信息。
+    事件经过: 2018年1月4日，印度乡村企业家 Bharat Bhushan Gupta爆料说，有人在移动社交工具 WhatsApp 上向他推销 Aadhaar 数据库，购买之后，Aadhaar 数据库确实为他提供了大量意想不到的用户信息。
+
+- **Coinmama** 泄露超过 479k 用户数据
+
+    泄露内容: 电子邮件地址，用户名和密码
+
+    事件经过: 在 2017 年八月，加密硬币经纪服务 Coinmama 遭受了超过 479k 用户数据泄露。 该缺口是在2019年2月发现了暴露的数据，包括存储为 MD5 哈希 WordPress 的电子邮件地址，用户名和密码。
+
+    link: https://haveibeenpwned.com/PwnedWebsites#Coinmama
 
 ---
 
@@ -1890,7 +2095,7 @@
     link: https://news.mydrivers.com/1/510/510837.htm
 
 <p align="center">
-    <img src=".//img/sony.jpg">
+    <img src=".//assets/img/sony.jpg">
 </p>
 
 ## 2015
