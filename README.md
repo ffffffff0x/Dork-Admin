@@ -5,14 +5,14 @@
 <p align="center">
     <img src="https://img.shields.io/badge/Category-Data Leakage-red.svg">
     <img src="https://img.shields.io/github/last-commit/No-Github/Dork-Admin.svg?style=popout">
-    <img src="https://img.shields.io/badge/Count->=253-blue.svg">
+    <img src="https://img.shields.io/badge/Count->=289-blue.svg">
 </p>
 
 ---
 
 # Manual🦄
 
-**简介 :** 盘点各国各行业的数据泄露、供应链污染事件
+**简介 :** 盘点各国各行业的数据泄露、供应链污染事件,希望可以起到一定的警示作用.
 
 **灵感来源 :** https://haveibeenpwned.com/PwnedWebsites、 https://www.freebuf.com/articles/paper/147403.html
 
@@ -46,111 +46,119 @@
 
 **数据泄露**
 
+<details>
+<summary>View <a href="#2020数据泄露事件">2020数据泄露事件</a></summary>
+
+* [20.3](#203)
+* [20.2](#202)
+* [20.1](#201)
+
+</details>
 
 <details>
 <summary>View <a href="#2019数据泄露事件">2019数据泄露事件</a></summary>
 
-* [19.12](#19.12)
-* [19.11](#19.11)
-* [19.10](#19.10)
-* [19.9](#19.9)
-* [19.8](#19.8)
-* [19.7](#19.7)
-* [19.6](#19.6)
-* [19.5](#19.5)
-* [19.4](#19.4)
-* [19.3](#19.3)
-* [19.2](#19.2)
-* [19.1](#19.1)
+* [19.12](#1912)
+* [19.11](#1911)
+* [19.10](#1910)
+* [19.9](#199)
+* [19.8](#198)
+* [19.7](#197)
+* [19.6](#196)
+* [19.5](#195)
+* [19.4](#194)
+* [19.3](#193)
+* [19.2](#192)
+* [19.1](#191)
 
 </details>
 
 <details>
 <summary>View <a href="#2018数据泄露事件">2018数据泄露事件</a></summary>
 
-* [18.12](#18.12)
-* [18.11](#18.11)
-* [18.10](#18.10)
-* [18.9](#18.9)
-* [18.8](#18.8)
-* [18.7](#18.7)
-* [18.6](#18.6)
-* [18.5](#18.5)
-* [18.4](#18.4)
-* [18.3](#18.3)
-* [18.2](#18.2)
+* [18.12](#1812)
+* [18.11](#1811)
+* [18.10](#1810)
+* [18.9](#189)
+* [18.8](#188)
+* [18.7](#187)
+* [18.6](#186)
+* [18.5](#185)
+* [18.4](#184)
+* [18.3](#183)
+* [18.2](#182)
 
 </details>
 
 <details>
 <summary>View <a href="#2017数据泄露事件">2017数据泄露事件</a></summary>
 
-* [17.12](#17.12)
-* [17.10](#17.10)
-* [17.9](#17.9)
-* [17.8](#17.8)
+* [17.12](#1712)
+* [17.10](#1710)
+* [17.9](#179)
+* [17.8](#178)
 
 </details>
 
 <details>
 <summary>View <a href="#2016数据泄露事件">2016数据泄露事件</a></summary>
 
-* [16.12](#16.12)
-* [16.11](#16.11)
-* [16.9](#16.9)
-* [16.8](#16.8)
-* [16.7](#16.7)
-* [16.3](#16.3)
-* [16.2](#16.2)
+* [16.12](#1612)
+* [16.11](#1611)
+* [16.9](#169)
+* [16.8](#168)
+* [16.7](#167)
+* [16.3](#163)
+* [16.2](#162)
 
 </details>
 
 <details>
 <summary>View <a href="#2015数据泄露事件">2015数据泄露事件</a></summary>
 
-* [15.10](#15.10)
-* [15.9](#15.9)
-* [15.8](#15.8)
-* [15.2](#15.2)
-* [15.1](#15.1)
+* [15.10](#1510)
+* [15.9](#159)
+* [15.8](#158)
+* [15.2](#152)
+* [15.1](#151)
 
 </details>
 
 <details>
 <summary>View <a href="#2014数据泄露事件">2014数据泄露事件</a></summary>
 
-* [14.12](#14.12)
-* [14.11](#14.11)
-* [14.9](#14.9)
-* [14.5](#14.5)
-* [14.1](#14.1)
+* [14.12](#1412)
+* [14.11](#1411)
+* [14.9](#149)
+* [14.5](#145)
+* [14.1](#141)
 
 </details>
 
 <details>
 <summary>View <a href="#2013数据泄露事件">2013数据泄露事件</a></summary>
 
-* [13.10](#13.10)
-* [13.9](#13.9)
-* [13.2](#13.2)
+* [13.10](#1310)
+* [13.9](#139)
+* [13.2](#132)
 
 </details>
 
 <details>
 <summary>View <a href="#2012数据泄露事件">2012数据泄露事件</a></summary>
 
-* [12.8](#12.8)
-* [12.7](#12.7)
-* [12.5](#12.5)
-* [12.1](#12.1)
+* [12.8](#128)
+* [12.7](#127)
+* [12.5](#125)
+* [12.1](#121)
 
 </details>
 
 <details>
 <summary>View <a href="#2011数据泄露事件">2011数据泄露事件</a></summary>
 
-* [11.12](#11.12)
-* [11.6](#11.6)
+* [11.12](#1112)
+* [11.6](#116)
 
 </details>
 
@@ -171,20 +179,322 @@
 ---
 
 # 数据泄露
+
+## 2020数据泄露事件
+### 20.3
+
+- **微博** 数据泄露事件
+
+    - [工信部网络安全管理局就新浪微博App数据泄露问题开展问询约谈](http://news.cnstock.com/news,bwkx-202003-4509283.htm)
+    - [微博回应“数据泄露”事件：非微博端泄露 不涉及身份证、密码](https://www.cnbeta.com/articles/tech/957479.htm)
+    - [微博回应“用户信息被出售”事件：已上报司法机关](http://society.people.com.cn/n1/2020/0321/c1008-31642690.html)
+    - [538 Million Weibo users’ records being sold on Dark Web](https://securityaffairs.co/wordpress/100243/data-breach/weibo-data-dark-web.html)
+
+- 安全公司 **Keepnet Labs** 泄露了一个包括50亿条已泄露记录的数据库
+
+    - 事件经过:
+
+        专家 Bob Diachenko 发现一个属于安全公司 Keepnet Labs 的 Elasticsearch 实例，其中包含超过50亿条以前泄露的数据记录网络安全事件。泄露数据包括哈希类型、泄漏年份、密码、电子邮件、电子邮件域和泄漏源（即Adobe，Last.fm，Twitter，LinkedIn，Tumblr，VK等）。
+
+    - link: https://securityaffairs.co/wordpress/100198/data-breach/uk-security-firm-data-leak.html
+
+- 英国印刷公司 **Doxzoo** 暴露军事文件
+
+    - 事件经过:
+
+        网络安全研究人员透露，总部位于英国的文档打印和装订公司Doxzoo通过使AWS S3存储桶不受保护，从而暴露了数百GB的信息，包括与美国和英国军方有关的文档。
+
+    - link: https://www.securityweek.com/uk-printing-company-exposed-military-documents
+
+- 俄罗斯机构 FSB 的承包商被黑客入侵；泄漏了敏感数据
+
+    - link: https://www.hackread.com/russian-intel-agency-fsb-contractor-hacked/
+
+- 2.01亿美国人口个人记录泄露
+
+    - 事件经过:
+
+        不受保护的数据库托管在公开向公众开放的Google Cloud服务器上，没有任何安全验证。简而言之：世界上任何具有Internet连接的人都可以访问该数据库。
+
+        由Comparitech的IT安全研究员Bob Diachenko发现；数据包含超过2.01亿条记录（准确地说是201,162,598条）。对这些记录的深入分析揭示了诸如财产和人口统计信息之类的细节。
+
+    - link: https://www.hackread.com/201-million-us-demographic-personal-records-leaked-online/
+
+- **雅诗兰黛** 泄露 4.4亿条记录
+
+    - 事件经过:
+
+        1月30日，Security Discovery的数据分析师兼安全顾问Jeremiah Fowler发现了属于美国知名跨国生产商和尊贵护肤品销售商EstéeLauder的数据记录。
+
+        研究人员声称已经发现了大约4.4亿条记录（准确地说是440,336,852条），包括公司内部纯文本格式的电子邮件。数据存储在数据库中，没有任何安全认证，这意味着任何人都可以访问该数据。据报道，没有证据表明客户记录或与付款相关的数据可能受到这种风险的威胁。这意味着，对于公司的客户或包括MAC和Clinique在内的子品牌客户，目前没有任何直接风险。
+
+        雅诗兰黛没有透露用户电子邮件的暴露数量，但该公司在其电子邮件声明中指出，这些电子邮件与消费者无关，并且来自其内部教育平台。但是，福勒指出，他发现的大多数纯文本电子邮件都包含@ estee.com域。
+
+    - link: https://www.hackread.com/cosmetic-giant-estee-lauder-expose-440-million-records/
+
+- **通用电气(GE)** 称因佳能数据泄露，其部分员工数据遭受损害
+
+    - 事件经过:
+
+        通用电气（GE）上周透露，由于佳能业务流程服务部（Canon Business Process Services）遭受数据泄露，一些员工的个人信息可能已经受到损害。目前佳能尚未分享有关违规的任何信息，不清楚通用电气是否是为唯一受影响的客户。
+
+    - link: https://www.securityweek.com/ge-says-some-employees-hit-data-breach-canon
+    - link: https://www.bleepingcomputer.com/news/security/tech-giant-ge-discloses-data-breach-after-service-provider-hack/
+
+- **T-Mobile** 数据泄露导致用户个人财务信息曝光
+
+    - 事件经过:
+
+        T-Mobile 宣布了一项数据泄露事件，事件起因在于其电子邮件供应商遭到黑客入侵，导致从电子邮件中泄露了一些用户的个人和财务信息。
+
+        T-Mobile在其网站上发布的“数据泄露通知”中指出，黑客入侵其电子邮件供应商，未经授权地访问了T-Mobile员工的电子邮件账户。电子邮件账户包含T-Mobile用户信息，例如社会保险号、财务信息、政府ID号、账单信息和费率计划。为了提醒客户数据泄露，T-Mobile已经开始向可能受此次事件影响的用户发送短信。这些短信指出T-Mobile“最近发现并关闭了一起安全事件，该事件可能会涉及您的某些账号信息”，并附上详情的页面链接。
+
+        短信中的详情页面信息因用户受影响的程度而有所区别，点击进入T-Mobile网站的“数据泄露通知”的链接取决于公开的数据内容。“访问的个人信息可能包括姓名和地址、社会保险号、金融账户信息和政府识别号，以及电话号码、账单和账户信息以及费率计划和功能。”
+
+    - link: https://www.freebuf.com/news/229456.html
+    - link: https://www.bleepingcomputer.com/news/security/t-mobile-data-breach-exposes-customer-personal-financial-info/
+    - link: https://www.hackread.com/virgin-media-t-mobile-data-breach-exposes-personal-data/
+
+- **Visser Precision** 遭黑客勒索,如果不支付赎金，将公布被盗文件
+
+    - 事件经过:
+
+        一家为太空和国防承包商提供精密部件的制造商证实了一起网络安全事件，据称这起事件很可能是由勒索软件引起的。据悉，总部位于科罗拉多州丹佛市的 Visser Precision 制造商为包括汽车和航空业在内的许多行业制造定制零件。
+
+        该公司在一份简短声明中证实，公司是“最近一起网络安全犯罪事件的目标，包括获取或窃取数据”。Visser发言人表示，公司“继续对此次攻击进行全面调查，业务运行正常”。安全研究人员称，这次攻击是由 DoppelPaymer 勒索软件引起的，这是一种新的文件加密恶意软件，会威胁泄露公司的数据。该勒索软件黑客威胁说，如果不支付赎金，将公布被盗文件。
+
+        Visser遭窃取的文件列表包括客户名单的文件夹，这些客户包括特斯拉、SpaceX、飞机制造商波音和国防承包商 Lockheed Martin。其中部分文件可供下载，有的还包括了 Visser 与特斯拉和 SpaceX 之间的保密协议。托管被盗文件的网站称还有“很多”文件要发布。
+
+    - link: https://mp.weixin.qq.com/s/AtaemWcMff_Eqr_2fa5h2w
+
+- 公主邮轮承认公司 **Carnival** 存在数据泄露问题
+
+    - 事件经过:
+
+        在两艘邮轮爆发了新冠病毒后被迫在全球范围内停止运营的 Princess Cruises（公主邮轮）目前已证实存在数据泄露问题。据信，这份发布在其网站上的通知实际上是在3月初发布的。该份通知称，公司在2019年4月至7月的4个月时间内发现了大量未经授权的电子邮件账号登入，其中一些包含了职工、邮轮工作人员和客人的个人信息。
+
+    - link: https://www.cnbeta.com/articles/tech/955197.htm
+
+- 浏览器供应商 **Blisk** 开放的 Elasticsearch 服务器泄漏数据
+
+    - 事件经过:
+
+        浏览器供应商无意中使没有密码的Elasticsearch服务器暴露在互联网上后泄露了用户数据。泄漏发生在爱沙尼亚的Blisk公司，该公司开发了同名的Blisk浏览器。
+
+    - link: https://www.zdnet.com/article/browser-vendor-leaks-data-via-open-server/
+
+- 知名分析平台 **Sensor Tower** 被爆秘密收集数百万用户数据
+
+    - 事件经过:
+
+        知名 APP 分析平台 Sensor Tower 利用 VPN 应用和去广告应用程序，来收集 Android 和 iOS 平台数百万用户用户的数据。这些应用程序的全球下载量已超过3500万次，但是在应用描述中并没有透露和 Sensor Tower 有联系，或者会收集用户数据给该公司。
+
+    - link: https://www.buzzfeednews.com/article/craigsilverman/vpn-and-ad-blocking-apps-sensor-tower
+
+- 巴西公司 **Antheus Tecnologia** 数千份指纹记录泄露
+
+    - 事件经过:
+
+        研究人员周三发现一个包含约76000个独特指纹记录的网络服务器被暴露在互联网上。这些不安全的指纹数据，以及员工的电子邮件地址和电话号码，都是由巴西公司Antheus Tecnologia收集。
+
+    - link: https://www.cnbeta.com/articles/tech/954233.htm
+
+- 秘密共享应用 **Whisper** 数据泄露，数百万用户的敏感信息可被在线查看
+
+    - 事件经过:
+
+        Whisper 是一个秘密共享的应用程序，用户可以在其中发布匿名消息，但是安全漏洞导致用户内容和配置文件可供任何在线的人查看。
+
+    - link: https://www.zdnet.com/article/whisper-an-anonymous-secret-sharing-app-failed-to-keep-messages-profiles-private/
+
+- **Aero Direct** 遭遇数据泄露
+
+    - 事件经过:
+
+        黑客从 Aerial Direct 运作的资料库中窃取了 O2 客户的资料，该公司是 O2 在英国的最大直接业务合作伙伴，拥有超过13万客户。该公司提供 IP 电话服务和设备，包括移动电话、固定电话以及呼叫、宽带、会议和托管电信。
+
+    - link: https://securityaffairs.co/wordpress/99776/data-breach/aerial-direct-security-breach.html
+
+- 金融服务公司 **Advantage Capital Funding** 和 **Argus Capital Funding** 泄露了50万份敏感文件
+
+    - 事件经过:
+
+        vpnMentor 研究人员说，两家金融服务公司将数据存储在未受保护的 AWS S3 数据可中，从而泄露了50多万个敏感的法律和财务文件。调查显示，这些文件似乎与名为 MCA Wizard 的商户现金透支移动应用程序相关，可能属于 Advantage Capital Funding 和 Argus Capital Funding 这两家公司。
+
+    - link: https://www.securityweek.com/financial-services-firms-exposed-500000-sensitive-documents
+
+### 20.2
+
+- **Clearview AI** 被入侵，600多家客户名单被窃
+
+    - 事件经过:
+
+        AI 创业公司 Clearview AI，一家与600多家美国执法部门有合作的公司，近日发布公告，称入侵者窃取了该公司的所有客户名单，消息来源于该公司向其客户发送的通知。
+
+        Clearview AI数据库中涵盖了约30亿张人脸数据，仅靠一张脸部照片，就可以检索出全网所有的相关图片，包括照片的地址链接。但是，关于更具体的个人信息数据集，诸如姓名、联系方式和家庭住址，Clearview AI 还没有向C端公众开放。
+
+        Clearview AI向其客户披露，黑客非法获取了其客户列表，客户已设置的用户帐户数据，以及搜索数据访问权限。客户包括了美国移民局、司法部、银行，FBI，ICE，梅西百货，沃尔玛、NBA、阿拉伯联合酋长国的主权财富基金等 2228 多家机构和公司；此外还有更多的私人公司正在通过 30 天免费试用来测试该技术。这其中至少有 600 家美国执法机构使用了 Clearview AI 最新的面部识别系统，数据涵盖了 Facebook、Instagram、Twitter 和 YouTube 等社交媒体平台上抓取的超过 30 亿张照片，来完善自家的数据库资源。
+
+        Clearview AI 所拥有的数据量级已远远超过了美国联邦政府或者任何一家硅谷巨头的数据体量，即使像 FBI 这样的机构，其数据库也仅仅是收集了4.11 亿张照片。
+
+        这件事引起了美国数百个执法机构的关注，包括联邦调查局和国土安全部。但该公司的公告坚称 Clearview AI 的服务器未受到破坏，不会损害 Clearview 的系统或网络，还表示已修复了漏洞，且黑客未获得任何执法机构的搜索历史记录。
+
+    - link: https://mp.weixin.qq.com/s/lLWq5-7ri7N4fROHZFaz_g
+
+- 暗网黑客出售了46万印度人的支付卡数据
+
+    - 事件经过:
+
+        去年10月，HackRead报道了一个臭名昭著的暗网市场（称为Joker's Stash）中的黑客如何出售最大的财务记录集合之一，其中包括超过130万张印度银行客户的信用卡和借记卡（价值1.3亿美元）。
+
+        现在，同一市场上有一个新的列表，黑客在其中提供了另一组金融数据，其受害者仍然是相同的，即印度的银行客户毫无戒心。
+
+        Group-IB的IT安全研究人员发现了一个列表，其中黑客提供了从印度一些最大的银行盗取的超过461,976张支付卡记录。每张卡的售价为9美元。根据Group-IB威胁情报团队的说法，这些记录包含信用卡/借记卡号，其CVV / CVS代码和到期日期。此外，持卡人的全名，其电子邮件地址以及电话号码和实际地址也是数据的一部分。
+
+    - link: https://www.hackread.com/dark-web-hackers-selling-indian-payment-card-data/
+
+- **MGM hotel** 超过千万客户数据泄露
+
+    - 事件经过:
+
+        超过一千万米高梅酒店客户的数据泄露。除了普通客户外，泄露的数据还包括了众多的名人和科技公司的 CEO、政府官员的个人和联络信息。米高梅酒店已经证实了数据泄露事故。泄露的数据涉及 10,683,188 名客户，其中的个人信息包括了全名、家庭地址、电话号码、电子邮件和出生日期。米高梅称事故发生在去年夏天，它的一台云端服务器遭到未经授权访问，米高梅表示没有金融、支付卡和密码等敏感信息泄露，它已经立即通知了所有受影响客户。
+
+    - link: https://www.solidot.org/story?sid=63610
+    - link: https://www.zdnet.com/article/exclusive-details-of-10-6-million-of-mgm-hotel-guests-posted-on-a-hacking-forum/
+
+- **迪卡侬** 数据库泄露了1.23亿员工的数据
+
+    - 事件经过:
+
+        vpnMentor 的专家发现了一个泄漏的数据库，其中有超过1.23亿条记录属于迪卡侬西班牙（可能还有迪卡侬英国），泄露的数据涉及员工系统用户名、未加密的密码、API日志、API用户名、个人身份信息等。
+
+        不安全的归档文件的大小大于9GB，发布在ElasticSearch服务器上。该归档文件还包括管理员的未加密登录名，攻击者可以使用这些登录名来接管帐户并获取有关商店，员工和客户的其他机密信息。
+
+    - link: https://securityaffairs.co/wordpress/98471/data-breach/decathlon-spain-data-leak.html
+
+- 以色列选举管理应用程序 **Elector** 意外泄露了数百万选民的数据
+
+    - 事件经过:
+
+        近年来，数据泄露和安全漏洞有着高发的态势，甚至在一些重要的领域都难以幸免。以色列报纸 Haaretz 报道称，由第三方管理的 Elector 选举应用，近日就曝出了严重的问题，导致超过 600 万的选民数据被意外泄露。据悉，该应用由一家名叫 Feed-b 的公司开发和运营。尽管其迅速采取了措施，但已为时过晚。
+
+        为方便向支持者传达信息、并引导其至就近的投票站，以色列各政党纷纷推出了选举类应用程序。然而由于 Feed-b 管理不善，导致外界可在未公开的一段时间内，无限制地访问 645 万 3254 名公民的等数据。信息中包括了用户的全名、身份 ID、地址、性别、电话号码、以及以色列选民不经意间提供的其它个人数据。
+
+        以色列报纸 Haaretz 指出，这并不是他们首次见到类似的安全违例，但可能是规模最大的一次。
+
+    - link: https://www.cnbeta.com/articles/tech/941605.htm
+
+### 20.1
+
+- **微软** 错误配置的服务器泄露了 2.5 亿客户服务信息
+
+    - 事件经过:
+
+        微软承认，它的客户支持内部数据库因 Azure 云服务错误配置在 2019 年 12 月 5 日到 31 日之间暴露在网上。一共有五台 Elasticsearch 服务器暴露，这些服务器储存了相同的数据，彼此充当镜像。数据库含有大约 2.5 亿条记录，包含了电子邮件、IP 地址和支持案例细节。微软称，绝大部分记录不包含任何用户个人信息。微软表示它已经开始通知受影响的客户，表示没有发现数据被恶意使用。
+
+    - link: https://www.solidot.org/story?sid=63335
+    - link: https://www.pingwest.com/w/203591
+
+- 日本 **NEC** 公司确认2016年国防业务部门内部服务器存在安全漏洞
+
+    - 事件经过:
+
+        日本电气股份有限公司（NEC Corporation），简称NEC，是日本的一家跨国信息技术公司，总部位于日本东京港区(Minato-Ku)。NEC为商业企业、通信服务以及政府提供信息技术（IT）和网络产品。而这么一家大型企业，周五却表示，在截至2018年的几年中，它受到了重大网络攻击，导致被攻击者未经授权访问下载了27,445个文件，包括与日本国防部业务有关的文件。
+
+        NEC已确认，该公司的国防业务部门使用的某些内部服务器已受到第三方的未经授权的访问。根据公司和外部专门机构的调查，到目前为止，尚未确认到诸如信息泄漏之类的损害。为了补救，NEC集团已采取了一些措施，例如引入了未知的恶意软件检测系统(大概率趋势科技)，但无法检测到2016年12月之后，所发起的最初的渗透入口，以及内部如何被横向移动传播感染的痕迹。但这也证明了，攻击被发现于2016年12月。
+
+    - link: https://mp.weixin.qq.com/s/vamAlgysdc5XDOp05ke3NA
+
+- **三菱电机** 遭网络攻击
+
+    - 事件经过:
+
+        日本国防承包商三菱电机表示，受大规模网络攻击影响，个人及客户等信息可能外泄。据分析，中国网络黑客组织可能参与了攻击。遭到非法访问的电脑和服务器中没有包含关于防卫及电力、铁路等基础设施运用之类机密性高的信息，这些信息没有泄露。三菱电机表示，“未确认到”网络攻击导致的“受害及影响”。去年 6 月三菱电机国内服务器等设备被发现可疑迹象。公司实施内部调查，在总部･事业总部的大部分和总公司管理部门发现非法访问现象。据称由于非法访问的手法巧妙，调查持续至近期。
+
+    - link: https://www.solidot.org/story?sid=63311
+    - link: https://mp.weixin.qq.com/s/cZIJT3HAZIPZWNwcUpwwxw
+
+- **Facebook** 向 **Cambridge Analytica** 泄露用户信息，被巴西政府罚款 165 万美元
+
+    - 事件经过:
+
+        巴西因 Facebook与 Cambridge Analytica 共享用户数据而对 Facebook 罚款165万美元。检察官称，Facebook允许应用程序“ This is Your Digital Life”的开发人员访问巴西443,000位用户的数据。
+
+        “ This is Your Digital Life ” 应用发布于2014年 ，由Global Science Research（GSR）研发。该应用向用户提供1或2美元以进行在线调查，并请求访问该用户的个人资料信息。超过270,000个用户同意进行授权，这使得该应用可以使用这些信息进行学术研究。丑闻遭到曝光之后，Facebook“暂停”了与Cambridge Analytica（CA）及其控股公司的所有业务。
+
+    - link: http://hackernews.cc/archives/29130
+    - link: https://securityaffairs.co/wordpress/95974/social-networks/brazil-fined-facebook.html
+
+- **CheckPeople** 泄露5625万美国居民的个人详细信息
+
+    - 事件经过:
+
+        在公共互联网上已经找到了一个数据库，其中包含5625万美国居民的个人详细信息，其中包括带有中国IP地址的计算机，该数据库包含姓名，家庭住址，电话号码和年龄等。
+
+        信息孤岛似乎是以某种方式从位于佛罗里达州的CheckPeople.com（这是一个典型的寻人网站）获得的：要收费，您可以输入某人的名字，它会查询他们的当前和过去的地址，电话号码，电子邮件地址，亲戚姓名，甚至在某些情况下甚至是犯罪记录，都可能来自公共记录。
+
+        但是，所有这些信息不仅位于一个地方，可供垃圾邮件散布者，不法之徒和其他网民批量下载，而且是通过与阿里巴巴位于中国东部杭州的网络托管部门相关的IP地址提供的，原因不明。
+
+    - link: https://www.theregister.co.uk/2020/01/09/checkpeoplecom_data_exposed
+
 ## 2019数据泄露事件
 ### 19.12
+
+- 小偷偷走 **Facebook** 未加密硬盘，内含29000名员工信息
+
+    - 事件经过:
+
+        12月14日彭博社的一份报告称，今年11月17日，存储 29,000 名 Facebook 员工信息的未加密硬盘被盗（PS:硬盘有好几块）。硬盘包含有关 Facebook 在2018年雇用的数千名美国工人的信息，包括银行帐号，员工姓名，社会保险号的后四位数，工资，奖金和股权明细，Facebook 周五早上通过电子邮件将此事通知了员工。
+
+        尽管被盗的硬盘不包含任何 Facebook 的用户数据，但盗窃仍然引发了人们对 Facebook 有关个人数据的谨慎程度的质疑。盗窃发生后F acebook 没有立即通知员工，而是直到将近一个月后才通知员工。内部电子邮件显示 Facebook 在11月20日才意识到硬盘丢失，并在11月29日确认该硬盘包含员工信息。Facebook 仍在与警方合作，试图找回被盗的硬盘，并向其员工提供为期两年的身份盗窃保护服务。
+
+        一位 Facebook 发言人在给彭博社的一份声明中称：“我们没有发现任何滥用的迹象，盗贼并非是企图窃取员工信息。”令人惊讶的是，Facebook 存储个人信息的硬盘未加密，特别是考虑到 Facebook 员工居住和工作的海湾地区经常发生汽车盗窃案。Facebook 发言人说，Facebook 已采取“适当的纪律处分”。
+
+    - link: https://mp.weixin.qq.com/s/z5xKw0xjaSH4JbqVena4LA
+
+- 暗网出售2100万 **Mixcloud** 用户数据
+
+    - 事件经过:
+
+        本月早些时候，一名黑客入侵了在线音乐流媒体服务 Mixcloud，目前正在暗网市场上在线出售该网站的用户数据。这起黑客攻击事件在上周五曝光，当时这名黑客联系了几位记者，与他们分享信息，并提供了包括ZDNet在内的数据样本。
+
+        根据被盗数据的样本，黑客正在出售 Mixcloud 用户信息包括用户名、电子邮件地址、散列密码字符串、用户的国籍、注册日期、最后登录日期和IP地址等详细信息。这次入侵似乎发生在11月13日或之前，11月13日是数据转储中包含的最后一个用户配置文件的注册日期。
+
+    - link: https://mp.weixin.qq.com/s/lQhRWSr2R5Afc3gzzCJ7gw
+
+- **本田** 泄露北美客户26,000条记录
+
+    - 事件经过:
+
+        在2019年10月21日错误配置Elasticsearch集群后，汽车巨头本田暴露了大约26,000个车主记录，其中包含北美客户的个人身份信息（PII）。本田的日本安全团队在 12月12日被安全发现研究人员鲍勃·迪亚琴科（Bob Diachenko）联系后的短短几个小时内，立即保护了可公开访问的服务器。
+
+        研究人员在12月11日发现了该数据库，并且在BinaryEdge Internet连接的设备搜索引擎在12月4日对该数据库进行了索引之后，便能够在不进行身份验证的情况下访问该数据。数据库记录包括客户的全名，电子邮件地址，电话号码，邮寄地址，车辆型号和型号，车辆VIN，协议ID以及本田车辆的各种服务信息。
+
+        本田在一份声明中说：“有问题的数据库是北美远程信息处理服务的数据记录和监视服务器，涵盖了新客户的注册过程以及内部日志。”“截至今天，本田公司估计该数据库中与消费者相关的唯一记录的数量约为26,000。”该公司还表示，事件中没有泄露其北美客户的财务信息，信用卡数据或凭证。
+
+    - link: https://www.bleepingcomputer.com/news/security/honda-exposes-26-000-records-of-north-american-customers/
+
+- **星巴克** 开发人员在 GitHub Public Repo 中保留 API 密钥
+
+    - 事件经过:
+
+        星巴克开发人员的一个失误使暴露了一个API密钥，攻击者可以使用该API密钥访问内部系统并操纵授权用户列表。
+
+        由于允许访问星巴克JumpCloud API的密钥，此漏洞的严重性等级设置为“严重”。JumpCloud是一个Active Directory管理平台，被称为Azure AD替代产品。它提供用户管理，Web应用程序单点登录（SSO）访问控制和轻型目录访问协议（LDAP）服务。库玛（Kumar） 于10月17日报告了这一疏忽，近三周后，星巴克（Starbucks）回应说，它证明了“重大信息泄露”，并且有资格获得赏金。
+
+    - link: https://www.bleepingcomputer.com/news/security/starbucks-devs-leave-api-key-in-github-public-repo/
 
 - **Wyze** 在线的 ElasticSearch 集群泄露了用户数据
 
     - 事件经过:
 
-        智能家居技术制造商Wyze Labs证实，从12月4日至12月26日，在超过三周的时间内，连接到Elasticsearch集群的不安全数据库泄漏了超过240万用户的用户数据。
+        智能家居技术制造商 Wyze Labs 证实，从12月4日至12月26日，在超过三周的时间内，连接到 Elasticsearch 集群的不安全数据库泄漏了超过240万用户的用户数据。
 
-        Wyze CPO 表示，不安全的数据库确实包含客户电子邮件和相机昵称，WiFi SSID，Wyze设备信息，与Alexa集成相关的大约24,000个令牌以及身体身高（包括身高，体重，性别和其他少量健康信息）产品Beta测试人员。
+        Wyze CPO 表示，不安全的数据库确实包含客户电子邮件和相机昵称，WiFi SSID，Wyze 设备信息，与 Alexa 集成相关的大约24,000个令牌以及身体身高（包括身高，体重，性别和其他少量健康信息）产品 Beta 测试人员。
 
-        Wyze在公开的数据库中存储了140个外部Beta测试人员的健康信息，这是有限的新硬件Beta测试的一部分。
+        Wyze 在公开的数据库中存储了140个外部Beta测试人员的健康信息，这是有限的新硬件 Beta 测试的一部分。
 
-        此外，Wyze的联合创始人还表示：“没有证据表明iOS和Android的API令牌已被泄露，但我们作为预防措施，决定在开始调查时更新它们。”
+        此外，Wyze 的联合创始人还表示：“没有证据表明iOS和Android的API令牌已被泄露，但我们作为预防措施，决定在开始调查时更新它们。”
 
     - link: https://blog.12security.com/wyze/
     - link: https://forums.wyzecam.com/t/updated-01-06-20-data-leak-12-26-2019/79046
@@ -236,11 +546,11 @@
 
         近日，一位Palo Alto Networks的 IT管理员和其他人因参与内幕交易，获利数百万美元而被指控。
 
-        美国证券交易委员会（Securities and Exchange Commission），简称SEC，指控网络安全公司平底锅的前雇员Janardhan Nellore 涉嫌利用其对公司数据库的高访问权限来获取收益前的机密信息。
+        美国证券交易委员会（Securities and Exchange Commission），简称SEC，指控网络安全公司Palo Alto Networks的前雇员Janardhan Nellore 涉嫌利用其对公司数据库的高访问权限来获取收益前的机密信息。
 
-        当局在一份法庭文件中说，Nellore带领4个朋友使用这些机密信息来交易该公司的证券。使用用其员工访问凭证，工作联系人和工作合同来收集有关该公司即将发布的季度收益表和财务状况的信息。获取有关平底锅的季度收入和财务绩效的高度机密信息。并根据这些信息进行分析，作为内幕信息进行交易，并告知朋友，以便他们也可以从中受益。
+        当局在一份法庭文件中说，Nellore带领4个朋友使用这些机密信息来交易该公司的证券。使用用其员工访问凭证，工作联系人和工作合同来收集有关该公司即将发布的季度收益表和财务状况的信息。获取有关Palo Alto Networks的季度收入和财务绩效的高度机密信息。并根据这些信息进行分析，作为内幕信息进行交易，并告知朋友，以便他们也可以从中受益。
 
-        Nellore还试图逃避侦查，他在给朋友发的文字和电子邮件中使用代号“baby”来指称平底锅的股票，并建议他们“退出baby”或“输入几只baby”。代指买入卖出。此外，某些交易员在小额现金交易中将交易利润返还给Nellore，目的是避免银行审查和报告要求。FBI在5月份检查了Nellore的交易信息后，他为自己和家人购买了前往印度的单程票，并在机场被捕。而在他于今年早些时候被解雇之前，他们已经从内幕交易在股票市场上赚了700万美元。
+        Nellore还试图逃避侦查，他在给朋友发的文字和电子邮件中使用代号“baby”来指称Palo Alto Networks的股票，并建议他们“退出baby”或“输入几只baby”。代指买入卖出。此外，某些交易员在小额现金交易中将交易利润返还给Nellore，目的是避免银行审查和报告要求。FBI在5月份检查了Nellore的交易信息后，他为自己和家人购买了前往印度的单程票，并在机场被捕。而在他于今年早些时候被解雇之前，他们已经从内幕交易在股票市场上赚了700万美元。
 
         从申诉书上来看，他们已经从2015年就这样干了，赚了超过700万美元，四舍五入4千多万人民币，羡煞旁人。
 
@@ -335,6 +645,30 @@
     - link: https://www.bleepingcomputer.com/news/security/smith-and-wesson-web-site-hacked-to-steal-customer-payment-info/
 
 ### 19.11
+
+- **Facebook** 披露了由网上论坛 API 错误引起的隐私泄露
+
+    - 事件经过:
+
+        Facebook 解释，大约100名主要是视频流和社交媒体管理应用程序的开发人员可能已经访问了私人团体成员的信息，例如姓名和个人资料图片。
+
+        这是在 Facebook 限制或删除了多个开发人员API（包括Groups API）之后发生的，该 API 为应用程序开发人员提供了对组信息的扩展访问，其访问时间比预期的要长，因为他们的应用程序保留了对数据的访问权限。
+
+        Facebook 主管 Konstantinos Papamiltiadis 说“自从我们宣布对 Groups API 进行限制以来，今天我们还与大约100个合作伙伴进行了接触，尽管实际上这样做的数量可能会随着时间的流逝而减少和减少” 。Facebook 表示，将在2018年4月宣布 Groups API 限制后可能访问了组成员信息的开发人员将被要求删除可能已保留的成员数据，即使到目前为止尚未发现滥用的证据。
+
+    - link: https://www.bleepingcomputer.com/news/security/facebook-discloses-privacy-breach-caused-by-groups-api-bug/
+
+- **Select Health Network** 和 **Solara Medical Supplies** 健康网络数据泄露
+
+    - 事件经过:
+
+        Select Health Network 是来自圣约瑟夫州和马歇尔县的印第安纳州健康网络，由圣约瑟夫健康系统与770位医疗保健提供者（包括619位专家和151位初级保健医生）合作。
+
+        Select Health 在11月13日披露，从2019年5月22日至2019年6月13日，一位未知的参与者未经授权访问了其员工的一个电子邮件帐户。Select Health 在得知电子邮件帐户中的可疑活动后才发现了入侵-未发现异常活动的日期-在立即首先保护帐户安全之后，与第三方法医专家合作进行了调查。尽管调查无法在查看帐户中存储的数据后确定事件中访问了哪些电子邮件和信息（如果有）。但是，Select Health 在查看了2019年10月1日收到的第三方审核结果之后，便能够识别出受影响的个人，并于2019年11月1日开始与他们联系以获取有关此违规事件的信息。
+
+        Solara Medical Supplies 是美国最大的胰岛素泵和连续血糖监测仪（CGM）的独立供应商。供应商于2019年6月28日发现，在一系列网络钓鱼攻击之后，在2019年4月2日至2019年6月20日之间未经授权访问了其许多员工的Office 365帐户。Solara还发现，“在事件发生时，未知参与者可能已经访问或获取了Office 365员工帐户中存在的某些信息”。在第三方法医专家团队的帮助下，手动查看了受侵害的帐户后，Solara能够发现哪些人暴露了此事件中的信息。
+
+    - link: https://www.bleepingcomputer.com/news/security/us-health-network-supplier-expose-pii-phi-data-in-breaches/
 
 - **Magento Marketplace** 遭受数据泄露，暴露了用户的帐户信息
 
@@ -596,6 +930,51 @@
 
 ### 19.10
 
+- **Network Solutions** 披露了发生在2019年8月下旬的安全漏洞
+
+    - 事件经过:
+
+        全球首个域名注册商网络解决方案（Network Solutions）披露了发生在2019年8月下旬的安全漏洞，并允许第三方未经授权渗透到公司的某些计算系统中，并有可能访问某些客户的个人身份信息（PII）。
+
+        Network Solutions 自2011年以4.05亿美元和1800万股的价格被收购以来，是 Web.com 的子公司。该公司为客户提供“可靠的网站服务，例如域名，托管，安全性，专业电子邮件等”。违规通知说：“在2019年10月16日，Network Solutions 确定第三方在2019年8月下旬获得了对我们有限数量的计算机系统的未经授权的访问，因此，可能已访问了帐户信息。” “此事件没有导致信用卡数据泄露。”
+
+        网络解决方案发现安全漏洞后立即聘请了独立的网络安全公司来调查此事件。他们还向联邦当局报告了这一情况，并且正在通知所有受影响的客户。入侵期间可能已经访问了现有客户和以前客户的帐户数据，其中的信息包括“联系方式，例如姓名，地址，电话号码，电子邮件地址以及有关我们向给定帐户持有人提供的服务的信息”。该公司认为，鉴于信用卡号是以加密形式存储的，因此没有信用卡数据在攻击中受到破坏。
+
+    - link: https://www.bleepingcomputer.com/news/security/worlds-first-domain-registrar-network-solutions-discloses-breach/
+
+- **万豪酒店** 称员工的社会保险号被盗
+
+    - 事件经过:
+
+        万豪国际将其社会安全号码（SSN）暴露给一个未知方的事件通知了一些员工。一个不知名的人可能已经从一个未具名的供应商的网络中访问了该信息，该供应商正在充当酒店的代理以接收正式文件服务。
+
+        万豪在9月4日获悉，有人访问了官方文件中的敏感信息，例如传票和法院文件，这些信息出现在万豪以前使用的外部供应商的系统上。至少有1,552个人受到影响。从10月30日起，酒店开始通过邮件通知可以找到地址的人。
+
+    - link: https://www.bleepingcomputer.com/news/security/marriott-reports-exposure-of-associates-social-security-numbers/
+
+- **Adobe Creative Cloud** 泄露750万条户数据记录
+
+    - 事件经过:
+
+        Adobe 通过750万条属于 Adobe Creative Cloud 用户的记录来保护数据库。缓存不受任何方式的保护，允许任何人访问客户端信息（如果他们知道如何查找）。尽管所包含的详细信息不是很敏感，但可以将其用于针对暴露数据的客户发起更精心设计的网络钓鱼活动。
+
+        迪亚琴科（Diachenko）于10月19日向 Adobe 报告了他的发现，该公司在同一天保护了 Elasticsearch 数据库。据Comparitech称，不包括敏感细节，例如密码或付款数据。没有关于是否有人访问过该信息的信息，但如果有人访问了该信息，则可以将其用于定向的网络钓鱼活动。根据研究人员提供的截图，缓存的大小接近86GB
+
+    - link: https://www.bleepingcomputer.com/news/security/75-million-records-of-adobe-creative-cloud-user-data-exposed/
+
+- 黑客从 **开曼国家银行** 窃取了 2TB 的数据
+
+    - 事件经过:
+
+        据报道，开曼国家银行遭受了大规模的数据泄露，这是由黑客主义者 Phineas Fisher（也称为 HackBack）进行的。
+
+        黑客发布了该银行1400个客户的超过2TB数据，其中包括大约64万封电子邮件。几乎一半的客户在开曼国家银行（曼岛）注册。该数据包括客户的完整地址，以及3800个银行帐户的余额信息和所有者名称。
+
+        存档的链接已上载到“@DDoSecrets” 的 Twitter 帐户。开曼国家银行和信托基金会（Trust）确认其数据库中的“原始”数据遭到了黑客攻击，同时共享了一份包含该黑客攻击详细信息的内部文档。但是，“数据黑客”的范围尚待银行解释。
+
+    - link: https://www.hackread.com/hacker-leaks-2tb-of-cayman-national-bank-data/
+    - link: https://securityaffairs.co/wordpress/94136/data-breach/cayman-national-bank-data-leak.html
+
 - 黑客从 **BriansClub** 刷卡网站偷走了卡的详细信息
 
     - 事件经过:
@@ -781,7 +1160,7 @@
 
         未经授权的人可以访问TransUnion Canada网站门户,并使用它来提取消费者信用文件.通过使用从有权访问门户的TransUnion客户窃取的凭据来完成此操作.
 
-        BleepingComputer已获悉,从上周开始,加拿大TransUnion开始通过邮政向消费者发送数据安全事件通知,该消费者的信息是通过未经授权的登录访问的.
+        从上周开始,加拿大TransUnion开始通过邮政向消费者发送数据安全事件通知,该消费者的信息是通过未经授权的登录访问的.
 
         这些通知指出,未经授权的用户在2019年6月28日至7月11日期间使用TransUnion业务门户执行信用文件查找.攻击者能够使用其凭据被盗的TransUnion客户帐户来访问门户.
 
@@ -1758,7 +2137,7 @@
         包含数十万条客户记录,内部电子邮件以及员工日常任务的数据库以及他们在联系客户时所做的调用都没有受到保护,将所有数据暴露给知道在哪里以及如何查找它的人.
 
         根据该公司的 LinkedIn 简介,"FMC 成功地帮助我们的客户在中国充满活力的市场中放置了 10,000 多个竞争职位(截至2018年底).这些职位包括专业职位,中层管理职位和区域业务负责人."
-        作为 GDI 基金会成员和独立安全研究员的 Sanyam Jain 发现了错误配置的ElasticSearch 集群,并联系了 BleepingComputer 以取消数据库.
+        作为 GDI 基金会成员和独立安全研究员的 Sanyam Jain 发现了错误配置的ElasticSearch 集群.
 
     - link: https://www.bleepingcomputer.com/news/security/headhunting-firm-leaks-millions-of-resumes-client-private-data/
 
@@ -3024,7 +3403,8 @@
 
         Python 安全团队从 PyPI (Python Package Index) 移除了两个被发现会窃取 SSH 和 GPG 密钥的恶意 Python 库。两个库都由同一名开发者创建，利用名字相似的方法去模仿已知的流行库：python3-dateutil 试图模仿流行的 dateutil 库，jeIlyfish 模仿 jellyfish 库。德国开发者 Lukas Martini 上周日发现了这两个恶意库，在通知安全团队之后它们被立即移除。Martini 称，恶意代码只存在于 jeIlyfish 中，python3-dateutil 本身不包含恶意代码，但它会导入 jeIlyfish 库。dateutil 开发团队成员 Paul Ganssle 分析后认为，恶意代码是尝试从用户计算机上窃取 SSH 和 GPG 密钥，然后发送到一个 IP 地址。
 
-    - link: https://www.solidot.org/story?sid=62845
+    - link: https://www.solidot.org/story?sid=
+    - link: https://securityboulevard.com/2019/12/fake-python-libraries-caught-trying-to-steal-ssh-and-gpg-keys/
 
 ### 19.10
 
@@ -3079,9 +3459,9 @@
         今天早些时候,npm 从存储库中取出了包"bb-builder",标记为恶意并具有严重的严重性.
         该通报警告说,安装或运行此软件包的计算机应被视为"完全受损",因为它为Windows操作系统部署了一个可执行文件,将敏感信息发送到远程服务器.
 
-        "存储在该计算机上的所有机密和密钥应立即从另一台计算机上旋转," npm建议道.
+        "存储在该计算机上的所有机密和密钥应立即转移," npm建议道.
 
-        npm 收到了来自 ReversingLabs 的联合创始人兼首席软件架构师 Tomislav Pericin 的提示,该公司提供自动静态分析和文件信誉服务.研究人员告诉BleepingComputer 他在扫描整个 npm 存储库以查找危险条目后发现了坏包 - 大约有900万个包转换为35TB的解压缩数据.在基于扫描结果收集和索引的1.6TB元数据中,存在用于 Windows 的可执行代码.
+        npm 收到了来自 ReversingLabs 的联合创始人兼首席软件架构师 Tomislav Pericin 的提示,该公司提供自动静态分析和文件信誉服务.研究人员在扫描整个 npm 存储库以查找危险条目后发现了坏包 - 大约有900万个包转换为35TB的解压缩数据.在基于扫描结果收集和索引的1.6TB元数据中,存在用于 Windows 的可执行代码.
 
         Pericin 告诉我们,在破坏帐户所有者的凭据后,"bb-builder"已被添加到npm.它一年未被发现.该项目的1.0.1版是第一个包含密码恢复工具的项目."bb-builder"的每次新迭代都添加了新功能,例如将凭据提交给作者的Web服务器,更改被盗数据的存储位置,修复错误或在发送到远程计算机后删除它.
 
@@ -3450,8 +3830,6 @@
 - **DLink** 存在管理后门
 
     - 事件经过: 当攻击者请求中的User Agent(Http 请求包中用于标识浏览器的字段)包含特殊的字符串"xmlset_roodkcableoj28840ybtide",该用户可以绕过路由器的帐号密码验证直接访问其 Web 管理界面.
-
-    - link: http://blog.jobbole.com/49959/
 
     - link: https://bbs.pediy.com/thread-182012.htm
 
