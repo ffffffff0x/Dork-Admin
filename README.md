@@ -10,19 +10,14 @@
 
 ---
 
-# Manual🦄
+## Manual
 
-**简介 :** 盘点各国各行业的数据泄露、供应链污染事件,希望可以起到一定的警示作用.
-
-**灵感来源 :** https://haveibeenpwned.com/PwnedWebsites、 https://www.freebuf.com/articles/paper/147403.html
-
-**消息源 :** [verizon DBIR](https://enterprise.verizon.com/resources/reports/dbir/)、[haveibeenpwned](https://haveibeenpwned.com)、[securityaffairs](https://securityaffairs.co/wordpress/tag/data-leak)、[hackernews](http://hackernews.cc/archives/category/%E6%95%B0%E6%8D%AE%E6%B3%84%E9%9C%B2)、[Freebuf](https://www.freebuf.com)、[bleepingcomputer](https://www.bleepingcomputer.com)、[zdnet](https://www.zdnet.com)、[Solidot](https://www.solidot.org)、[Rainbowtabl.es](https://rainbowtabl.es/)、[Databreaches](https://www.databreaches.net/category/breach-types/exposure/)
-
-**更新间隔 :** 不定期
-
-**隐私保护 :** 配合隐私保护方案食用效果更佳 : [Digital-Privacy](https://github.com/No-Github/Digital-Privacy)
-
-**项目地址 :** https://github.com/No-Github/Dork-Admin
+* **简介 :** 盘点各国各行业的数据泄露、供应链污染事件,希望可以起到一定的警示作用.
+* **灵感来源 :** https://haveibeenpwned.com/PwnedWebsites、 https://www.freebuf.com/articles/paper/147403.html
+* **消息源 :** [verizon DBIR](https://enterprise.verizon.com/resources/reports/dbir/)、[haveibeenpwned](https://haveibeenpwned.com)、[securityaffairs](https://securityaffairs.co/wordpress/tag/data-leak)、[hackernews](http://hackernews.cc/archives/category/%E6%95%B0%E6%8D%AE%E6%B3%84%E9%9C%B2)、[Freebuf](https://www.freebuf.com)、[bleepingcomputer](https://www.bleepingcomputer.com)、[zdnet](https://www.zdnet.com)、[Solidot](https://www.solidot.org)、[Rainbowtabl.es](https://rainbowtabl.es/)、[Databreaches](https://www.databreaches.net/category/breach-types/exposure/)
+* **更新间隔 :** 不定期
+* **隐私保护 :** 配合隐私保护方案食用效果更佳 : [Digital-Privacy](https://github.com/No-Github/Digital-Privacy)
+* **项目地址 :** https://github.com/No-Github/Dork-Admin
 
 <p align="center">
     <img src=".//assets/img/readme.png">
@@ -33,11 +28,8 @@
 ## 免责声明
 
 1. `本项目所有内容、新闻皆来源于网络,非本人捏造,一切来源可查`
-
 2. `本项目所有内容、新闻皆不代表本人态度、立场`
-
 3. `未收及不会收取任何广告费用,所有记录事件与本人无任何利害关系`
-
 4. `因个人水平、精力有限,无法保证所有新闻真实性、实时性,因个人英语能力实在不佳,大部分内容只能机翻,请观者自行斟酌`
 
 ---
@@ -46,124 +38,121 @@
 
 **数据泄露**
 
-<details>
-<summary>View <a href="#2020数据泄露事件">2020数据泄露事件</a></summary>
+* <details><summary><a href="#2020数据泄露事件">2020数据泄露事件</a> View👇</summary>
 
-* [20.3](#203)
-* [20.2](#202)
-* [20.1](#201)
+    * [20.9](#209)
+    * [20.8](#208)
+    * [20.7](#207)
+    * [20.6](#206)
+    * [20.5](#205)
+    * [20.4](#204)
+    * [20.3](#203)
+    * [20.2](#202)
+    * [20.1](#201)
 
-</details>
+    </details>
 
-<details>
-<summary>View <a href="#2019数据泄露事件">2019数据泄露事件</a></summary>
+* <details><summary><a href="#2019数据泄露事件">2019数据泄露事件</a> View👇</summary>
 
-* [19.12](#1912)
-* [19.11](#1911)
-* [19.10](#1910)
-* [19.9](#199)
-* [19.8](#198)
-* [19.7](#197)
-* [19.6](#196)
-* [19.5](#195)
-* [19.4](#194)
-* [19.3](#193)
-* [19.2](#192)
-* [19.1](#191)
+    * [19.12](#1912)
+    * [19.11](#1911)
+    * [19.10](#1910)
+    * [19.9](#199)
+    * [19.8](#198)
+    * [19.7](#197)
+    * [19.6](#196)
+    * [19.5](#195)
+    * [19.4](#194)
+    * [19.3](#193)
+    * [19.2](#192)
+    * [19.1](#191)
 
-</details>
+    </details>
 
-<details>
-<summary>View <a href="#2018数据泄露事件">2018数据泄露事件</a></summary>
+* <details><summary><a href="#2018数据泄露事件">2018数据泄露事件</a> View👇</summary>
 
-* [18.12](#1812)
-* [18.11](#1811)
-* [18.10](#1810)
-* [18.9](#189)
-* [18.8](#188)
-* [18.7](#187)
-* [18.6](#186)
-* [18.5](#185)
-* [18.4](#184)
-* [18.3](#183)
-* [18.2](#182)
+    * [18.12](#1812)
+    * [18.11](#1811)
+    * [18.10](#1810)
+    * [18.9](#189)
+    * [18.8](#188)
+    * [18.7](#187)
+    * [18.6](#186)
+    * [18.5](#185)
+    * [18.4](#184)
+    * [18.3](#183)
+    * [18.2](#182)
 
-</details>
+    </details>
 
-<details>
-<summary>View <a href="#2017数据泄露事件">2017数据泄露事件</a></summary>
+* <details><summary><a href="#2017数据泄露事件">2017数据泄露事件</a> View👇</summary>
 
-* [17.12](#1712)
-* [17.10](#1710)
-* [17.9](#179)
-* [17.8](#178)
+    * [17.12](#1712)
+    * [17.10](#1710)
+    * [17.9](#179)
+    * [17.8](#178)
 
-</details>
+    </details>
 
-<details>
-<summary>View <a href="#2016数据泄露事件">2016数据泄露事件</a></summary>
+* <details><summary><a href="#2016数据泄露事件">2016数据泄露事件</a> View👇</summary>
 
-* [16.12](#1612)
-* [16.11](#1611)
-* [16.9](#169)
-* [16.8](#168)
-* [16.7](#167)
-* [16.3](#163)
-* [16.2](#162)
+    * [16.12](#1612)
+    * [16.11](#1611)
+    * [16.9](#169)
+    * [16.8](#168)
+    * [16.7](#167)
+    * [16.3](#163)
+    * [16.2](#162)
 
-</details>
+    </details>
 
-<details>
-<summary>View <a href="#2015数据泄露事件">2015数据泄露事件</a></summary>
+* <details><summary><a href="#2015数据泄露事件">2015数据泄露事件</a> View👇</summary>
 
-* [15.10](#1510)
-* [15.9](#159)
-* [15.8](#158)
-* [15.2](#152)
-* [15.1](#151)
+    * [15.10](#1510)
+    * [15.9](#159)
+    * [15.8](#158)
+    * [15.2](#152)
+    * [15.1](#151)
 
-</details>
+    </details>
 
-<details>
-<summary>View <a href="#2014数据泄露事件">2014数据泄露事件</a></summary>
+* <details><summary><a href="#2014数据泄露事件">2014数据泄露事件</a> View👇</summary>
 
-* [14.12](#1412)
-* [14.11](#1411)
-* [14.9](#149)
-* [14.5](#145)
-* [14.1](#141)
+    * [14.12](#1412)
+    * [14.11](#1411)
+    * [14.9](#149)
+    * [14.5](#145)
+    * [14.1](#141)
 
-</details>
+    </details>
 
-<details>
-<summary>View <a href="#2013数据泄露事件">2013数据泄露事件</a></summary>
+* <details><summary><a href="#2013数据泄露事件">2013数据泄露事件</a> View👇</summary>
 
-* [13.10](#1310)
-* [13.9](#139)
-* [13.2](#132)
+    * [13.10](#1310)
+    * [13.9](#139)
+    * [13.2](#132)
 
-</details>
+    </details>
 
-<details>
-<summary>View <a href="#2012数据泄露事件">2012数据泄露事件</a></summary>
+* <details><summary><a href="#2012数据泄露事件">2012数据泄露事件</a> View👇</summary>
 
-* [12.8](#128)
-* [12.7](#127)
-* [12.5](#125)
-* [12.1](#121)
+    * [12.8](#128)
+    * [12.7](#127)
+    * [12.5](#125)
+    * [12.1](#121)
 
-</details>
+    </details>
 
-<details>
-<summary>View <a href="#2011数据泄露事件">2011数据泄露事件</a></summary>
+* <details><summary><a href="#2011数据泄露事件">2011数据泄露事件</a> View👇</summary>
 
-* [11.12](#1112)
-* [11.6](#116)
+    * [11.12](#1112)
+    * [11.6](#116)
 
-</details>
+    </details>
 
 **供应链攻击**
 
+* [2020供应链攻击事件](#2020供应链攻击事件)
 * [2019供应链攻击事件](#2019供应链攻击事件)
 * [2018供应链攻击事件](#2018供应链攻击事件)
 * [2017供应链攻击事件](#2017供应链攻击事件)
@@ -181,7 +170,881 @@
 # 数据泄露
 
 ## 2020数据泄露事件
+
+### 20.9
+
+- **推特** 向开发者警示：私有应用密钥和账号令牌有暴露风险
+
+    - 事件经过:
+
+        近日推特向开发者发布电子邮件，警告称由于 BUG 他们的私有应用密钥和账号令牌可能已经被暴露。在这份邮件中，推特表示这些私钥和令牌可能被错误地存储在浏览器的缓存中。
+
+        在电子邮件中写道：“在修复之前，如果您使用公共或共享计算机在developer.twitter.com上查看您的开发者应用程序密钥和令牌，它们可能已经暂时存储在该计算机上的浏览器缓存中。如果在那个临时时间段内，在你之后使用同一台电脑的人知道如何访问浏览器的缓存，并且知道该寻找什么，那么他们有可能访问了你查看的密钥和令牌”。
+
+        在邮件中，推特表示在某些情况下开发者自己的推特账号凭证也可能会被曝光。和密码一样，这些私钥、令牌可以被认为是一种通行密码，因为它们可以代表开发者与 Twitter 进行交互。访问令牌也是高度敏感的，因为如果被盗，它们可以让攻击者在不需要密码的情况下访问用户的账户。
+
+        Twitter表示，目前还没有看到任何证据表明这些密钥被泄露，但出于谨慎的考虑，还是提醒了开发者。邮件中说，可能使用过共享电脑的用户应该重新生成他们的应用密钥和令牌。目前还不知道有多少开发者受到该漏洞的影响，也不知道该漏洞具体何时被修复。Twitter发言人不愿意提供这方面的信息。
+
+    - link: http://hackernews.cc/archives/32314
+    - link: https://www.bleepingcomputer.com/news/security/twitter-is-warning-devs-that-api-keys-and-tokens-may-have-leaked/
+
+- **微软Bing** 服务器暴露 6.5 TB 用户搜索记录数据
+
+    - 事件经过:
+
+        WizCase 研究人员发现与Microsoft Bing 有关的服务器泄露了搜索引擎的移动应用用户的敏感数据，包括搜索记录、设备详情、GPS 坐标等。该数据泄露事件共泄露了6.5 TB的日志文件缓存，任何人无需密码就可以访问这些数据。幸运的是泄露的数据中不包含姓名、地址这样的个人信息。
+
+    - link: https://nosec.org/home/detail/4580.html
+    - link: https://www.wizcase.com/blog/bing-leak-research/
+    - link: https://www.theregister.com/2020/09/23/microsoft_leaks_over_65tb_bing/
+
+- **微软Windows XP SP1** 源码泄露
+
+    - 事件经过:
+
+        一位 4chan 网友在本周四宣称，Windows XP 操作系统（SP1 版本）的源码已经泄露，并且附上了该系统标志性的壁纸截图。为了加速传播，另一位 Reddit 网友还打包出了一个 BT 种子（torrent 文件）。
+
+    - link: https://www.cnbeta.com/articles/tech/1033615.htm
+    - link: https://raidforums.com/Thread-Windows-XP-Source-code-leaked
+    - link: https://boards.4channel.org/g/thread/77874231
+    - link: https://boards.4channel.org/g/thread/77879263/soooo-windows-xp-source-code-leaked
+    - link: https://www.bleepingcomputer.com/news/microsoft/the-windows-xp-source-code-was-allegedly-leaked-online/
+
+- **深圳振华数据信息技术有限公司** 数据库泄露
+
+    - 事件经过:
+
+        整合境外数据信息为国内机构提供服务的深圳振华数据信息技术有限公司的一个数据库外泄。数据库包含了大约 240 万人的信息，绝大部分收集自社交网络。澳大利亚堪培拉的网络安全咨询公司 Internet 2.0 分析了其中 25 万人的记录，有 5.2 万美国人、3.5 万澳洲人和 1 万英国人。这些数据包括了政客如英国首相 Boris Johnson，政客的亲戚、王室、名人和军人。深圳振华的一名发言人表示，这只是数据整合，该公司否认与中国政府或军方有关联，称其客户主要为研究组织和商业团体。
+
+    - link: https://www.solidot.org/story?sid=65537
+
+- **雷蛇** 泄露了超 10 万用户的个人信息
+
+    - 事件经过:
+
+        安全研究员 Volodymyr Diachenko 发现，由于服务器配置错误，Razer 网站于 8 月 18 日公开了超 10 万游戏玩家的个人信息。虽然不包括信用卡付款信息，但截图表明该公司的数字商店订单记录被意外曝光，其中包括消费者的电子邮件、邮寄地址、订购的产品类型、以及电话号码等在内的个人信息。
+
+        此事耗费了将近一个月来沟通反馈，在网上发现了这一问题后，Volodymyr Diachenko 在三周内与 RAZER 进行了多次接触，最终收到了一份答复。这家游戏硬件制造商承认服务器存在配置错误，且用户的个人信息可能已被泄露，包括消费者全名、电话号码、以及送货地址等。
+
+    - link: http://hackernews.cc/archives/32120
+
+- **动视** 发生严重个人资料泄漏事件：超 50 万账号被曝光
+
+    - 事件经过:
+
+        外媒 Dexerto 报道，可能有超过 50 万个动视账号被入侵，包括密码在内的登录凭证信息被泄漏。
+
+        上周日晚上，Okami 和 TheGamingRevolution 等《使命召唤》的 Insider 率先报告了动视的本次安全事件，他们称黑客攻击是持续的。TheGamingRevolution 在推文中写道：“动视的账号显然正在泄漏，所以请尽快改变你的密码，尽管这可能甚至没有帮助，因为他们每 10 分钟就会窃取 1000 个账户”。
+
+    - link: http://hackernews.cc/archives/32267
+
+- 美国工资协会 **APA** 披露信用卡被盗事件
+
+    - 事件经过:
+
+        大约在2020年7月23日，APA发现其网站和在线商店被攻击者攻破，攻击者收集敏感信息并将其过滤到攻击者控制的服务器上。
+
+        攻击者根据APA政府高级总监Robert Wagner 发送给受影响个人的数据泄露通知，利用组织内容管理系统（CMS）中的安全漏洞入侵APA的网站和在线商店。一旦获得对组织站点和商店的访问权，他们就将撇取器部署在网站的登录页面和APA电子商务商店的结帐部分。
+
+        据APA的安全团队表示，该恶意活动可以追溯到2020年5月13日，大约是美国东部时间下午7:30。APA说：“未经授权的个人可以访问登录信息（即用户名和密码）和个人支付卡信息（即信用卡信息及相关数据）。”
+
+    - link: https://www.bleepingcomputer.com/news/security/american-payroll-association-discloses-credit-card-theft-incident/
+
+- 华纳音乐集团 **WMG** 披露了一项数据泄露事件
+
+    - 事件经过:
+
+        该公司表示，此事件涉及其通过外部服务提供商运营的多个电子商务网站，该安全漏洞可能使黑客能够窃取输入到该网站的个人信息
+
+        该公司在发送的违规通知信中说：“到2020年8月5日，我们获悉，未经授权的第三方已经破坏了WMG运营的许多美国电子商务网站，但这些网站由外部服务提供商托管和支持。” 给受影响的个人。
+
+        “这允许未经授权的第三方潜在地获取您在2020年4月25日至2020年8月5日之间进入一个或多个受影响网站的个人信息的副本。”
+
+        即使WMG的调查没有发现任何信息被泄露的迹象，也没有排除发生这种可能性的可能性，并警告受影响的个人可能在攻击过程中使用被盗的个人和财务细节进行欺诈活动。
+
+    - link: https://www.bleepingcomputer.com/news/security/warner-music-group-finds-hackers-compromised-its-online-stores/
+
+- 美国人员配置公司 **Artech** 披露了勒索软件攻击，数据泄露
+
+    - 事件经过:
+
+        美国最大的IT人员配置公司之一的Artech Information Systems已披露了一个勒索软件攻击导致的数据泄露，该勒索软件攻击在2020年1月初影响了其某些系统。
+
+        “ 2020年1月15日，调查确定未经授权的黑客在2020年1月5日至2020年1月8日之间可以访问某些Artech系统。”
+
+        记者于2020年1月11日获悉对Artech服务器的攻击，当时REvil（Sodinokibi）勒索软件团伙泄露了337MB他们声称是从该公司服务器窃取的文件。
+
+    - link: https://www.bleepingcomputer.com/news/security/us-staffing-firm-artech-discloses-ransomware-attack-data-breach/
+
+- **新泽西大学医院 UHNJ** 遭到SunCrypt勒索软件攻击，数据泄漏
+
+    - 事件经过:
+
+        SunCrypt勒索软件操作已泄漏了据称在9月份勒索软件攻击中从UHNJ窃取的数据。
+
+        SunCrypt是勒索软件运营商，于2019年10月开始活动，但活动并不活跃。在过去的几个月中，自释放专用泄漏点以来，它们变得更加活跃。
+
+        据称，从新泽西大学医院盗取的240 GB数据中，攻击者已经泄漏了1.7 GB的存档，其中包含超过48,000个文档。该数据泄漏包括患者信息发布授权表，驾驶执照副本，社会安全号码（SSN），出生日期（DOB）以及有关董事会的记录。
+
+    - link: https://www.bleepingcomputer.com/news/security/university-hospital-new-jersey-hit-by-suncrypt-ransomware-data-leaked/
+
+- 美国退伍军人事务部 **VA** 数据泄露影响了46,000名退伍军人
+
+    - 事件经过:
+
+        在昨天发布的数据泄露通知中，弗吉尼亚州表示，黑客破坏了他们的系统，以窃取专为向退伍军人提供治疗的医疗服务提供者的款项。“金融服务中心（FSC）确定未经授权的用户可以访问其在线应用程序之一，以将款项转给社区医疗服务提供者，用于退伍军人的医疗。FSC将该应用程序离线，并向VA的隐私权办公室报告了违规行为。”VA陈述的通知。
+
+        该机构进行的一项调查确定，未经授权的用户可以通过社会工程和利用身份验证协议来访问其系统。为防止进一步的未经授权的访问，VA已关闭对其系统的访问，直到VA信息技术办公室完成彻底的调查。
+
+        尽管VA并未说明发布了哪些个人信息，但由于受到破坏的系统的性质，它可能是退伍军人的姓名，地址，社会安全号码，电话号码以及可能的医疗信息。VA金融服务中心（FSC）正在与所有受影响的个人联系，包括死者的近亲，以警告他们其数据存在风险。所有暴露了社会保障号码的受害者也将获得免费的信用监测服务。
+
+    - link: https://www.bleepingcomputer.com/news/security/us-dept-of-veterans-affairs-data-breach-affects-46-000-veterans/
+
+- **Staples** 披露数据泄露事件
+
+    - 事件经过:
+
+        巨型办公零售公司Staples告知其一些客户，未经授权便访问了与其订单有关的数据。
+
+        这家办公零售巨头发出了一封由Staples Inc.首席执行官亚历山大·桑迪·道格拉斯（Alexander'Sandy'Douglas）签署的简短通知信，其中简要介绍了这一事件。零售商尚未确定确切访问的内容，但可以包含Staples归类为“非敏感的客户订单数据”：名称，地址，电子邮件地址，电话号码，最后四个信用卡位，订单详细信息（交货，成本，产品）。
+
+    - link: https://www.bleepingcomputer.com/news/security/staples-discloses-data-breach-exposing-customer-info/
+
+- 美国健身中心 **Town Sports International** 遭受数据泄露，影响60万客户
+
+    - 事件经过:
+
+        在一个包含超过600,000个人信息的数据库暴露在Internet上之后，纽约健身连锁店Town Sports遭受了数据泄露。
+
+        在Comparitech的一份新报告中，安全研究人员Bob Diachenko发现并分析了属于Town Sports International的数据库。
+
+        该数据库包含近60万名成员或员工的用户记录，并包含个人信息，包括姓名，地址，电话号码，电子邮件地址，信用卡的后四位数字，信用卡的有效期以及会员的帐单记录。
+
+    - link: https://www.bleepingcomputer.com/news/security/us-fitness-chains-suffer-data-breach-affecting-600k-customers/
+
+### 20.8
+
+- 6亿快递单号被卖，9家快递公司参与
+
+    - link: https://mp.weixin.qq.com/s/3lfA71CGjBmLpBTLkiDeDA
+
+- **英特尔** 20GB机密数据泄漏，含有BIOS和专有技术源代码等
+
+    - 事件经过:
+
+        美国芯片制造商英特尔正在调查安全漏洞，因为今天早些时候在文件共享网站MEGA上在线上传了20 GB内部文件，其中带有一些标有“机密”或“受限制的机密”的文件。
+
+        该数据由瑞士软件工程师蒂尔·科特曼（Till Kottmann）发布，他说他收到了一位匿名黑客的文件，该黑客声称已于今年早些时候违反了英特尔的规定。
+
+        根据分析，泄露的文件包含与各种芯片组的内部设计有关的英特尔知识产权。这些文件包含可追溯至2016年的CPU的技术规格，产品指南和手册。记者收到了Kottmann和他的消息来源之间的对话副本，其中涉嫌的黑客声称是通过Akamai CDN上托管的不安全服务器获取数据的，而不是通过使用Intel Resource和设计中心。
+
+    - link: https://mp.weixin.qq.com/s/4uu1Fb3plI-MB2KB7zYKCg
+
+- **思科** 前员工删库跑路造成240万美元损失
+
+    - 事件经过:
+
+        一名思科前员工离职后非法入侵思科云计算系统并部署恶意代码，导致思科的部分企业终端业务虚拟机遭到删除。这名员工在从思科离职五个月后账号权限未被回收，所以他能够利用自己权限登录思科系统。直到虚拟机被大量删除导致服务出现异常后，思科才进行排查。
+
+        这名员工目前已经在美国圣何塞联邦法院认罪，其承认在离职后利用其员工账号权限登录云计算管理系统后其部署了某段未经审计的代码 ,  这段代码导致思科云计算系统里的456个虚拟机遭到删除。这些虚拟机是思科部署用于支撑WebEx Teams服务,该服务为思科企业级客户提供视频会议和办公协作服务。后端服务器被删除后大量企业无法正常使用该服务,随后思科投入价值140万美元的员工时间来修复这些服务器。即便如此大量思科企业级客户有超过两周时间无法使用该服务，随后思科向受影响的客户退还100万美元的费用。
+
+    - link: https://www.landiannews.com/archives/79180.html
+
+- **Freepik** 披露数据泄露事件,影响 830 万用户
+
+    - 事件经过:
+
+        根据该公司的官方声明，此次安全漏洞发生在一名黑客（或多名黑客）利用SQL注入漏洞访问其一个存储用户数据的数据库之后。Freepik表示，黑客获得了其Freepik和Flaticon网站上最老的830万注册用户的用户名和密码。
+
+        Freepik没有说明漏洞发生的时间，也没有说明它是何时发现的。不过，该公司表示，在得知这一事件后，立即通知了有关部门，并开始调查这一漏洞以及清点黑客获取的内容。至于被取走的内容，Freepik表示，并不是所有用户的账户都有相关的密码，黑客只取走了部分用户的信息。
+
+    - link: http://hackernews.cc/archives/31819
+
+- **Zello** 遭遇数据泄露
+
+    - 事件经过:
+
+        Zello指出，他们于2020年7月8日在其中一台服务器上发现了未经授权的活动。作为此访问的一部分，黑客可能已访问Zello帐户的电子邮件地址和哈希密码。尽管Zello并未明确声明已访问了数据库，但这很可能是黑客能够访问客户信息的途径。
+
+    - link: http://hackernews.cc/archives/31576
+
+- 超过 1.42 亿 **美高梅酒店** 客人详细资料在暗网上出售
+
+    - 事件经过:
+
+        在2019年的一次黑客攻击中，最初说影响了1060万客人，现在已经涉及超过1.42亿人。早在2月份，就有报道称，超过1060万名入住美高梅国际娱乐平台酒店的个人资料被公布在一个黑客论坛上。
+
+        现在，暗网上出现了一则广告，提供142479937名美高梅酒店客人的详细资料，价格仅为2900多美元，之后人们发现实际要价要高得多。据称，这些信息包括名人和政府雇员的数据，包括姓名、地址、电子邮件、电话号码和出生日期。美高梅表示，财务信息、身份证或社会安全号码以及酒店住宿细节都不在此次漏洞之列。ZDNet联系了一些过去的酒店客人，确认名单的准确性。
+
+        美高梅的细节来自于去年该酒店的一次数据泄露，一名黑客未经授权访问了一个云端服务器，其中包含了以往客人的信息。该连锁店表示，已经按照国家法律的要求，通知了所有受影响的人。发布广告的人声称，这些数据实际上来自于数据泄露监测服务DataViper最近的一次攻击，但该公司否认拥有一份完整的美高梅数据库，并表示黑客试图破坏该公司的声誉。
+
+    - link: https://www.cnbeta.com/articles/tech/1003259.htm
+
+- **Freepik** 数据泄露
+
+    - 事件经过:
+
+        Freepik称，黑客通过对该公司Flaticon网站的SQL注入攻击，可以窃取830万Freepik和Flaticon用户的电子邮件和密码哈
+        希。
+
+        该公司补充说：“在这830万用户中，有450万没有哈希密码，因为他们仅使用联合登录名（使用Google，Facebook和/或Twitter），并且攻击者从这些用户那里获得的唯一数据就是他们的电子邮件地址。” 。
+
+    - link: https://www.bleepingcomputer.com/news/security/freepik-data-breach-hackers-stole-83m-records-via-sql-injection/
+
+- **佳能** 数据泄露
+
+    - 事件经过:
+
+        在Maze的数据泄漏站点上，勒索软件运营商称他们正在释放攻击期间从佳能窃取的全部数据的5％，
+
+        已发布的文件是2.2 GB的档案，名为“ STRATEGICPLANNINGpart62.zip”，我们被告知该文件包含市场营销资料和视频以及与佳能网站有关的文件。
+
+    - link: https://www.bleepingcomputer.com/news/security/canon-usas-stolen-files-leaked-by-maze-ransomware-gang/
+
+- **SANS Infosec** 培训组织遭受数据泄露
+
+    - 事件经过:
+
+        在其一名员工成为网络钓鱼攻击的受害者之后，SANS网络安全培训组织遭受了数据泄露。
+
+        威胁参与者配置一条规则，该规则将在此帐户中接收的所有电子邮件转发到“未知的外部电子邮件地址”，并安装了恶意的Office 365加载项。
+
+        SANS尚未提供有关此加载项的太多信息，但它可能是一个Office 365 Oauth应用程序，用于获得对电子邮件帐户的持久性。
+
+        此配置规则转发了总共513封电子邮件，其中一些包含总共约28,000条针对SANS成员的个人信息（PII）记录。
+
+    - link: https://www.bleepingcomputer.com/news/security/sans-infosec-training-org-suffers-data-breach-after-phishing-attack/
+
+- **密歇根州立大学 MSU** 披露信用卡盗窃事件
+
+    - 事件经过:
+
+        密歇根州立大学（MSU）今天披露，攻击者能够从其shop.msu.edu在线商店的大约2,600位用户中窃取信用卡和个人信息。
+
+        密西根州立大学在一份声明中说：“未经授权的一方可以访问密歇根州立大学的在线商店shop.msu.edu，并放置了恶意代码，以在2019年10月19日至2020年6月26日之间暴露购物者的信用卡号码。”
+
+    - link: https://www.bleepingcomputer.com/news/security/michigan-state-university-discloses-credit-card-theft-incident/
+
+- **ProctorU** 确认数据泄露
+
+    - 事件经过:
+
+        威胁行为者在黑客论坛上发布了被盗的用户记录数据库后，在线考试指导解决方案ProctorU已确认数据泄露。
+
+        泄露的数据库之一是Proctoru.com的数据库，其中包含据称在在线代理服务上注册的444,000人的用户记录。
+
+        该数据库中包含的一些大学和学院电子邮件地址包括北弗吉尼亚社区学院，加州大学洛杉矶分校，普林斯顿大学，德克萨斯大学，哈佛大学，耶鲁大学，锡拉丘兹大学，哥伦比亚大学，加州大学戴维斯分校等。
+
+        该数据库还包含给美军成员的电子邮件。
+
+    - link: https://www.bleepingcomputer.com/news/security/proctoru-confirms-data-breach-after-database-leaked-online/
+
+- **Havenly** 披露数据泄露
+
+    - 事件经过:
+
+        总部位于美国的室内设计网站Havenly在黑客在黑客论坛上免费发布包含130万用户记录的数据库后，披露了数据泄露。
+
+        ShinyHunters黑客组织已在一个黑客论坛上免费泄漏了18家公司的数据库。这些数据库总共包含3.86亿个用户记录。泄露的数据库之一包含Havenly.com的130万用户记录。
+
+        数据库的样本中，泄漏的数据包括用户的登录名，全名，MD5哈希密码，电子邮件地址，电话号码，邮政编码以及与该站点的使用有关的各种其他数据。
+
+    - link: https://www.bleepingcomputer.com/news/security/havenly-discloses-data-breach-after-13m-accounts-leaked-online/
+
+### 20.7
+
+- 美国网络安全公司 **Night Lion Security** 存储泄露数据库，被黑客入侵后曝光
+
+    - 事件经过:
+
+        美国网络安全公司Night Lion Security管理DataViper数据泄漏监视服务,黑客入侵了DataViper网站,将该公司存储8,225个数据库的完整列表，482个可下载的JSON文件的列表发布出来，其中有很多熟悉的数据泄露集合，但大部分都是网上公开的数据库。而这些json仅仅是样本，并不是公布完整的数据库。此外，黑客还在Empire暗网市场上发布了广告，在那里他们出售了在DataViper后端发现的50个最大的数据库。
+
+    - link: https://mp.weixin.qq.com/s/xxxDV6yIh6k-fOMRb7isHQ
+
+- 数十家公司的源代码泄露
+
+    - 事件经过:
+
+        因配置错误，数十家企业的源代码遭到泄露，其中包括了微软、Adobe、联想、AMD、高通、摩托罗拉、华为海思、联发科、GE Appliances、任天堂、Roblox、迪士尼和江森自控等等。完整名单发布在 Pastebin 上。逆向工程师 Tillie Kottmann 收集了这些泄露的代码库，并努力确保公开代码不会对相关公司造成直接伤害，比如在发现金融公司的代码库里有硬编码的凭证之后就会迅速移除。到目前为止，只有少数公司发出了 DMCA 删除通知，还有许多公司可能不知情，或者不在意，比如一家公司的开发者只想知道 Kottmann 是如何获得代码的，他们没有要求移除，而是说“玩得开心”。其中任天堂的游戏代码库引发了最多的关注。
+
+    - link: https://www.solidot.org/story?sid=65086
+
+- **任天堂** 游戏源代码泄露
+
+    - 事件经过:
+
+        任天堂大批游戏的源代码泄露，其历史可上溯到 Super NES 时期。泄露代码的规模巨大，以至于被形容为“Gigaleak”，包含了 Super NES、Game Boy 和 N64 平台马里奥、马里奥赛车、塞尔达，F-Zero 和口袋妖怪系列游戏的可编译代码和素材。其中还有此前从未曝光的游戏艺术和声音文件，比如《超级马里奥 64》的源代码中发现了马里奥双胞胎兄弟路易吉的模型和声音文件。虽然任天堂拒绝置评，但相关游戏的开发者确认了泄露代码的真实性。
+
+    - link: https://www.solidot.org/story?sid=65080
+
+- **GEDmatch** 的家谱 DNA 数据库暴露
+
+    - 事件经过:
+
+        家谱数据库网站 GEDmatch 因帮助警方破解了金州杀手等陈年悬案而闻名远扬，但也引发了用户隐私的争议。GEDmatch 因此修改了授权，只允许执法机构访问明确授权的用户 DNA 数据，它的 145 万用户只有 28 万允许警方搜索 DNA 进行匹配。但上周末，去年 12 月收购 GEDmatch 的 Verogen 声称遭到黑客攻击，它的数据库突然之间所有用户授权被重置，所有用户家谱数据可以被任何人访问。黑客攻击之后 GEDmatch 很快恢复了服务，但用户授权再次发生问题，这一次屏蔽了所有搜索。GEDmatch 随后再次下线进行维护。7 月 21 日另一个家谱网站 MyHeritage 称其用户遭到钓鱼攻击，攻击者使用了窃取自 GEDmatch 的电邮地址。
+
+    - link: https://www.solidot.org/story?sid=65030
+
+- 声称不记录日志的 VPN 公司 **UFO VPN** 泄露了 2000 万用户日志
+
+    - 事件经过:
+
+        声称保护用户隐私的公司却不能保护自己的，声称不记录任何日志的公司却被发现记录了大量用户日志。香港 VPN 服务商 UFO VPN 因其 Elasticsearch 数据库没有任何密码保护而暴露了超过 2000 万用户日志。Comparitech 的研究人员在 7 月 1 日发现了总容量为 894 GB 的数据库，其中包含了明文密码、IP 地址、用户连接的时间戳、会话令牌、设备信息、操作系统和地理位置信息。这不仅意味着用户账号容易被接管，也意味着用户能被跟踪，而使用会话令牌加密的数据能被解密。该公司声称它收集的信息都是匿名的，只是用于分析网络性能和问题，改进服务质量。
+
+    - link: https://www.solidot.org/story?sid=64970
+
+- 加拿大 **Pivot Technology Solutions** 披露数据泄露
+
+    - 事件经过:
+
+        托管服务提供商Pivot Technology Solutions透露，它是勒索软件攻击的受害者，该勒索软件攻击导致黑客访问了敏感信息。
+
+        威胁执行者无法完成攻击并加密公司系统上的文件，但他们在网络上花费了足够的时间来访问敏感信息并窃取其中的一些信息。一家网络法证公司对该事件进行的调查显示，7月1日，入侵者可以访问并窃取“美国雇员和顾问的有限个人信息”。具体来说，检查显示7月7日，攻击者破坏了姓名，地址，出生日期，性别，残疾状况和保险类型。他们还提取了薪资数据（有关扣除额，401k表格，收入和福利的详细信息），银行详细信息（路由和帐号），社会保险号以及相关信息。
+
+    - link: https://www.bleepingcomputer.com/news/security/canadian-msp-discloses-data-breach-failed-ransomware-attack/
+
+- **佛蒙特州税务局** 泄露了3年的纳税申报信息
+
+    - 事件经过:
+
+        佛蒙特州税务局今天披露，由于安全问题影响了其2020年7月2日发现的在线备案网站，暴露了纳税人的私人信息。数据泄露影响了所有在2017年2月至2020年7月之间通过税务部门的网站以电子方式提交财产转让税申报表的佛蒙特人。、
+
+        违规通知说： “公共市政记录中提供的以电子方式提交的财产转移税申报表的验证凭证可用于访问先前提交的纳税申报表信息，”违规通知说。“这些凭证本来可以用来访问私人信息，包括财产购买者的社会安全号码，以及财产出售者的社会安全号码的后四位。”
+
+        根据佛蒙特州税务局的说法，一旦在2020年7月2日收到有关影响纳税人数据的安全漏洞的警报后，它将立即禁用功能，该功能可能允许未经授权的第三方访问其他人的税务数据。
+
+    - link: https://www.bleepingcomputer.com/news/security/vermont-tax-department-exposed-3-years-worth-of-tax-return-info/
+
+- **Promo.com** 在2200万用户记录在线泄漏后披露数据泄露
+
+    - 事件经过:
+
+
+        总部位于以色列的营销视频创建网站Promo.com在黑客论坛上免费泄露了包含2200万用户记录的数据库后，披露了数据泄露事件。
+
+        在网络安全情报公司CloudSEK与记者共享的一份报告中，一个著名的数据泄露卖方在一个黑客论坛上发布了一个包含2210万用户记录的数据库。
+
+        该数据包含用户的电子邮件地址，名称，性别，地理位置，对于260万用户，其哈希密码。
+
+        这次泄漏包括140万个破解密码，这意味着它们已被解密，攻击者可以立即使用这些密码登录用户的帐户，或者在其他站点的凭据填充攻击中使用这些密码。
+
+    - link: https://www.bleepingcomputer.com/news/security/promocom-discloses-data-breach-after-22m-user-records-leaked-online/
+
+- **Dave** 数据泄露影响750万用户，在黑客论坛上泄露
+
+    - 事件经过:
+
+        一个威胁行为者在一个黑客论坛上免费发布了一个包含7,516,691个用户记录的数据库。
+
+        在就其数据库泄漏与Dave联系之后，Dave在一天后将事件披露为数据泄露事件。
+
+        “由于Dave的前第三方服务提供商之一Waydev的违规行为，恶意方最近获得了Dave某些用户数据的未授权访问，其中包括使用业界公认的bcrypt哈希格式存储的用户密码。哈希算法。”
+
+        “被盗的信息还包括一些个人用户信息，包括姓名，电子邮件，生日，实际地址和电话号码。重要的是，这不会影响银行帐号，信用卡号，金融交易记录或未加密的社会安全号码。没有证据表明由于此事件而对任何帐户采取了任何未经授权的操作，也没有任何用户遭受任何财务损失。”
+
+    - link: https://www.bleepingcomputer.com/news/security/dave-data-breach-affects-75-million-users-leaked-on-hacker-forum/
+
+- **Wattpad** 泄露了数百万用户的帐户信息
+
+    - 事件经过:
+
+        一个据称失窃的包含2.7亿条记录的Wattpad数据库正以私下出售的价格超过100,000美元。现在，它已在黑客论坛上免费提供。
+
+        在一个匿名提示中，记者被告知该数据库正在由Shiny Hunters出售，该组织以出售因数据泄露而获得的公司数据库而闻名。当时，网络情报公司Cyble告诉记者，该数据库的售价为十个比特币，约合100,000美元。该数据库的一些示例记录包含用户名，名称，哈希密码，电子邮件地址和一般地理位置。
+
+    - link: https://www.bleepingcomputer.com/news/security/wattpad-data-breach-exposes-account-info-for-millions-of-users/
+
+### 20.6
+
+- Distributed Denial of Secrets (DDoSecrets) 组织泄露了大约 270 GB 的 **美国警察局** 档案
+
+    - 事件经过:
+
+        名叫 Distributed Denial of Secrets (DDoSecrets) 组织泄露了大约 270 GB 的美国警察局档案，这批档案统称为 BlueLeaks。DDoSecrets 声称档案包含了 200 多个警察局和融合中心长达 10 年的数据。National Fusion Center Association (NFCA)已经确认了泄露数据的真实性，称实际数据跨度达 24 年，从 1996 年 8 月到 2020 年 6 月 19 日，文档包含了名字、电邮和电话号码，还有部分敏感的金融信息。NFCA 认为这些数据窃取自美国执法部门使用的 Web 服务公司 Netsential。Netsential 已经证实它遭到了入侵。
+
+    - link: https://www.solidot.org/story?sid=64754
+
+- 南非邮局的银行分支 **Postbank** 数据泄露
+
+    - 事件经过:
+
+        事故发生在 2018 年 12 月，有雇员将主密钥打印在一张纸上。主密钥为 32 位数字代码，可用于解密银行业务，访问和修改银行系统，生成客户卡的密钥。当地媒体报道称，2019 年 3 月 到 12 月之间，其雇员利用主密钥登录系统，进行了 2.5 万笔欺诈交易，从客户账上窃取了超过 320 万美元。更换客户银行卡预计还会让其损失 5800 万美元。
+
+    - link: https://www.solidot.org/story?sid=64674
+
+- **Facebook** 起诉一开发人员窃取 5500 名用户数据
+
+    - 事件经过:
+
+        据外媒报道，据法庭文件显示，Facebook正在起诉一名开发人员，称该名开发人员参与了一场数据搜集活动并从中窃取了数千人的个人信息。该公司在诉讼中要求被告提供7.5万美元的赔偿。这家社交网络公司于周四表示，他们正在对Mohammad Zaghar及其网站Massroot8提起诉讼，指控该网站在未经许可的情况下获取Facebook用户的数据。
+
+        该行为被指违反了《计算机欺诈和滥用法案》。这起在加州北部地区提起的诉讼称，Zaghar的网站向客户提供了从Facebook好友处获取数据的能力，其中包括电话号码、性别、出生日期和电子邮件地址等。
+
+        所有这些数据都是由Facebook用户公开发布的，但据称Zaghar网站提供的自动化将使人们能够以更快的速度、更大规模地获取这些信息。Facebook还指控Zaghar使用僵尸网络，通过伪装成使用社交网络的Android设备来绕过Facebook的检测。  针对这一诉讼，Zaghar没有回复记者的置评请求。
+
+        Facebook表示，数据搜集活动从4月23日持续到5月6日，约有5500人注册了这项服务。起诉书称，除了从这5500名客户在Facebook上的朋友处收集的数据外，Massroot8还要求其客户提供登录凭证。
+
+        Facebook表示，他们已经向Zaghar发出了多次勒令停止令，另外还暂时封掉了他的Facebook和Instagram账号并要求其客户出于安全考虑更改密码。
+
+    - link: https://www.cnbeta.com/articles/tech/993007.htm
+
+- **Zoom** 漏洞：超 50 万个 Zoom 账户泄露并在 Dark Web 出售
+
+    - 事件经过:
+
+        早在今年4月份左右,Zoom被爆出漏洞,在Dark Web和黑客论坛上,超过50万个Zoom帐户可供出售,1块钱可以买7000个。在某些情况下，是免费赠送的。这些凭据是通过凭据注入攻击收集的，其中黑客尝试使用在较早的数据泄露中泄露的帐户尝试登录Zoom。然后将成功的登录名编译成列表，然后出售给其他黑客。
+
+        这些帐户通过文本共享站点共享，黑客在该站点上发布电子邮件地址和密码组合的列表。
+
+    - link: https://www.cnbeta.com/articles/tech/987405.htm
+    - link: https://www.bleepingcomputer.com/news/security/over-500-000-zoom-accounts-sold-on-hacker-forums-the-dark-web/
+
+- **Joomla** 暴露的备份泄漏了2700条用户记录
+
+    - 事件经过:
+
+        Joomla数据库的泄露暴露了在Joomla资源目录（JRD）上注册的2700人的个人信息，包括散列的密码。通过Joomla资源目录，用户可以找到注册的服务提供商，协助Joomla的项目管理、设计和技术支持。
+
+        在上周Joomla发布的安全警告中，披露了在Joomla资源目录（JRD）服务上注册的2700名个人的详细信息被泄露。根据目前已知的情况，泄漏发生的原因是，JRD网站的完整、未加密的备份被存储在亚马逊网络服务（AWS）的S3桶上，该第三方公司由Joomla团队成员和前团队负责人拥有。
+
+    - link: https://www.bleepingcomputer.com/news/security/joomla-data-breach-leaks-2-700-user-records-via-exposed-backups/
+
+- **Frost＆Sullivan** 数据库泄漏
+
+    - 事件经过:
+
+        周一，一个名为“ KelvinSecurity Team”的组织在一个黑客论坛上发帖称，他们正在出售与Frost＆Sullivan的员工和客户有关的各种数据库。该小组在论坛帖子中指出，出售的数据包括6,000条客户记录和6146条公司记录。
+
+        Arora告诉记者：“该漏洞发生在Frost和Sullivan面向公众的服务器之一上的备份目录配置错误。备份目录中包含其雇员和客户记录以及其他机密信息。”
+
+        客户数据库包含诸如客户名称，电子邮件地址，公司联系人，是否为机密以及其他非敏感数据之类的信息。另一方面，公开的员工数据库具有更敏感的信息，例如名字和姓氏，登录名，电子邮件地址和哈希密码。
+
+    - link: https://www.bleepingcomputer.com/news/security/exposed-frost-and-sullivan-databases-for-sale-on-hacking-forum/
+
+- **UPMC** 65,000名医院员工信息泄露
+
+    - 事件经过:
+
+        29岁的密歇根州男子贾斯汀·肖恩·约翰逊（Justin Sean Johnson）在本周早些时候被捕，原因是涉嫌在2014年对医疗保健提供者和保险公司匹兹堡大学医学中心（UPMC）进行黑客攻击，窃取了超过65,000名员工的PII和W-2信息，并在黑暗的网络上出售。
+
+        根据起诉书，据称约翰逊最​​初通过入侵公司的Oracle PeopleSoft人力资源管理系统，于2013年12月1日左右渗透了UPMC的HR数据库网络。当天，他在HR数据库上运行了一个测试查询，该查询查询导致访问了大约23,500名UPMC员工的PII。
+
+        据推测，在2014年1月21日至2月14日期间，他每天继续多次远程访问HR数据库，以窃取成千上万其他UPMC员工的PII。
+
+    - link: https://www.bleepingcomputer.com/news/security/hacker-arrested-for-stealing-selling-pii-of-65k-hospital-employees/
+
+- **Cognizant** 在勒索软件攻击后确认数据泄露
+
+    - 事件经过:
+
+        4月17日，Cognizant开始通过电子邮件发送给客户，警告他们，他们正受到Maze Ransomware的攻击，  以便他们与Cognizant断开连接并保护自己免受可能的影响。
+
+        该电子邮件还包含危害指标，其中包括Maze使用的IP地址以及kepstl32.dll，memes.tmp和maze.dll文件的文件哈希。这些  IP地址  和文件已知是由Maze勒索软件参与者在先前的攻击中使用的。
+
+        尽管Cognizant指出这是由Maze发起的攻击，但Maze运营商当时告诉记者，他们并没有落后于攻击。
+
+    - link: https://www.bleepingcomputer.com/news/security/it-giant-cognizant-confirms-data-breach-after-ransomware-attack/
+
+- 芯片制造商 **MaxLinear** 数据泄露
+
+    - 事件经过:
+
+        美国片上系统（SOC）制造商MaxLinear透露，在4月15日左右首次遭到违反之后，上个月，某些计算系统已由Maze Ransomware运营商加密。MaxLinear在6月10日发送给受影响的个人并由记者看到的数据泄露通知中，指出了该攻击是5月24日发现的。
+
+        信中写道：“我们立即使所有系统脱机，聘请了第三方网络安全专家来协助我们进行调查，并与执法部门联系，并以保护我们系统信息安全的方式安全地恢复系统。”
+
+        “到目前为止，我们的调查已发现从2020年4月15日到2020年5月24日之间未经授权访问我们系统的证据。”MaxLinear表示，它能够恢复受攻击的部分系统，其IT人员仍在努力恢复其余部分。
+
+        6月15日，Maze Ransomware在加密MaxLinear的系统之前，从据称失窃的超过1TB数据中泄漏了10.3GB的会计和财务信息。
+
+    - link: https://www.bleepingcomputer.com/news/security/chipmaker-maxlinear-reports-data-breach-after-maze-ransomware-attack/
+
+- **TAIT** 披露数据泄露
+
+    - 事件经过:
+
+        TAIT是全球领先的现场活动解决方案提供商之一，该公司披露了一项数据泄露事件，该数据泄露事件导致暴露在服务器上及其某些员工的电子邮件帐户中的个人和财务信息。
+
+        数据泄露是在2020年4月6日发现的，当时TAIT注意到未经授权的一方可以访问公司的服务器之一和数名TAIT员工的电子邮件帐户。TAIT发现此事件后立即将其服务器和电子邮件系统脱机，并雇用了一家网络安全公司来帮助调查此漏洞。
+
+        以下调查显示，攻击者最初在2020年2月16日大约两个月前入侵了TAIT的服务器。
+
+        该公司在数据泄露通知中说： “ TAIT已经解决了导致此事件的安全问题，采取了诸如重置TAIT服务器和电子邮件系统的登录凭据之类的步骤。”“此外，TAIT还对其网络安全防御和协议进行了审查，并实施了其他保护措施，例如添加了多因素身份验证和部署了端点监视系统。”
+
+    - link: https://www.bleepingcomputer.com/news/security/live-event-solutions-leader-tait-discloses-data-breach/
+
+- 保险公司 **Genworth** 披露数据泄露
+
+    - 事件经过:
+
+        Genworth于2020年4月20日发现该数据泄露，原因是该公司检测到未授权访问某些保险代理人的在线帐户，从而可以访问包含个人和财务信息的文档。
+
+        根据被入侵的帐户的不同，攻击者可以访问包含以下一些信息的在线文档，这些信息以各种组合形式出现：姓名，地址，年龄，性别，出生日期，财务信息，社会保险号和签名。
+
+        作为对事件进行持续调查的直接结果，Genworth禁用了受感染的用户帐户，以阻止将来访问敏感信息。
+
+    - link: https://www.bleepingcomputer.com/news/security/fortune-500-insurance-firm-genworth-discloses-data-breach/
+
+- 印度视频点播公司 **ZEE5** 被黑客入侵
+
+    - 事件经过:
+
+        一名将自己标识为“ John Wick”和“ Korean Hackers”的黑客声称已破坏了印度视频点播巨头ZEE5的系统，并威胁要在犯罪市场上出售该数据库。
+
+        今年早些时候，网上流传着大约1,023个Premium ZEE5帐户的凭据。一名自称“韩国黑客”的黑客警告说，他们违反了Zee5.com并盗窃了包含敏感信息的数据库。
+
+        黑客以“约翰·威克”的名义进一步列出了他们将要揭示的内容：“数据，最近的交易，密码，电子邮件，手机号码，电子邮件ID，消息等……”
+
+    - link: https://www.bleepingcomputer.com/news/security/zee5-allegedly-hacked-by-korean-hackers-customer-info-at-risk/
+
+- 旧金山员工退休系统 **SFERS** 遭受数据泄露
+
+    - 事件经过:
+
+        在今天提交的数据泄露通知中，SFERS表示他们的一个供应商已经建立了一个测试环境，其中包括一个数据库，其中包含大约74,000个SFERS成员的信息。
+
+        在2020年3月21日，供应商获悉该服务器已在2020年2月24日被未经授权的第三方访问。他们随后在3月26日开始调查时告诉SFERS。
+
+        “ 2020年3月21日，10up Inc.得知该服务器已于2020年2月24日被外部人员访问。供应商立即关闭了该服务器并开始调查。该供应商未发现任何证据证明SFERS成员的信息已从其服务器中删除，但目前无法确认未经授权的一方未查看或复制该信息。2020年3月26日，供应商将服务器漏洞通知了SFERS，并且SFERS和该卖方继续调查潜在的数据泄露 ”，数据泄露通知中指出。
+
+        尽管SFERS声明该漏洞中没有包含社会安全号码或银行帐户信息，但暴露的个人信息足够多，威胁参与者可以在攻击中使用这些信息。
+
+    - link: https://www.bleepingcomputer.com/news/security/san-francisco-retirement-program-sfers-suffers-data-breach/
+
+### 20.5
+
+- **LineageOS、Ghost 和 DigiCert** 服务器遭黑客入侵
+
+    - 事件经过:
+
+        过去几天，黑客利用了两个最近披露的 Salt 漏洞入侵了 LineageOS、Ghost 和 DigiCert 的服务器。Salt 是是一个监视和更新服务器状态的开源配置工具。上周安全公司 F-Secure 的研究人员披露了两个漏洞 CVE-2020-11651 和 CVE-2020-11652，允许远程攻击者绕过身份验证和授权控制，以 root 权限执行命令，它们是最高危的漏洞，CVSS 评分 10/10。负责 Salt 开发的 SaltStack 已在上周释出了补丁修复了漏洞。LineageOS 是一个非常受欢迎的 Android 社区发行版，开发者表示对其服务器的攻击发生在周六晚上八点左右（美太时间），在攻击者未进行任何破坏前就被发现，源代码以及相关构建未受影响。与主基础设施隔离储存的签名钥匙也未受影响。
+
+    - link: https://www.solidot.org/story?sid=64269
+
+- **泰国移动运营商 Advanced Info Service** 泄露 83 亿互联网记录
+
+    - 事件经过:
+
+        研究人员发现了泰国移动运营商 Advanced Info Service (AIS)子公司控制的一个 ElasticSearch 数据库可公开访问，数据库包含大约 83 亿记录，容量约为 4.7 TB，每 24 小时增加 2 亿记录。AIS 是泰国最大的 GSM 移动运营商，用户约有 4000 万。可公开访问的数据库由其子公司 Advanced Wireless Network (AWN)控制，包括了 DNS 查询日志和 NetFlow 日志，这些数据可用于绘制一个用户的网络活动图。研究人员尝试联系 AIS 但毫无结果，直到最后联络泰国国家计算机紧急响应小组之后数据库才无法公开访问。
+
+    - link: https://www.solidot.org/story?sid=64460
+    - link: https://mp.weixin.qq.com/s/oov-Hh_kRQBDb77VeiYzlw
+
+- 专门泄露数据库的黑产论坛 **WeLeakData** 的数据库被泄露
+
+    - link: https://mp.weixin.qq.com/s/InZ2SGrZUUEYiamDrovVcQ
+
+- 暗网泄漏的两千万多台湾省公民数据库
+
+    - 事件经过:
+
+        根据美国网站《CYBLE》指出，专家在暗网（dark web）发现一个数据库，其中包含超过2000万笔台湾户政的详细资讯，包括姓名、地址、身分证字号等等个资恐遭外泄。
+
+        数据库大小为3.5 GB，包括以下字段：全名、完整地址、ID、性别、出生日期、电话号码
+
+        据这位售卖者称，泄漏发生在2019年。初步分析指出，上一次DOB记录是2008年。但是，应该指出的是，某些记录具有“ NULL /空” DoB记录，因此很难确认最近的记录是什么时间泄露。
+
+    - link: https://mp.weixin.qq.com/s/HsIhl0JV3qA3yMKupbgNxw
+
+- 黑客叫卖 **Wishbone** 4000 万注册用户的数据
+
+    - 事件经过:
+
+        外媒报道称，一名黑客正在叫卖 Wishbone 4000 万注册用户的详细信息，且宣称这批数据是在今年早些时候的黑客攻击活动中窃取的。作为一款流行的移动 App，其允许用户通过简单的投票调查，在两个物品之间展开比较。Wishbone 的大量注册用户信息正在多个黑客论坛上挂牌叫卖，价格仅为 0.85 个比特币（约 8000 美元）。
+
+        卖方挂出的示例表明，数据库中包含了 Wishbone 的用户名、电子邮件、电话号码、所在城市、以及密码的哈希值等信息。
+
+    - link: https://www.cnbeta.com/articles/tech/981761.htm
+
+- **Daimler AG** GitLab服务器泄露梅赛德斯奔驰 OLU 源代码
+
+    - 事件经过:
+
+        外媒ZDNet获悉，梅赛德斯-奔驰货车上安装的“智能汽车”零部件源代码上周末在网上泄露。而在泄密事件发生之前，瑞士软件工程师Till Kottmann发现了一个属于戴姆勒公司(Daimler AG)的Git门户网站。戴姆勒是一家德国汽车公司，旗下拥有梅赛德斯-奔驰汽车品牌。
+
+        Kottmann告诉ZDNet，他可以在戴姆勒的代码托管门户上注册一个帐户然后下载580多个Git存储库，其中包含了梅赛德斯奔驰货车上安装的车载逻辑单元(OLU)的源代码。
+
+    - link: http://hackernews.cc/archives/30483
+
+- 美国国家铁路旅客公司 **Amtrak** 披露了一项数据泄露事件
+
+    - 事件经过:
+
+        美国国家铁路客运公司（Amtrak）披露了一起数据泄露事件，导致部分Guest Rewards会员的个人信息被曝光。
+
+        "2020年4月16日晚，Amtrak确定一个未知的第三方获得了对某些Amtrak Guest Rewards账户的未经授权的访问，"Amtrak Guest Rewards高级总监Vicky Radke在向佛蒙特州总检察长办公室和加利福尼亚州总检察长办公室提交的数据泄露通知中表示.该公司的安全团队在发现可疑活动后，在几个小时内就阻止了未经授权的第三方访问被泄露的Amtrak Guest Rewards账户。
+
+    - link: https://www.bleepingcomputer.com/news/security/amtrak-resets-user-passwords-after-guest-rewards-data-breach/
+
+- **Minted** 披露数据泄露
+
+    - 事件经过:
+
+        美国独立艺术家市场Minted披露了一起数据泄露事件，此前有黑客在暗网市场出售了一个包含500万用户记录的数据库。
+
+        本月初，一个名为Shiny Hunters的黑客组织在暗网市场上出售11家公司的用户记录。
+
+        其中一个数据库据称包含了500万用户和Minted公司的邮寄地址记录。这个数据库被以2500美元的价格出售。
+
+    - link: https://www.bleepingcomputer.com/news/security/minted-discloses-data-breach-after-5m-user-records-sold-online/
+
+- 一个包含超过2600万个 **LiveJournal** 用户账户的数据库，正在多个黑客论坛上免费分享。
+
+    - 事件经过:
+
+        自2020年5月8日左右以来，各种黑客论坛上流传着指向据称包含33,717,787个唯一帐户的数据转储的链接。
+
+        根据共享链接的帖子，数据库转储包含电子邮件地址，用户名，配置文件URL和密码。在最初将密码存储为MD5哈希之后，密码被转换为纯文本。
+
+    - link: https://www.bleepingcomputer.com/news/security/26-million-livejournal-accounts-being-shared-on-hacker-forums/
+
+- **Arbonne** 数据泄露泄露用户密码，个人信息
+
+    - 事件经过:
+
+        国际多层次传销(MLM)公司Arbonne International上个月内部系统被未经授权的一方入侵后，数千人的个人信息和证书被曝光。
+
+        “在2020年4月20日晚上，Arbonne意识到了其内部有限系统中的异常活动，” Arbonne在向加利福尼亚州检察长办公室提交的数据泄露通知信中说。
+
+        "2020年4月23日，调查发现一个包含有限个人信息的数据表，可能已经被未经授权的行为人访问。"根据Arbonne的漏洞通知，在此次事件中，有3527名加州居民受到影响，以下类型的个人信息被暴露在未经授权的访问中：姓名、电子邮件和邮寄地址、订单购买历史、电话号码和Arbonne账户密码。
+
+    - link: https://www.bleepingcomputer.com/news/security/arbonne-mlm-data-breach-exposes-user-passwords-personal-info/
+
+- 在线教育网站 **EduCBA** 遭数据泄露
+
+    - 事件经过:
+
+        在线教育网站EduCBA已经开始通知客户在遭受数据泄露后正在重置密码。
+
+        昨天，EduCBA开始通过电子邮件将数据泄露通知发送给客户，表明他们的系统已被黑客入侵，并且用户数据已被泄露。他们表示，由于他们使用第三方处理程序（如PayPal和2Checkout）来处理付款，因此未访问任何财务信息。作为预防措施，EduCBA声明他们已重置所有用户的密码。
+
+    - link: https://www.bleepingcomputer.com/news/security/online-education-site-educba-discloses-data-breach-after-hack/
+
+- **Mathway** 遭数据泄露
+
+    - 事件经过:
+
+        本周，一个名为“ Shiny Hunters”的数据泄露卖家开始在一个暗网市场上公开出售据称的Mathway数据库，价格为4,000美元。
+
+    - link: https://www.bleepingcomputer.com/news/security/mathway-investigates-data-breach-after-25m-records-sold-on-dark-web/
+
+- 一名黑客泄露了4000万个 **Wishbone** 用户记录
+
+    - 事件经过:
+
+        一名黑客泄露了4000万条Wishbone用户记录，这些记录中包含了大量的信息宝库，这些信息可能被用来进行钓鱼活动、账户接管和凭证填充攻击。
+
+        昨天，另一个数据泄露的卖家在一个流行的黑客论坛上公开发布了出售Wishbone数据库的广告，他们以8000美元的价格出售该数据库。
+
+        这些暴露的数据包括用户名、电子邮件地址、哈希MD5密码、手机号码、Facebook和Twitter访问令牌、性别、出生日期、MD5、个人资料图片等等。
+
+    - link: https://www.bleepingcomputer.com/news/security/hacker-shares-40-million-wishbone-user-records-for-free/
+
+- **Home Chef** 宣布数据泄露
+
+    - 事件经过:
+
+        总部位于美国的饭盒和送餐服务Home Chef今天在黑客在一个黑暗的网络市场上出售了800万条用户记录后，宣布了一项数据泄漏。
+
+        黑客以2500美元的价格出售了该数据库，并提供了一个示例，该示例显示了数据库表中的信息类型。此信息包括用户的电子邮件，加密的密码，信用卡的后四位数字，性别，年龄，订阅信息等。
+
+    - link: https://www.bleepingcomputer.com/news/security/home-chef-announces-data-breach-after-hacker-sells-8m-user-records/
+
+- 法国日报 **Le Figaro** 数据库暴露用户个人信息
+
+    - 事件经过:
+
+        法国日报《费加罗报》曝光了约74亿条记录，其中包含记者和雇员以及至少42,000位用户的个人身份信息（PII）。数据由Le Figaro拥有的不安全数据库公开，其中包含8TB以上的数据，由于Elasticsearch服务器配置错误，该数据可公开访问。
+
+        根据研究人员的发现，所暴露的PII数据包括电子邮件，全名，包括居住国家和邮政编码的家庭地址，使用MD5散列的纯文本密码以及用于访问内部服务器的IP地址和令牌。所有这些信息都以报纸的移动和桌面网站的API日志形式存储在Le Figaro的数据库中。
+
+    - link: https://www.bleepingcomputer.com/news/security/french-daily-le-figaro-database-exposes-users-personal-info/
+
+- 黑客出售了9100万个 **Tokopedia** 帐户
+
+    - 事件经过:
+
+        一名黑客正在以低至5,000美元的价格出售一个数据库，该数据库包含一个在暗网市场上的9,100万个Tokopedia帐户的信息。其他威胁参与者已经开始破解密码并在线共享它们。
+
+        黑客声称，这些数据只是2020年3月黑客攻击期间从Tokopedia盗窃的9100万用户转储的一小部分。在黑客论坛上发布了较小的子集后不久，同一位黑客就开始在在线犯罪市场上以低至5,000美元的价格出售完整的9,100万用户数据库。在撰写本文时，该数据库已售出两次。
+
+        据Under Breach与记者共享的泄漏数据样本，转储针对的是PostgreSQL数据库，该数据库包含许多个人用户数据字段，但实际上只有一小部分包含信息。公开数据中最严重的数据包括用户的电子邮件地址，全名，生日和散列的用户密码。一些公开帐户还列出了其移动设备的移动台国际订户目录号（MSISDN）。
+
+    - link: https://www.bleepingcomputer.com/news/security/hacker-sells-91-million-tokopedia-accounts-cracked-passwords-shared/
+
+- **Unacademy** 2200万份用户记录数据泄露
+
+    - 事件经过:
+
+        2020年5月3日，网络情报公司Cyble Inc.发现威胁者已开始以2,000美元的价格出售包含2000万个帐户的Unacademy用户数据库。
+
+        虽然标榜为2000万，但该数据库总共包含21,909,707条用户记录。
+
+        这些记录包括用户名，SHA-256哈希密码，加入日期，最后登录日期，电子邮件地址，姓氏和名字，以及该帐户是处于活动状态的，工作人员还是超级用户。
+
+    - link: https://www.bleepingcomputer.com/news/security/hacker-sells-22-million-unacademy-user-records-after-data-breach/
+
+- **ChatBooks** 披露数据泄露
+
+    - 事件经过:
+
+        5月3日，一个名为Shiny Hunters的黑客组织开始在一个黑暗的网络市场上宣传ChatBooks用户记录，要求2,000美元购买1500万行数据。
+
+        他们提供了一个示例，其中包含电子邮件地址，哈希密码（SHA-512），社交媒体访问令牌和个人身份信息。
+
+    - link: https://www.bleepingcomputer.com/news/security/chatbooks-discloses-data-breach-after-data-sold-on-dark-web/
+
+- **EasyJet** 被黑：数据泄露影响900万客户
+
+    - 事件经过:
+
+        英国最大的航空公司EasyJet透露，他们遭到黑客攻击，并暴露了900万客户的电子邮件地址和旅行信息。对于其中一些客户，攻击者还访问了信用卡详细信息。
+
+        在今天披露的数据泄露通知中，EasyJet声称他们遭受了网络攻击，未经授权的第三方能够访问他们的系统。在这次攻击中，威胁行为者能够访问900万客户的电子邮件地址和旅行信息。对于大约2,208位客户，还显示了信用卡详细信息。
+
+    - link: https://www.bleepingcomputer.com/news/security/easyjet-hacked-data-breach-affects-9-million-customers/
+
+### 20.4
+
+- **任天堂** 回应盗号事件 约16万NNID账号遭入侵
+
+    - 事件经过:
+
+        任天堂遭受了大规模的数据泄露，黑客访问了多达16万个用户帐户，任天堂在官方声明中承认数据泄露，并透露该事件是由于任天堂的Nintendo Network ID（NNID）系统中的漏洞而引起的。泄露数据包括NNID用户名和密码、昵称、电子邮件地址、性别、出生日期以及国家/地区
+
+    - link: https://www.pingwest.com/w/209254
+    - link: https://www.nintendo.co.jp/support/information/2020/0424.html
+    - link: https://threatpost.com/nintendo-confirms-breach-of-160000-accounts/155110/
+    - link: https://www.hackread.com/nintendo-accounts-hacked-accessed-by-hackers/
+
+- 域名注册商 **GoDaddy** 客服被钓鱼攻击，多家公司域名解析被篡改
+
+    - 事件经过:
+
+        GoDaddy客服员工遭到钓鱼攻击，这使得攻击者能够查看和修改关键客户记录，并更改了六个GoDaddy客户的域名解析IP。
+
+    - link: https://mp.weixin.qq.com/s/m-GnU5LpjrpMWOWbY7kWHw
+    - link: https://krebsonsecurity.com/2020/03/phish-of-godaddy-employee-jeopardized-escrow-com-among-others/
+
+- **号百信息服务有限公司** 出售中国电信超 2 亿用户信息，售价低至 0.01 元/条
+
+    - 事件经过:
+
+        2013 年至 2016 年 9 月 27 日，被告人陈亚华从号百信息服务有限公司（为中国电信股份有限公司的全资子公司）数据库获取区分不同行业、地区的手机号码信息提供给陈德武，被告人陈德武以人民币 0.01 元/条至 0.2元/条不等的价格在网络上出售，获利金额累计达人民币 2000 余万元，涉及公民个人信息 2 亿余条。
+
+    - link: https://mp.weixin.qq.com/s/shk1LGrtKWS9fPwpM1U46A
+
+- **findadoctor** 141万美国医生的个人数据在黑客论坛上出售
+
+    - 事件经过:
+
+        1.141万美国医生的个人数据在黑客论坛上出售。数据库于2020年4月11日从在线服务qa.findadoctor.com被盗。患者的照片或病历不在被盗数据之列。但是，数据中包含的医生信息足够丰富：全名、性别、医院名称、位置、邮寄地址、诊所地址、国家/地区、电话号码、许可证号等等。
+
+    - link: https://www.hackread.com/personal-data-us-doctors-sold-hacker-forum/
+
+- **CS:GO** 源代码泄露
+
+    - link: https://twitter.com/CSGO/status/1253075594901774336
+
+- 在承包商 **Visser Precision** 未支付赎金后勒索软件攻击者泄露波音等公司的机密文件
+
+    - 事件经过:
+
+        从一家航空航天行业承包商窃取的内部机密文件被勒索软件攻击者泄露到网上。DoppelPaymer Windows 勒索软件感染了 Visser Precision 的计算机，窃取并加密了文件，索要赎金，当该公司未能在截至日期前支付赎金后，攻击者上传了窃取到的部分机密文件。Visser 的客户包括了很多业内知名公司如洛克希德马丁、波音、SpaceX、特斯拉、霍尼韦尔、Blue Origin 等等。泄露的内部文件与洛克希德马丁、波音、SpaceX 和特斯拉相关，其中包括了洛克希德马丁设计的军用天线规格，以及供应商信息、数据分析报告，账单和支付表格等。洛克希德马丁发言人表示它已知道这一情况。
+
+    - link: https://www.solidot.org/story?sid=64111
+
+- 1.5亿用户的Android平台应用市场软件 **Aptoide** ，在本月初发生数据泄露
+
+    - 事件经过:
+
+        在全球拥有超过1.5亿用户的Android平台应用市场软件Aptoide，在本月初发生数据泄露，攻击者窃取了3900万用户的详细信息，泄露的数据可以归类为“个人身份信息”，其中包括诸如用户的电子邮件地址，哈希密码，真实姓名，注册日期，注册IP地址，设备详细信息和出生日期（如果提供）之类的详细信息。
+
+    - link: https://www.zdnet.com/article/details-of-20-million-aptoide-app-store-users-leaked-on-hacking-forum/
+
+- 法国运动技术公司 **Kinomap** 泄露了40GB的数据
+
+    - 事件经过:
+
+        vpnMentor的研究小组最近发现了一项运动技术公司Kinomap的数据泄露事件，包含全球4200万用户的个人记录。泄露数据包含：性别、国家、全名、用户名、个人资料链接、Home country、加入日期、电子邮件地址。
+
+    - link: https://www.vpnmentor.com/blog/report-kinomap-leak/
+
+- 美 CDC、 世卫组织等机构的近 2.5 万电子邮件地址和密码遭泄露
+
+    - 事件经过:
+
+        不明身份人士公布了近25000个电子邮件地址和密码，这些电子邮件地址和密码来自不同的组织，包括美国疾病控制与预防中心(CDC)、盖茨基金会、美国国立卫生研究院（NIH）、世界卫生组织（WHO）和世界银行。这些信息最初出现在4chan上，然后被转移到Pastebin上，然后又出现在Twitter和Telegram上的极右极端主义账户上。最大的一批电子邮件地址属于NIH（9938个），其次是CDC（6857个）、世界银行（5120个）和WHO（2732个）。
+
+    - link: http://hackernews.cc/archives/30056
+
+- 意大利电子邮件服务商 **Email.it** 被黑 60 万用户数据在暗网出售
+
+    - 事件经过:
+
+        ZDNet从一位读者提供的消息当中得知，目前有超过60万Email.it用户的数据正在暗网上被出售。这家意大利的电子邮件服务提供商周一向ZDNet表示：“不幸的是，我们必须确认，我们遭遇了黑客的攻击。”
+
+        Email.it黑客攻击在周日曝光，当时黑客们在Twitter上宣传了一个暗网网站，在该网站上出售公司的数据。黑客声称实际入侵发生在两年多前，即2018年1月，黑客入侵了Email.it数据中心，从服务器上拿走了任何可能的敏感数据，并选择给这家意大利的电子邮件服务提供商一个机会修补漏洞，同时要求们给黑客一点赏金，但是这家意大利的电子邮件服务提供商拒绝与黑客谈判，并继续欺骗它的用户。
+
+        另外，黑客们在2月1日试图勒索Email.it，当时他们要求对方支付赏金。Email.it的一位发言人周一告诉ZDNet，该公司拒绝支付，转而通知了意大利邮政警察局（CNAIPIC）。在勒索失败后，黑客们现在正在以0.5到3个比特币(3500到22000美元)不等的要价出售该公司的数据。这些数据库包含了注册了免费Email.it电子邮件账户的用户信息。
+
+        黑客声称，这些数据库包含了2007年至2020年期间注册并使用该服务60多万用户的明文密码、安全问题、电子邮件内容和电子邮件附件。
+
+    - link: https://www.cnbeta.com/articles/tech/964755.htm
+
+- **旧金山国际机场** 在黑客入侵后披露数据泄露
+
+    - 事件经过:
+
+        旧金山国际机场（SFO）于2020年3月对其两个网站SFOConnect.com和SFOConstruction.com进行了黑客攻击后，披露了数据泄露事件。
+
+    - link: https://www.bleepingcomputer.com/news/security/san-francisco-intl-airport-discloses-data-breach-after-hack/
+
+- 勒索失败后，Clop勒索软件泄漏了 **ExecuPharm** 的文件
+
+    - 事件经过:
+
+        据称赎金谈判失败后，Clop勒索软件泄露了从美国制药公司ExecuPharm窃取的文件。ExecuPharm公司在发给受影响个人的数据泄露通知书中公开披露了这次勒索软件攻击，并向佛蒙特州总检察长办公室提交了文件。
+
+        虽然ExecuPharm没有提到攻击期间用于加密其服务器的勒索软件菌株的名称，但正如Techcrunch首次报道的那样，在该公司拒绝支付赎金后，Clop Ransomware组织公布了被盗数据。ExecuPharm还在违规信中解释说，他们 "从备份服务器中重建受影响的服务器，现在已经完全恢复和保护了 "受影响的系统。
+
+        "谈判进行了一个月，宣布并批准了比特币的金额。然后他们开始提到，币基对他们的账户进行了扣留，他们需要等待7-14天。"当我们联系到Clop的行为者以了解更多细节时，他们告诉记者。
+
+        根据Clop Ransomware的泄密网站，攻击者能够窃取近1.9万封ExecuPharm和Parexel员工的电子邮件，以及进一步的电子邮件通信，包括超过8万封电子邮件。
+
+    - link: https://www.bleepingcomputer.com/news/security/clop-ransomware-leaks-execupharms-files-after-failed-ransom/
+
 ### 20.3
+
+- **格鲁吉亚** 全体公民信息泄漏
+
+    - link: https://twitter.com/1ancet/status/1244828187093164033
+
+- 黑客网站曝光了超过 490 万乔治亚州居民的详细个人信息
+
+    - 事件经过:
+
+        上周六，某黑客论坛公布了包含 493 万 4863 乔治亚州居民的详细个人信息的数据库。在大小为 1.04 GB 的 Microsoft Access 数据库文件中，可查看到包括全名、家庭住址、出生日期、身份证编号、手机号码之类的隐私内容，甚至连已故公民的信息也没放过。
+
+        周末的时候，数据泄露监视和预防服务公司 Under The Breach 曝光了本次泄漏事件，并向外媒 ZDNet 分享了一些细节。
+
+        由快照可知，数据库包含了超过 490 万条记录，其中包含了数百万已故公民。根据 2019 年的人口普查，该州目前预估人口在 370 万左右。
+
+    - link: http://hackernews.cc/archives/29818
+
+- **Virgin Media** 泄露了900,000位客户的信息
+
+    - 事件经过:
+
+        Virgin Media今天宣布，由于配置错误且不安全的营销数据库，至少有一次未经许可访问了大约900,000个客户的个人信息。
+
+        根据正在进行的调查，Virgin Media在2020年2月28日发现，至少从2019年4月19日起可以访问该公开的数据库，并且尽管该公司不知道“访问范围或是否实际使用了任何信息。”
+
+        Virgin Media首席执行官LutzSchüler在一份新闻稿中说，该公司“通过关闭对该数据库的访问来立即解决了该问题，该数据库包含大约90万人的一些联系方式，其中包括约15％的固定电话客户客户群。”
+
+        “该数据库不包含任何密码或财务细节，如信用卡信息或银行帐号，但却包含有限的联系信息，如姓名，家庭地址和电子邮件地址和电话号码，”
+
+    - link: https://www.bleepingcomputer.com/news/security/virgin-media-data-breach-exposes-info-of-900-000-customers/
 
 - **微博** 数据泄露事件
 
@@ -407,6 +1270,14 @@
 
 ### 20.1
 
+- 号称“世界上最安全的在线备份”提供商 **SOS Online Backup** ，泄露了超过1.35亿在线客户的个人记录。
+
+    - 事件经过:
+
+        vpnMentor的研究团队最近发现了一个属于云备份提供商SOS Online Backup的数据库。拥有超过1.35亿条记录,它公开了与SOS在线备份上的用户帐户相关的重要元数据及其云服务的结构。公开的数据库包含超过1.35亿条记录，总计约70GB的与SOS在线备份上的用户帐户相关的元数据。
+
+    - link: https://www.vpnmentor.com/blog/report-sosonlinebackup-leak/
+
 - **微软** 错误配置的服务器泄露了 2.5 亿客户服务信息
 
     - 事件经过:
@@ -457,6 +1328,8 @@
         但是，所有这些信息不仅位于一个地方，可供垃圾邮件散布者，不法之徒和其他网民批量下载，而且是通过与阿里巴巴位于中国东部杭州的网络托管部门相关的IP地址提供的，原因不明。
 
     - link: https://www.theregister.co.uk/2020/01/09/checkpeoplecom_data_exposed
+
+---
 
 ## 2019数据泄露事件
 ### 19.12
@@ -1229,13 +2102,13 @@
 
         卖方还刊登了针对巴西人的搜索服务广告,称他们可以从最少的初始数据中挖掘有关个人的详细信息.
 
-        BleepingComputer在一个论坛上看到一个帖子,通知该数据库的大小为16GB,采用SQL格式.拍卖的起拍价为15,000美元,加价幅度为1,000美元.
+        记者在一个论坛上看到一个帖子,通知该数据库的大小为16GB,采用SQL格式.拍卖的起拍价为15,000美元,加价幅度为1,000美元.
 
         根据注册为X4Crow的卖方的记录,每个省的记录都是分开的,并包括个人的姓名,出生日期和纳税人ID(CPF-Cadastro de PessoasFísicas).该数据库还列出了有关法人或CNPJ(Cadastro Nacional da PessoaJurídica)的纳税人详细信息.
 
-        BleepingComputer收到了该数据库的样本,并能够验证有关个人的信息是否准确,并且还包括母亲的姓名和性别.我们使用了巴西联邦税收网站上的CPF查找服务,该服务还提供了死者的去世年份.
+        记者收到了该数据库的样本,并能够验证有关个人的信息是否准确,并且还包括母亲的姓名和性别.我们使用了巴西联邦税收网站上的CPF查找服务,该服务还提供了死者的去世年份.
 
-        尽管缓存的来源未在卖方的公告中披露,但BleepingComputer被告知这是一个政府数据库.X4Crow说,它包含9200万条独特的记录,涵盖了"几乎所有巴西公民".
+        尽管缓存的来源未在卖方的公告中披露,但记者被告知这是一个政府数据库.X4Crow说,它包含9200万条独特的记录,涵盖了"几乎所有巴西公民".
 
     - link: https://www.bleepingcomputer.com/news/security/details-of-92-million-brazilians-auctioned-on-underground-forums/
 
@@ -1615,9 +2488,9 @@
 
         mperva 首席执行官 Chris Hylen 透露,该公司于2019年8月20日获悉该事件,当时该公司了解了影响云网络应用防火墙(WAF)产品的数据风险.
 
-        "在2019年8月20日,我们从第三方那里了解到数据曝光会影响我们的云 WAF 产品的一部分客户,这些客户的账户截至2017年9月15日.截至2017年9月15日,Incapsula 客户数据库的元素已曝光.其中包括:电子邮件 地址 哈希和盐渍密码 "
+        "在2019年8月20日,我们从第三方那里了解到数据曝光会影响我们的云 WAF 产品的一部分客户,这些客户的账户截至2017年9月15日.截至2017年9月15日,Incapsula 客户数据库的元素已曝光.其中包括:电子邮件 地址 哈希和加盐密码 "
 
-        泄露的数据包括2017年9月15日之前注册的所有Cloud WAF客户的电子邮件地址和散列和盐渍密码.
+        泄露的数据包括2017年9月15日之前注册的所有Cloud WAF客户的电子邮件地址和散列和加盐密码.
 
         Hylen 此外,对于 Incapsula 客户的一部分,截至2017年9月15日,已公开 API 密钥和客户提供的 SSL 证书.
 
@@ -1760,7 +2633,7 @@
 
 - **本田** 汽车云端数据库未保护,CEO 及全球员工大量资料险遭泄露
 
-    - 泄露内容: 经查这批资料包括几乎所有 Honda 电脑相关资料,其中一个表格包含员工电子邮件、部门名称、Honda 机器主机名称、MAC 地址、内网 IP、作业系统版本.另一个表格则有员工姓名、部门、​​员工编号、帐号、手机号码及最近登入时间.
+    - 泄露内容: 经查这批资料包括几乎所有 Honda 电脑相关资料,其中一个表格包含员工电子邮件、部门名称、Honda 机器主机名称、MAC 地址、内网 IP、作业系统版本.另一个表格则有员工姓名、部门、员工编号、帐号、手机号码及最近登入时间.
 
     - 事件经过: 安全研究人员发现日本汽车大厂本田汽车(Honda Motor)一个云端数据库,内含超过1亿份文件,包含员工电脑主机名称、IP、使用哪套安全软件等信息.该数据库没有设置身份验证措施,任何人均可访问,本田公司已经在接获通报后迅速修补了该隐患.
 
@@ -1934,7 +2807,7 @@
 
         但是,与暴露的 Kibana 安装的其他情况不同,这个没有完全配置,一旦加载到Web浏览器中,它将直接进入"创建索引模式页面".
 
-        虽然 Jain 和 BleepingComputer 在联系江苏省公安厅后没有收到任何回复,但 CNCERT / CC 响应迅速,并且有所帮助,立即联系数据库所有者并在周末将其取消.
+        虽然 Jain 和记者在联系江苏省公安厅后没有收到任何回复,但 CNCERT / CC 响应迅速,并且有所帮助,立即联系数据库所有者并在周末将其取消.
 
     - link: https://www.bleepingcomputer.com/news/security/over-90-million-records-leaked-by-chinese-public-security-department/
 
@@ -2235,7 +3108,7 @@
 
     - 泄露内容: 电子邮件地址,IP地址,用户名和密码
 
-    - 事件经过: "在2018年4月,自称"地球上最大的复古游戏网站",Emupardise 遭遇了数据泄露.受损的 vBulletin 论坛公开了110万个电子邮件地址,IP地址,用户名和密码存储为盐渍 MD5 哈希.数据提供通过 dehashed.com 到 HIBP."
+    - 事件经过: "在2018年4月,自称"地球上最大的复古游戏网站",Emupardise 遭遇了数据泄露.受损的 vBulletin 论坛公开了110万个电子邮件地址,IP地址,用户名和密码存储为加盐 MD5 哈希.数据提供通过 dehashed.com 到 HIBP."
 
     - link: https://www.bleepingcomputer.com/news/security/gaming-site-emuparadise-suffered-data-breach-of-11m-accounts/
 
@@ -2333,7 +3206,7 @@
 
     - 泄露内容: Email addresses, IP addresses, Passwords, Private messages, Usernames
 
-    - 事件经过: In May 2019, the account hijacking and SIM swapping forum OGusers suffered a data breach. The breach exposed a database backup from December 2018 which was published on a rival hacking forum. There were 161k unique email addresses spread across 113k forum users and other tables in the database. The exposed data also included usernames, IP addresses, private messages and passwords stored as salted MD5 hashes.
+    - 事件经过: 2019年5月，账号劫持和SIM交换论坛OGusers遭遇数据泄露。该漏洞暴露了2018年12月的数据库备份，该备份发布在竞争对手的黑客论坛上。数据库中有16.1万个唯一的电子邮件地址，分布在11.3万个论坛用户和其他表格中。曝光的数据还包括以加盐MD5哈希值存储的用户名、IP地址、私信和密码。
 
     - link: https://haveibeenpwned.com/PwnedWebsites#OGUsers
 
@@ -2357,7 +3230,7 @@
 
     - 泄露内容: Email addresses, Email messages, Geographic locations, Passwords, Phone numbers
 
-    - 事件经过: In May 2019, the Lawyers Order of Rome suffered a data breach by a group claiming to be Anonymous Italy. Data on tens of thousands of Roman lawyers was taken from the breached system and redistributed online. The data included contact information, email addresses and email messages themselves encompassing tens of thousands of unique email addresses. A total of 42k unique addresses appeared in the breach.
+    - 事件经过: 2019年5月，罗马律师团遭遇了一个自称是意大利匿名者的团体的数据泄露。数万名罗马律师的数据被从被入侵的系统中提取并在网上重新传播。这些数据包括联系信息、电子邮件地址和电子邮件信息本身，其中包括数万个独特的电子邮件地址。共有4.2万个独特的地址出现在入侵系统中。
 
     - link: https://haveibeenpwned.com/PwnedWebsites#OrdineAvvocatiDiRoma
 
@@ -2524,9 +3397,9 @@
 
     - 事件经过:
 
-        A large database with approximately 33 million profiles for people seeking jobs in China has been fully accessible and unprotected online. This information included sensitive information that could have been used for scammers and identity theft.
+        一个庞大的数据库，拥有大约3,300万个针对在中国寻找工作的人的个人资料，已经完全可以访问并且不受在线保护。 此信息包括本可以用于骗子和身份盗用的敏感信息。
 
-        The database was discovered by Sanyam Jain, a security researcher and member of GDI.Foundation, who found the database using the Shodan search engine.
+        该数据库是由安全研究人员，GDI.Foundation成员Sanyam Jain发现的，他使用Shodan搜索引擎找到了该数据库。
 
     - link: https://www.bleepingcomputer.com/news/security/unsecured-database-exposed-33-million-job-profiles-in-china/
 
@@ -2743,7 +3616,7 @@
 
     - 大致时间: 2018年7月5日
 
-    - 事件经过: In mid-2018, the online photography community 500px suffered a data breach. The incident exposed almost 15 million unique email addresses alongside names, usernames, genders, dates of birth and either an MD5 or bcrypt password hash. In 2019, the data appeared listed for sale on a dark web marketplace (along with several other large breaches) and subsequently began circulating more broadly. The data was provided to HIBP by a source who requested it to be attributed to "BenjaminBlue@exploit.im".
+    - 事件经过: 2018年年中，在线摄影社区500px遭遇数据泄露。该事件暴露了近1500万个独特的电子邮件地址以及姓名、用户名、性别、出生日期和MD5或bcrypt密码哈希。2019年，这些数据出现在一个暗网市场上挂牌出售（以及其他几个大型漏洞），随后开始更广泛地流传。
 
     - link: https://haveibeenpwned.com/PwnedWebsites#500px
 
@@ -2795,7 +3668,7 @@
 
     - 泄露内容: Email addresses, IP addresses, Passwords, Usernames
 
-    - 事件经过: In May 2018, the Linux Forums website suffered a data breach which resulted in the disclosure of 276k unique email addresses. Running on an old version of vBulletin, the breach also disclosed usernames, IP addresses and salted MD5 password hashes. Linux Forums did not respond to multiple attempts to contact them about the breach.
+    - 事件经过: 2018年5月，Linux论坛网站遭遇数据泄露，导致276k个独特的电子邮件地址被披露。在旧版本的vBulletin上运行，该漏洞还披露了用户名、IP地址和加盐的MD5密码哈希。Linux论坛没有对多次试图就违规事件与他们联系的请求作出回应。
 
     - link: https://haveibeenpwned.com/PwnedWebsites#LinuxForums
 
@@ -2883,7 +3756,7 @@
 
     - 泄露内容: Email addresses, Passwords, Usernames
 
-    - 事件经过: In October 2017, the blog commenting service Disqus announced they'd suffered a data breach. The breach dated back to July 2012 but wasn't identified until years later when the data finally surfaced. The breach contained over 17.5 million unique email addresses and usernames. Users who created logins on Disqus had salted SHA1 hashes of passwords whilst users who logged in via social providers only had references to those accounts.
+    - 事件经过: 2017年10月，博客评论服务Disqus宣布他们遭遇了数据泄露。该漏洞可以追溯到2012年7月，但直到多年后数据终于浮出水面时才被发现。该漏洞包含了超过1750万个独特的电子邮件地址和用户名。在Disqus上创建登录的用户拥有经过加盐处理的SHA1哈希密码，而通过社交供应商登录的用户只有这些账户的参考资料。
 
     - link: https://haveibeenpwned.com/PwnedWebsites#Disqus
 
@@ -2977,7 +3850,7 @@
 
     - 泄露内容: Email addresses, Passwords, Usernames
 
-    - 事件经过: In November 2016, news broke that hackers were trading hundreds of thousands of xHamster porn account details. In total, the data contained almost 380k unique user records including email addresses, usernames and unsalted MD5 password hashes.
+    - 事件经过: 2016年11月，有消息称，黑客正在交易数十万个xHamster色情账户的详细信息。数据总共包含近38万条独特的用户记录，包括电子邮件地址、用户名和未加盐的MD5密码哈希。
 
     - link: https://haveibeenpwned.com/PwnedWebsites#xHamster
 
@@ -3011,7 +3884,7 @@
 
     - 泄露内容: Email addresses, Passwords, Usernames
 
-    - 事件经过: In August 2016, the Russian gaming forum known as Cross Fire (or cfire.mail.ru) was hacked along with a number of other forums on the Russian mail provider, mail.ru. The vBulletin forum contained 12.8 million accounts including usernames, email addresses and passwords stored as salted MD5 hashes.
+    - 事件经过: 2016年8月，被称为Cross Fire（或cfire.mail.ru）的俄罗斯游戏论坛与俄罗斯邮件提供商mail.ru上的其他一些论坛一起被黑客攻击。该vBulletin论坛包含1280万个账户，包括加盐MD5哈希值存储的用户名、电子邮件地址和密码。
 
     - link: https://haveibeenpwned.com/PwnedWebsites#CrossFire
 
@@ -3035,7 +3908,7 @@
 
     - 泄露内容: Email addresses, Passwords, Usernames
 
-    - 事件经过: In March 2016, Polish game developer CD Projekt RED suffered a data breach. The hack of their forum led to the exposure of almost 1.9 million accounts along with usernames, email addresses and salted SHA1 passwords.
+    - 事件经过: 2016年3月，波兰游戏开发商CD Projekt RED遭遇数据泄露。他们的论坛遭到黑客攻击，导致近190万个账号以及用户名、电子邮件地址和加盐的SHA1密码被曝光。
 
     - link: https://haveibeenpwned.com/PwnedWebsites#CDProjektRed
 
@@ -3047,7 +3920,7 @@
 
     - 泄露内容: Avatars, Dates of birth, Email addresses, Geographic locations, IP addresses, Passwords, Time zones, Website activity
 
-    - 事件经过: In February 2016, the website for the Linux distro known as Linux Mint was hacked and the ISO infected with a backdoor. The site also ran a phpBB forum which was subsequently put up for sale complete with almost 145k email addresses, passwords and other personal subscriber information.
+    - 事件经过: 2016年2月，被称为Linux Mint的Linux发行版的网站被黑客攻击，ISO被后门感染。该网站还运行着一个phpBB论坛，该论坛随后被出售，其中包含近14.5万个电子邮件地址、密码和其他个人用户信息。
 
     - link: https://haveibeenpwned.com/PwnedWebsites#LinuxMint
 
@@ -3077,7 +3950,7 @@
 
     - 泄露内容: Email addresses, IP addresses, Passwords, Usernames
 
-    - 事件经过: In January 2016, the forum for the popular torrent software BitTorrent was hacked. The IP.Board based forum stored passwords as weak SHA1 salted hashes and the breached data also included usernames, email and IP addresses.
+    - 事件经过: 2016年1月，流行软件BitTorrent的论坛被黑客攻击。这个基于IP.Board的论坛将密码存储为弱SHA1加盐哈希，被入侵的数据还包括用户名、电子邮件和IP地址。
 
     - link: https://haveibeenpwned.com/PwnedWebsites#BitTorrent
 
@@ -3087,7 +3960,7 @@
 
     - 泄露内容: Email addresses, Passwords, Usernames
 
-    - 事件经过: In early 2016, the forum for the uTorrent BitTorrent client suffered a data breach which came to light later in the year. The database from the IP.Board based forum contained 395k accounts including usernames, email addresses and MD5 password hashes without a salt.
+    - 事件经过: 2016年初，uTorrent BitTorrent客户端的论坛遭遇数据泄露，并在当年晚些时候被曝光。这个基于IP.Board的论坛的数据库中包含了39.5万个账号，包括用户名、邮箱地址和MD5密码哈希值无盐。
 
     - link: https://haveibeenpwned.com/PwnedWebsites#uTorrent
 
@@ -3211,7 +4084,7 @@
 
     - 泄露内容: Email addresses, Usernames, Website activity
 
-    - 事件经过: In November 2014, the online game Warframe was hacked and 819k unique email addresses were exposed. Allegedly due to a SQL injection flaw in Drupal, the attack exposed usernames, email addresses and data in a "pass" column which adheres to the salted SHA12 password hashing pattern used by Drupal 7. Digital Extremes (the developers of Warframe), asserts the salted hashes are of "alias names" rather than passwords.
+    - 事件经过: 2014年11月，网络游戏Warframe被黑客攻击，81.9万个独特的电子邮件地址被曝光。据称是由于Drupal的SQL注入漏洞，攻击暴露了用户名、电子邮件地址和 "pass "列中的数据，该列遵守Drupal 7使用的saltted SHA12密码哈希模式。Digital Extremes(Warframe的开发者)宣称，这些加盐哈希是 "别名 "而不是密码。
 
     - link: https://haveibeenpwned.com/PwnedWebsites#Warframe
 
@@ -3223,7 +4096,7 @@
 
     - 泄露内容: Email addresses, Passwords
 
-    - 事件经过: In September 2014, news broke of a massive leak of accounts from Yandex, the Russian search engine giants who also provides email services. The purported million "breached" accounts were disclosed at the same time as nearly 5M mail.ru accounts with both companies claiming the credentials were acquired via phishing scams rather than being obtained as a result of direct attacks against their services.
+    - 事件经过: 2014年9月，俄罗斯搜索引擎巨头Yandex的账户大规模泄露的消息传出，Yandex也提供电子邮件服务。据称100万个 "被入侵 "的账户与近500万个mail.ru账户同时被披露，两家公司都声称这些凭证是通过网络钓鱼诈骗获得的，而不是因为其服务受到直接攻击而获得的。
 
     - link: https://haveibeenpwned.com/PwnedWebsites#Yandex
 
@@ -3259,7 +4132,7 @@
 
     - 泄露内容: Geographic locations, Phone numbers, Usernames
 
-    - 事件经过: In January 2014 just one week after Gibson Security detailed vulnerabilities in the service, Snapchat had 4.6 million usernames and phone number exposed. The attack involved brute force enumeration of a large number of phone numbers against the Snapchat API in what appears to be a response to Snapchat's assertion that such an attack was "theoretical". Consequently, the breach enabled individual usernames (which are often used across other services) to be resolved to phone numbers which users usually wish to keep private.s
+    - 事件经过: 2014年1月，就在吉布森安全公司详细介绍了该服务的漏洞一周后，Snapchat就有460万用户名和电话号码被曝光。攻击涉及针对Snapchat API的大量电话号码的暴力破解，这似乎是对Snapchat声称这种攻击是 "理论上 "的回应。因此，该漏洞使得个人用户名（通常在其他服务中使用）被解析为用户通常希望保持隐私的电话号码。
 
     - link: https://haveibeenpwned.com/PwnedWebsites#Snapchat
 
@@ -3286,7 +4159,7 @@
 
     - 泄露内容: Email addresses, Passwords
 
-    - 事件经过: In September 2013, the online image sharing community imgur suffered a data breach. A selection of the data containing 1.7 million email addresses and passwords surfaced more than 4 years later in November 2017. Although imgur stored passwords as SHA-256 hashes, the data in the breach contained plain text passwords suggesting that many of the original hashes had been cracked. imgur advises that they rolled over to bcrypt hashes in 2016.
+    - 事件经过: 2013年9月，在线图片分享社区imgur遭遇数据泄露。4年多后的2017年11月，部分包含170万个电子邮件地址和密码的数据浮出水面。虽然imgur将密码存储为SHA-256哈希值，但违规数据中包含纯文本密码，表明许多原始哈希值已经被破解，imgur建议他们在2016年转为bcrypt哈希值。
 
     - link: https://haveibeenpwned.com/PwnedWebsites#imgur
 
@@ -3298,7 +4171,7 @@
 
     - 泄露内容: Email addresses, Passwords
 
-    - 事件经过: In early 2013, tumblr suffered a data breach which resulted in the exposure of over 65 million accounts. The data was later put up for sale on a dark market website and included email addresses and passwords stored as salted SHA1 hashes.
+    - 事件经过: 2013年初，tumblr遭遇数据泄露，导致超过6500万个账号被曝光。这些数据后来在一个暗市网站上出售，其中包括以盐化SHA1哈希值存储的电子邮件地址和密码。
 
     - link: https://haveibeenpwned.com/PwnedWebsites#Tumblr
 
@@ -3323,7 +4196,7 @@
 
     - 泄露内容: Email addresses, Passwords
 
-    - 事件经过: In mid-2012, Dropbox suffered a data breach which exposed the stored credentials of tens of millions of their customers. In August 2016, they forced password resets for customers they believed may be at risk. A large volume of data totalling over 68 million records was subsequently traded online and included email addresses and salted hashes of passwords (half of them SHA1, half of them bcrypt).
+    - 事件经过: 2012年年中，Dropbox遭遇数据泄露，暴露了他们数千万客户的存储凭证。2016年8月，他们强制对他们认为可能存在风险的客户进行密码重置。随后，大量总计超过6800万条记录的数据被在线交易，其中包括电子邮件地址和密码的盐化哈希（一半是SHA1，一半是bcrypt）。
 
     - link: https://haveibeenpwned.com/PwnedWebsites#Dropbox
 
@@ -3347,7 +4220,7 @@
 
     - 泄露内容: Email addresses, Names, Passwords, Phone numbers
 
-    - 事件经过: In approximately 2012, the Russian social media site known as VK was hacked and almost 100 million accounts were exposed. The data emerged in June 2016 where it was being sold via a dark market website and included names, phone numbers email addresses and plain text passwords.
+    - 事件经过: 大约在2012年，被称为VK的俄罗斯社交媒体网站遭到黑客攻击，近1亿个账户被曝光。这些数据出现在2016年6月，在那里通过一个暗市网站出售，包括姓名、电话号码电子邮件地址和纯文本密码。
 
     - link: https://haveibeenpwned.com/PwnedWebsites#VK
 
@@ -3398,7 +4271,7 @@
 
     - 泄露内容: Email addresses
 
-    - 事件经过: In 2011, the Chinese e-commerce site Dangdang suffered a data breach. The incident exposed over 4.8 million unique email addresses which were subsequently traded online over the ensuing years.
+    - 事件经过: 2011年，中国电子商务网站当当网遭遇数据泄露。该事件暴露了480多万个独特的电子邮件地址，这些地址在随后的几年里被在线交易。
 
     - link: https://haveibeenpwned.com/PwnedWebsites#Dangdang
 
@@ -3408,13 +4281,83 @@
 
     - 泄露内容: Dates of birth, Email addresses, Genders, Names, Passwords, Phone numbers, Physical addresses, Usernames
 
-    - 事件经过: In 2011, Sony suffered breach after breach after breach — it was a very bad year for them. The breaches spanned various areas of the business ranging from the PlayStation network all the way through to the motion picture arm, Sony Pictures. A SQL Injection vulnerability in sonypictures.com lead to tens of thousands of accounts across multiple systems being exposed complete with plain text passwords.
+    - 事件经过: 在2011年，索尼遭遇了一次又一次的违规事件--这对他们来说是非常糟糕的一年。漏洞横跨业务的各个领域，从PlayStation网络一直到电影部门，索尼影业。Sonypictures.com的SQL注入漏洞导致数万个账户在多个系统中被暴露出完整的纯文本密码。
 
     - link: https://haveibeenpwned.com/PwnedWebsites#Sony
 
 ---
 
 # 供应链攻击
+## 2020供应链攻击事件
+
+### 20.8
+
+- 恶意 **npm** 软件包窃取浏览器文件
+
+    - 事件经过:
+
+        据科技媒体 ZDNet 的报道，npm 安全团队近日发现了一个恶意的 JavaScript 库，该库旨在从受感染用户的浏览器和 Discord 应用程序中窃取敏感文件。这个名为 "fallguys" 的 JavaScript 库声称提供了 "Fall Guys: Ultimate Knockout" 游戏的 API 接口。但实际上它附带恶意程序，用户在运行后即被感染。
+
+        根据 npm 安全团队的说法，此代码将尝试访问五个本地文件，读取其内容，然后利用 Discord Webhook 将数据发布到 Discord 通道内。
+
+        程序包尝试读取的五个文件分别是：
+        - /AppData/Local/Google/Chrome/User\x20Data/Default/Local\x20Storage/leveldb
+        - /AppData/Roaming/Opera\x20Software/Opera\x20Stable/Local\x20Storage/leveldb
+        - /AppData/Local/Yandex/YandexBrowser/User\x20Data/Default/Local\x20Storage/leveldb
+        - /AppData/Local/BraveSoftware/Brave-Browser/User\x20Data/Default/Local\x20Storage/leveldb
+        - /AppData/Roaming/discord/Local\x20Storage/leveldb
+        前四个文件是特定于 Chrome、Opera、Yandex Browser 和 Brave 等浏览器的 LevelDB 数据库。这些文件通常存储特定于用户浏览历史记录的信息。
+
+        最后一个文件也是类似的 LevelDB 数据库，但用于 Discord Windows 客户端，该数据库类似地存储有关用户已加入的频道以及其他特定于频道的内容的信息。
+
+        令人寻味的是，该软件包并未收集存储凭据一类的更敏感信息，而似乎是在观察受感染者，评估他们经常访问的站点，再根据此来更新软件包，提供更有针对性的代码。
+
+    - link: https://mp.weixin.qq.com/s/eSZNQjBZ2bCUBScFIHX7dQ
+
+- **PyPI** 官方仓库遭遇request恶意包投毒
+
+    - 事件经过:
+
+        7月31号 攻击者在PyPI官方仓库上传了request 恶意包，该恶意包通过伪造著名python 库 requests 包名来进行钓鱼， 攻击者可对受感染的主机进行入侵，并实施窃取用户敏感信息及数字货币密钥、种植持久化后门、命令控制等一系列活动。
+
+    - link: https://mp.weixin.qq.com/s/dkPdXfGfSK097GI6Ln92lA
+
+### 20.4
+
+- **Ruby** 包管理器被爆存在725个带后门的库
+
+    - 事件经过:
+
+        近日，Ruby 的包管理器RubyGems再次被曝在725个Ruby库中发现剪贴板劫持恶意软件，该类恶意软件通常是一直在电脑运行并监控受害者的剪贴板内容，一旦监控到银行卡号或者比特币地址，就会将其替换成攻击者自身的地址，从而试图让受害者一不小心成为送财童子。
+
+        reversing实验室为了找到这些库中是否有恶意代码，因此将20,830个gem文件全部解包，其中12,720个是独立不重复的。结果发现里面存在部分PE文件，即可执行文件。
+
+        其中名为atlas-client (地图)的恶意库被大量下载，此恶意gem的下载量为2100次，接近真正的atlas_client的总下载量的30％.
+
+        值得注意的是，去年末，RubyGems还曾被曝光拥有18 个包含后门机制的恶意版本的 Ruby 库，启用带这些库的Ruby项目会被自动挖矿。
+
+    - link: https://mp.weixin.qq.com/s/3lAJL6M9mCQCYxCa9bKTOQ
+    - link: https://www.solidot.org/story?sid=64156
+
+- 国内下载站提供的开源编辑器被发现捆绑了恶意代码
+
+    - 事件经过:
+
+        安全公司报告，国内下载站西西软件园提供的开源编辑器 Notepad++ 被发现捆绑了恶意代码，而这个恶意脚本代码与勒索软件 WannaRen 有关联，该勒索软件可能通过国内下载站进行传播。在中文搜索引擎百度搜索 Notepad++，排在前几位的都是下载站，而不是官网 notepad-plus-plus.org，如果下载站的版本存在恶意代码，那么可能会有很多中国用户受到影响。
+
+    - link: https://www.solidot.org/story?sid=64075
+
+### 20.3
+
+- 2345 旗下下载站被发现传播木马
+
+    - 事件经过:
+
+        安全公司火绒报告，2345 旗下“多特下载站”的下载器（高速下载）正在实施传播木马程序的恶意行为。用户下载运行该下载器后，会立即被静默植入一款名为“commander”的木马程序，该木马程序会在后台运行，并根据云控配置推送弹窗广告和流氓软件。即使用户关闭下载器，“commander”仍然会一直驻留用户系统。同时，该下载器还会释放病毒劫持用户浏览器首页，用以推广广告程序。截至目前，被“commander”木马程序静默推广的软件共有9款，包括趣压、拷贝兔、小白看图等，且这些被静默安装的软件与“commander”木马程序系同源流氓软件。它的一个模块被发现还检测当前 IP 所在城市，被检测的城市包括：北京、上海、广州、珠海、杭州、西安、马鞍山、苏州、武汉、天津、合肥。
+
+    - link: https://www.solidot.org/story?sid=63757
+    - link: https://www.huorong.cn/info/1583504456441.html
+
 ## 2019供应链攻击事件
 ### 19.12
 
@@ -3634,7 +4577,7 @@
     - 事件经过:
 
         Catalin Cimpanu 发现几起针对 WordPress 站点的攻击,主要通过加载恶意脚本进行键盘记录,挖矿或者挂载广告.并且有证据表明,这种攻击从4月份活跃至今.起因是 WordPress 被注入了一个混淆的 js 脚本,从主题的 function.php 文件进行植入.加载的 js 脚本为:
-        ```
+        ```js
         <script type='text/javascript' src='hxxp://cloudflare[.]solutions/ajax/libs/reconnecting-websocket/1.0.0/reconnecting-websocket.js'></script>
         <script type='text/javascript' src='hxxp://cloudflare[.]solutions/ajax/libs/cors/cors.js'></script>
         ```
