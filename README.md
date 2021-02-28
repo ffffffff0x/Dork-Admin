@@ -5,7 +5,7 @@
 <p align="center">
     <img src="https://img.shields.io/badge/Category-Data Leakage-red.svg">
     <img src="https://img.shields.io/github/last-commit/No-Github/Dork-Admin.svg?style=popout">
-    <img src="https://img.shields.io/badge/Count->=289-blue.svg">
+    <img src="https://img.shields.io/badge/Count->=377-blue.svg">
 </p>
 
 ---
@@ -15,7 +15,6 @@
 * **简介 :** 盘点各国各行业的数据泄露、供应链污染事件,希望可以起到一定的警示作用.
 * **灵感来源 :** https://haveibeenpwned.com/PwnedWebsites、 https://www.freebuf.com/articles/paper/147403.html
 * **消息源 :** [verizon DBIR](https://enterprise.verizon.com/resources/reports/dbir/)、[haveibeenpwned](https://haveibeenpwned.com)、[securityaffairs](https://securityaffairs.co/wordpress/tag/data-leak)、[hackernews](http://hackernews.cc/archives/category/%E6%95%B0%E6%8D%AE%E6%B3%84%E9%9C%B2)、[Freebuf](https://www.freebuf.com)、[bleepingcomputer](https://www.bleepingcomputer.com)、[zdnet](https://www.zdnet.com)、[Solidot](https://www.solidot.org)、[Rainbowtabl.es](https://rainbowtabl.es/)、[Databreaches](https://www.databreaches.net/category/breach-types/exposure/)
-* **更新间隔 :** 不定期
 * **隐私保护 :** 配合隐私保护方案食用效果更佳 : [Digital-Privacy](https://github.com/No-Github/Digital-Privacy)
 * **项目地址 :** https://github.com/No-Github/Dork-Admin
 
@@ -38,8 +37,17 @@
 
 **数据泄露**
 
+* <details><summary><a href="#2021数据泄露事件">2021数据泄露事件</a> View👇</summary>
+
+    * [21.1](#211)
+
+    </details>
+
 * <details><summary><a href="#2020数据泄露事件">2020数据泄露事件</a> View👇</summary>
 
+    * [20.12](#2012)
+    * [20.11](#2011)
+    * [20.10](#2010)
     * [20.9](#209)
     * [20.8](#208)
     * [20.7](#207)
@@ -152,6 +160,7 @@
 
 **供应链攻击**
 
+* [2021供应链攻击事件](#2021供应链攻击事件)
 * [2020供应链攻击事件](#2020供应链攻击事件)
 * [2019供应链攻击事件](#2019供应链攻击事件)
 * [2018供应链攻击事件](#2018供应链攻击事件)
@@ -169,7 +178,170 @@
 
 # 数据泄露
 
+## 2021数据泄露事件
+
+### 21.1
+
+- 美国位置数据公司 **X-Mode Social** 通过亚马逊平台进行数据售卖
+
+    - 事件经过:
+
+        X-Mode Social是一家成立于2013年的美国公司，总部位于维珍尼亚雷斯顿，专门从事位置数据的研究。主要通过让APP内置其SDK，从而进行位置数据收集和分析，并将其售卖给其他客户，客户包括美国军事承包商
+
+        根据研究人员最新发现，X-Mode公司居然在亚马逊平台上，公然售卖位置数据，并且涉及Covid-19位置数据。
+
+    - link: https://mp.weixin.qq.com/s/UzCFWQgYcJXyuzp0fsxCNA
+    - link: https://www.vice.com/en/article/xgz4n3/muslim-app-location-data-salaat-first
+
+- 移动网络运营商 **USCellular** 数据泄露
+
+    - 事件经过:
+
+        "2021年1月6日，我们检测到一起数据安全事件，其中未经uth0rized的个人可能已经获得了对您的无线客户账户和无线phne号码的访问权限。零售店的一些员工被未经授权的人成功诈骗，并将软件下载到商店的电脑上。""由于该员工已经登录了客户零售管理("CRM")系统，下载的软件允许未经授权的个人远程访问商店电脑，并根据员工的凭证进入CRM系统，"USCellular数据泄露通知称。
+
+        USCellular认为攻击发生在2021年1月4日。从通知中并不清楚有多少客户受到影响，以及员工是通过钓鱼邮件还是其他方法被骗。
+
+    - link: https://www.bleepingcomputer.com/news/security/uscellular-hit-by-a-data-breach-after-hackers-access-crm-software/
+
+- 1.76亿巴基斯坦手机用户的数据库被在线销售
+
+    - 事件经过:
+
+        黑客正在出售一个据称包含超过1.76亿巴基斯坦公民个人详细信息的数据库。显然，该数据库是该国不同电信公司的数据的汇总，并全部被出售以获取利润。该数据库包含的个人数据中包括全名，实际地址和电话号码。
+
+    - link: https://www.hackread.com/pakistani-mobile-phone-users-database-sold-online/
+
+- **Stack Overflow** 透露攻击者利用 Stack Overflow 上的建议入侵该网站
+
+    - 事件经过:
+
+        2019 年 5 月，流行编程讨论社区 Stack Overflow 承认它被入侵了，但在攻击者尝试获得到更多权限前被阻止了。Stack Overflow 称有大约 200 名用户的信息泄露。本周，Stack Overflow公开了这次入侵的更多细节，称攻击者利用了 Stack Overflow 上面的建议入侵其系统。
+
+    - link: https://www.solidot.org/story?sid=66787
+
+- 几乎所有巴西人的信息泄露
+
+    - 事件经过:
+
+        巴西几乎所有人的信息泄露。泄露的数据为 14 GB，包含了 1.04 亿车辆和 4000 万家企业详细信息，潜在受影响人数 2.2 亿。泄露的信息包含了姓名、出生日期和 CPF 号码。CPF 号码是巴西税务局分配给居民和需要纳税的外籍居民的数字。
+
+    - link: https://www.solidot.org/story?sid=66764
+
+- 印度加密交易所 **BuyUCoin** 遭攻击，超32.5万用户个人数据泄露
+
+    - 事件经过:
+
+        一个名为 ShinyHunters 的黑客组织泄露了一个数据库，其中包含超过32.5万BuyUCoin用户的姓名、电话号码、电子邮件地址、税务身份号码和银行账户详细信息。
+
+    - link: https://www.cnbeta.com/articles/tech/1082319.htm
+
+- 黑客在论坛上免费发布190万个 **Pixlr** 用户记录
+
+    - 事件经过:
+
+        一位被称为ShinyHunters的威胁行为者在黑客论坛上免费分享了一个数据库，他声称该数据库是在入侵123rf股票照片网站时从Pixlr中窃取的。Pixlr和123rf都属于同一家公司Inmagine。ShinyHunters发布的所谓Pixlr数据库包含1,921,141条用户记录，包括电子邮件地址、登录名、SHA-512哈希密码、用户所在国家、是否注册了电子报以及其他内部信息。
+
+    - link: https://www.bleepingcomputer.com/news/security/hacker-posts-19-million-pixlr-user-records-for-free-on-forum/
+
+- 印度支付处理公司 **Juspay** 一亿多用户的借记卡、信用卡信息被泄露
+
+    - 事件经过:
+
+        Juspay超过1亿借记卡和信用卡用户的信息已经在暗网上泄露。Juspay为亚马逊、Swiggy、MakeMyTrip等公司处理支付业务。此次泄露的数据是以数据转储的形式，通过Juspay的一个被入侵的服务器泄露。Juspay在其官方博客中确认了此次数据泄露事件，概述了此次泄露事件的细节。Juspay称，泄露源自2020 年 8 月 18 日被入侵的一个服务器，泄露的数据集包括了非敏感的银行卡掩码信息、电话号码和电邮 ID。
+
+        网络安全研究人员Rajshekhar Rajaharia发现了数据泄露。他发现，数据转储可以在暗网上出售。
+
+    - link: https://www.businessinsider.in/tech/news/over-100-million-debit-and-credit-card-users-data-has-been-leaked-online-from-payments-processor-juspay-amazon-and-swiggy/articleshow/80096472.cms
+
+- **OpenWRT** 论坛数据泄露，大量用户数据被盗
+
+    - 事件经过:
+
+        美国当地时间周六凌晨4点左右，一个未经授权的第三方获得了管理权限，并复制了一个包含论坛用户详细信息和相关统计信息的列表。据称，入侵者使用了OpenWRT管理员的帐户，论坛用户的电子邮件地址和帐号被盗。OpenWRT方面还补充说，他们认为攻击者无法下载论坛数据库，这意味着密码应该是安全的。
+
+        然而，为了安全起见，他们重置了论坛上的所有密码，并使项目开发过程中所有使用的API密钥失效。
+
+    - link: https://www.cnbeta.com/articles/tech/1079821.htm
+
+---
+
 ## 2020数据泄露事件
+
+### 20.12
+
+- 意大利移动运营商 **Ho Mobile** 数据泄露
+
+    - 事件经过:
+
+        沃达丰旗下的意大利移动运营商Ho Mobile周一证实了一起大规模数据泄露事件，目前正在采取罕见的措施，主动为所有受影响的客户更换SIM卡。据信，此次泄密事件大约影响了250万客户。上个月12月28日，当一位安全分析师在一个暗网论坛上发现该电信公司的数据库被提供出售时，该事件首次被曝光。
+
+        虽然该公司最初淡化了这些最初的报道，但Ho周一在其官方网站上发布的消息中，以及通过向所有受影响的客户发送短信，证实了这一事件。Ho的声明证实了安全研究机构的评估，即黑客入侵了Ho的服务器，并窃取了Ho客户的详细信息，包括全名、电话号码、社会安全号码、电子邮件地址、出生日期和地点、国籍和家庭地址。虽然该电信公司表示，在这次入侵中没有财务数据或通话细节被窃取，但Ho承认，黑客掌握了客户SIM卡的相关细节。
+
+    - link: https://www.zdnet.com/article/italian-mobile-operator-offers-to-replace-sim-cards-after-massive-data-breach/
+
+- **欧盟监管机构欧洲药品管理局(EMA)** 遭到攻击，COVID-19疫苗相关文件被盗。
+
+    - 事件经过:
+
+        BioNTech和Pfizer公司已经发布联合声明，表示黑客在此次攻击事件中访问了他们的COVID-19疫苗文件。
+
+    - link: https://www.ema.europa.eu/en/news/cyberattack-european-medicines-agency
+    - link: https://www.ema.europa.eu/en/news/cyberattack-ema-update-6
+
+- 软件供应商 **CMA** 的源代码泄露
+
+    - 事件经过:
+
+        近期, 负责为多家跨国银行及证券交易所提供软件的开发商 CMA 的软件源代码被公开发布在网上。
+
+        CMA 客户包括摩洛哥、毛里求斯、阿曼、塞尔维亚、利比亚以及柬埔寨等国的中央银行。
+
+        该公司同时也在为甲骨文、赛门铁克以及花旗银行等知名厂商提供服务。
+
+    - link: https://mp.weixin.qq.com/s/1rBTVXTTUfibxxnzqcGaRg
+    - link: https://securityreport.com/source-code-used-by-central-banks-and-stock-exchanges-leaked-online/
+
+### 20.11
+
+- **GitHub Enterprise Server** 源代码泄露，CEO 回应：这是个意外
+
+    - 事件经过:
+
+        11月5日，TypeScript开发者Resynth发文称，代码托管服务GitHub的源代码被泄露，在 GitHub 官方 DMCA 仓库的一次可疑提交中，一个不明身份的人利用 GitHub 应用中的一个 BUG，冒充 Nat Friedman 上传了机密源代码。其目的可能是出于对前段时间 Youtube-dl 仓库被移除事件的愤怒。
+
+        按照 Friedman 的说法，泄露的代码其实是 GitHub Enterprise Server，而不是 GitHub 网站本身。虽然 GitHub 和 GitHub Enterprise Server 都没有公开代码，但 GitHub Enterprise Server 的代码经常会以精简和混淆的形式定期交付给客户。按照 Friedman 的说法，GitHub 在几个月前意外地给一些客户提供了一个完整的、非混淆的 GHES 压缩包，这就是被泄露到 GitHub 公共 DMCA 仓库中的代码。
+
+    - link: https://www.freebuf.com/articles/254217.html
+    - link: https://www.solidot.org/story?sid=66021
+
+- **育碧**《看门狗：军团》560G源代码泄漏
+
+    - 事件经过:
+
+        勒索软件组织Egregor对外声称成功入侵了育碧和Crytek两大游戏公司，获得了包括《看门狗：军团》源代码在内的诸多内部内容。11月5日，该组织正式发布了这款游戏的源代码并放出下载链接，源代码大小为 560 GB。育碧发言人表示：“我们知道该组织的要求，目前正在调查潜在的数据安全事件”。
+
+    - link: https://www.freebuf.com/articles/254217.html
+
+- 日本游戏公司 **Capcom** 遭网络攻击
+
+    - 事件经过:
+
+        日本知名游戏开发商和发行商Capcom（卡普空）11月4日上午发布官方公告，称公司服务器遭到第三方未授权访问。这次网络攻击主要集中在公司的邮件及文件服务器，目前尚未发现用户资料和信息被盗取的证据。为响应攻击事件，游戏开发人员关闭了部分公司网络以防止恶意软件传播。
+
+    - link: https://www.freebuf.com/articles/254217.html
+    - link: https://www.bleepingcomputer.com/news/security/capcom-390-000-people-may-be-affected-by-ransomware-data-breach/
+
+### 20.10
+
+- **尼桑** 北美公司源代码泄露
+
+    - 事件经过:
+
+        软件工程师蒂莉·科特曼(TillieKottmann)在Twitter上发文称尼桑北美公司发生严重的数据泄露。泄露时间的起因源自尼桑北美公司一台配置错误的 Bitbucket Git 服务器。其用户名和密码均为admin。从周一开始数据通过 torrent 种子文件的形式在Telegram和黑客论坛上传播，周三时服务器已被下线，处于脱机状态。
+
+        尼桑随后证实了这一事件，并表示将认真对待这类事情，并正在进行调查。这并不是尼桑第一次发生信息泄露事件，早在2017年，尼桑加拿大金融业务就曾发生一起数据泄露事件，共约113万用户受到影响。
+
+    - link: https://mp.weixin.qq.com/s/t242Yn5SfbOnHwWQvB_mTg
 
 ### 20.9
 
@@ -324,6 +496,16 @@
 
 ### 20.8
 
+- **Experian** 南非分公司数据泄露，影响2400万客户
+
+    - 事件经过:
+
+        消费者信用报告机构Experian南非分公司周三披露了一起数据泄露事件。该信用机构承认将其南非客户的个人资料交给了一个冒充客户的欺诈者。
+
+        虽然Experian没有披露受影响的用户数量，但反欺诈和银行业非营利组织南非银行风险中心(SABRIC)的一份报告称，此次违规事件影响了2400万南非人和793749家当地企业。Experian表示，它向地方当局报告了这一事件，地方当局得以追踪到事件背后的个人。此后，Experian表示，它获得了法院的命令，"结果该个人的硬件被扣押，被盗用的数据被保护起来并删除"。
+
+    - link: https://www.zdnet.com/article/experian-south-africa-discloses-data-breach-impacting-24-million-customers/
+
 - 6亿快递单号被卖，9家快递公司参与
 
     - link: https://mp.weixin.qq.com/s/3lfA71CGjBmLpBTLkiDeDA
@@ -452,6 +634,14 @@
     - link: https://www.bleepingcomputer.com/news/security/havenly-discloses-data-breach-after-13m-accounts-leaked-online/
 
 ### 20.7
+
+- 2家国内企业数据泄露
+
+    - 事件经过:
+
+        研究人员发现了2个不安全的数据库，其中包含数百万个记录。据悉，第一个数据库来自互联网+科技养老的孝信通其中包含GPS位置、手机号、地址、哈希密码等敏感信息，第二个数据库疑似来自上海延华,有更多的敏感数据，比如容易被解码的音频文件、姓名、员工身份证号码、心率、氧量、GPS位置等。目前这两个数据库均已关闭。目前，两个数据库都已关闭。
+
+    - link: https://securityaffairs.co/wordpress/105609/data-breach/chinese-companies-data-leak.html
 
 - 美国网络安全公司 **Night Lion Security** 存储泄露数据库，被黑客入侵后曝光
 
@@ -4288,7 +4478,74 @@
 ---
 
 # 供应链攻击
+
+## 2021供应链攻击事件
+
+### 21.2
+
+- **Perl.com官网** 被劫持，指向停车网站被用于分发恶意软件
+
+    - 事件经过:
+
+        Perl 基础架构博客 Perl NOC 报道称，Perl.com 官网被劫持，不再指向它原本应该指向的地方，而被指向了一个停车网站。更严重的是，它被用于分发恶意软件。
+
+    - link: https://www.cnbeta.com/articles/tech/1085255.htm
+
+- **NPM** 遭遇供应链投毒攻击窃取K8S集群凭证
+
+    - 事件经过:
+
+        近日，腾讯洋葱反入侵系统检测发现 NPM 官方仓库被上传了 radar-cms 恶意包，并通知官方仓库下架处理。由于国内开源镜像站均同步于 NPM 官方仓库，所以该问题不仅会通过官方仓库，还可能通过各个开源镜像站影响广大用户。
+
+        12 月 23 号 03:32 攻击者在 NPM 官方仓库上传了 radar-cms 恶意包 (https://www.npmjs.com/package/radar-cms)，包代码和主页完全复制 TypeChain 正常包，有可能是为了绕过信誉检查，目前已下载 40 余次。
+
+        radar-cms 包 恶意功能触发方式相对常见，在 package.json 中的 postinstall 字段添加了一段恶意命令，功能是在安装 radar-cms 包时，窃取 kubeconfig 文件、kerberos 凭据、/etc/passwd、/etc/hosts 等敏感文件。
+
+        其中 kubeconfig 文件 是用于配置 k8s 集群访问信息的文件。在开启了 TLS 的集群中，每次与集群交互时都需要身份认证，生产环境一般使用证书进行认证，其认证所需要的信息会放在 kubeconfig 文件中。此外，k8s 的组件都可以使用 kubeconfig 连接 apiserver，client-go 、operator、helm 等其他组件也使用 kubeconfig 访问 apiserver。
+
+        相比于之前发现的多起 NPM 投毒案例，此次投毒的目的有些许变化，此前投毒以控制主机为主要目的，而此次更加倾向于攻击云原生基础设施，窃取关键配置文件，这可能与云原生的火热发展有关。
+
+    - link: https://mp.weixin.qq.com/s/Qx7WCVicPsZQvYarskqB8w
+
+---
+
 ## 2020供应链攻击事件
+
+### 20.12
+
+- Sunburst **SolarWinds** 供应链攻击事件
+
+    - 事件经过:
+
+        据《华尔街日报》报道，去年 12 月，美国财政部、商务部等多个政府机构遭到攻击。在追踪源头时发现，安全人员发现这些机构的电脑等设备均安装了被植入恶意代码的软件，其来自于知名 IT 公司 SolarWinds 旗下的 Orion 网络监控软件。在应用中，SolarWinds 的客户包括了” 财富美国 500 强 “（Fortune 500）企业、美国所有前十大电信业者、美军所有五大部队、美国国务院、国家安全局，以及美国总统办公室等。而此次黑客事件，可能会影响并波及到 18,000 位用户。
+
+        不久后，SolarWinds 证实了，在其超过 30 万名的客户中，有不到 18000 个客户在 2020 年 3-6 月期间下载了 SolarWinds Orion 更新，其中就可能包括恶意软件。而这些恶意软件可能进行秘密运作，从入侵的系统中盗窃有价值的知识产权、机密和专有数据、电子邮件和其他有价值的信息。
+
+        安全公司 FireEye 于 12 月 13 日披露了袭击的细节。SolarWinds 还为其客户发布了一份安全建议。这场攻击活动至少从 2020 年 3 月就开始了。任何在这段时间内下载更新的 Orion 软件的用户都可能感染了 Sunburst。据 FireEye 称，攻击者对他们感兴趣的受害者组织子集进行了进一步的恶意活动。
+
+        在 2020 年 12 月 13 日初次曝光时，FireEye 和微软首先确认黑客攻入了 IT 管理软件提供商 SolarWinds 的网络，并用恶意软件感染了 Orion 应用程序的封包服务器，这款名叫 Sunburst（或 Solorigate）的恶意软件，被用于收集受害企业的内部信息。遗憾的是，部署 Orion 应用程序的 1.8 万个 SolarWinds 客户，其中大多数人都忽略了木马的存在，在初步得逞后，攻击者部署了第二款名叫 Teardrop 的恶意软件，然后利用多种技术手段，将黑手延伸到了企业内网和云端（尤其是 Microsoft 365 基础设施）。
+
+    - link: https://telegra.ph/IntelliJ-IDEAKotlinPyCharm-%E8%83%8C%E5%90%8E%E5%85%AC%E5%8F%B8-JetBrains-%E9%81%AD%E7%BE%8E%E5%9B%BD%E8%B0%83%E6%9F%A5-CSDN%E8%B5%84%E8%AE%AF-CSDN%E5%8D%9A%E5%AE%A2-01-08
+    - link: https://securityaffairs.co/wordpress/113620/hacking/raindrop-solarwinds-attacks.html
+    - link: https://www.bleepingcomputer.com/news/security/malwarebytes-says-solarwinds-hackers-accessed-its-internal-emails/
+    - link: https://www.darkreading.com/threat-intelligence/solarwinds-attack-underscores-new-dimension-in-cyber-espionage-tactics/d/d-id/1339928
+    - link: https://www.cnbeta.com/articles/tech/1080233.htm
+    - link: https://mp.weixin.qq.com/s/_TggGYUVW617X83hLOGx7g
+
+### 20.11
+
+- **PyPI** 官方仓库遭遇 covd 恶意包投毒
+
+    - 事件经过:
+
+        近日，腾讯洋葱反入侵系统检测发现 PyPI 官方仓库被恶意上传了 covd 钓鱼包，并通知官方仓库下架处理。由于国内开源镜像站均同步于 PyPI 官方仓库，所以该问题不仅会通过官方仓库，还可能通过各个开源镜像站影响广大用户，腾讯安全应急响应中心（TSRC）秉承共建安全生态的原则，TSRC 在此建议各开源镜像站以及对开源镜像站有依赖的组织和公司，请尽快自查处理，确保恶意库得到清除，保障用户安全。
+
+        11 月 16 号 17:02 攻击者在 PyPI 官方仓库上传了 covd 恶意包，该恶意包通过伪造 covid 包名进行钓鱼，攻击者可对受感染的主机进行入侵，并实施种植木马、命令控制等一系列活动，其中恶意代码存在于 1.0.2/4 版本中。
+
+        正常 covid 包的功能是获取约翰斯 · 霍普金斯大学和 worldometers.info 提供的有关新型冠状病毒的信息，每天的安装量上千次。在新冠疫情在世界流行的大背景下，covid 包因输错包名而被误装为 covd 钓鱼包的数量将会不断增加。
+
+    - link: https://mp.weixin.qq.com/s/RoTTPgL3a0STgmT_2HFKTA
+
 
 ### 20.8
 
@@ -4608,7 +4865,7 @@
 
     - link: http://it.rising.com.cn/dongtai/18995.html
 
-- **Chrome 插件 User–Agent Switcher** 供应链攻击事件
+- **Chrome 插件 UserAgent Switcher** 供应链攻击事件
 
     - 事件经过: 在此处事件中 User-Agent Switcher 为广大的攻击者提供了一种新型的供应链攻击模式—从大分发机构出发,对交付这一过程进行攻击,作者通过混淆自己的恶意代码进入图片接着在插件运行的时候再从图片中解密出恶意代码进行运行,从而绕过了 Chrome 商店的严格审查机制,成功的堂而皇之的登录到了 Chrome 应用商店,然而对用户而言,官方的应用商店无疑是代表着官方的认证,以及质量和安全,时至今日已经 Chrome 商店的统计数据显示:累计有 458,450 的用户已经安装了该插件,可以看到 Chrome 商店在这之中扮演着重要的角色,交付这一环节上,就让 chrome 成功收录了自己的应用,然后利用 chrome 应用商店这个更为广大的品台吸引到更多的用户进行下载使用,从而造成更大的危害.
 
