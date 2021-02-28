@@ -5,7 +5,7 @@
 <p align="center">
     <img src="https://img.shields.io/badge/Category-Data Leakage-red.svg">
     <img src="https://img.shields.io/github/last-commit/No-Github/Dork-Admin.svg?style=popout">
-    <img src="https://img.shields.io/badge/Count->=377-blue.svg">
+    <img src="https://img.shields.io/badge/Count->=399-blue.svg">
 </p>
 
 ---
