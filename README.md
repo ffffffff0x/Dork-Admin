@@ -1,3 +1,5 @@
+> 个人精力有限,后续不在更新, [Databreaches](https://www.databreaches.net/category/breach-types/exposure/) 和 [haveibeenpwned](https://haveibeenpwned.com) 网站收集的泄露事件非常全面,推荐作为后续的信息源.
+
 <p align="center">
     <img src=".//assets/img/logo.png">
 </p>
