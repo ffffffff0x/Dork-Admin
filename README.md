@@ -15,8 +15,8 @@
 * **简介 :** 盘点各国各行业的数据泄露、供应链污染事件,希望可以起到一定的警示作用.
 * **灵感来源 :** https://haveibeenpwned.com/PwnedWebsites、 https://www.freebuf.com/articles/paper/147403.html
 * **消息源 :** [verizon DBIR](https://enterprise.verizon.com/resources/reports/dbir/)、[haveibeenpwned](https://haveibeenpwned.com)、[securityaffairs](https://securityaffairs.co/wordpress/tag/data-leak)、[hackernews](http://hackernews.cc/archives/category/%E6%95%B0%E6%8D%AE%E6%B3%84%E9%9C%B2)、[Freebuf](https://www.freebuf.com)、[bleepingcomputer](https://www.bleepingcomputer.com)、[zdnet](https://www.zdnet.com)、[Solidot](https://www.solidot.org)、[Rainbowtabl.es](https://rainbowtabl.es/)、[Databreaches](https://www.databreaches.net/category/breach-types/exposure/)
-* **隐私保护 :** 配合隐私保护方案食用效果更佳 : [Digital-Privacy](https://github.com/No-Github/Digital-Privacy)
-* **项目地址 :** https://github.com/No-Github/Dork-Admin
+* **隐私保护 :** 配合隐私保护方案食用效果更佳 : [Digital-Privacy](https://github.com/ffffffff0x/Digital-Privacy)
+* **项目地址 :** https://github.com/ffffffff0x/Dork-Admin
 
 <p align="center">
     <img src=".//assets/img/readme.png">
@@ -2658,7 +2658,7 @@
 
     - 事件经过:
 
-        福昕 PDF 阅读器和编辑器的开发商福建福昕软通知客户,黑客入侵了它的服务器访问了用户数据.在给受影响客户的邮件通知中,福昕称,未经授权的黑客访问了 My Account 区域,可能访问的用户数据包括了用户名 、电邮地址、企业名称、电话号码、用户账号密码和 IP 地址.它声称信用卡或其它支付信息没有暴露.福昕没有解释泄露的密码是否是加密或加盐还是明文储存,它建议用户下一次登陆时修改密码.
+        福昕 PDF 阅读器和编辑器的开发商福建福昕软通知客户,黑客入侵了它的服务器访问了用户数据.在给受影响客户的邮件通知中,福昕称,未经授权的黑客访问了 My Account 区域,可能访问的用户数据包括了用户名 、电邮地址、企业名称、电话号码、用户账号密码和 IP 地址.它声称信用卡或其它支付信息没有暴露.福昕没有解释泄露的密码是否是加密或加盐还是明文储存,它建议用户下一次登录时修改密码.
 
     - link: https://www.solidot.org/story?sid=61920
 
@@ -3408,7 +3408,7 @@
 
     - 泄露内容: 用户名字、真名 、电邮地址、城市国家信息 、哈希密码、Google 令牌 、Gmail 地址
 
-    - 事件经过: 自称 GnosticPlayers 的黑客声称窃取了澳大利亚网站 Canva 的 1.39 亿用户数据.Canva 是一个非常受欢迎的平面设计服务,Alexa 排名在 200 以内.黑客窃取的数据包括了用户名字、真名 、电邮地址、城市国家信息,其中 6100 万用户有哈希密码,其他用户的信息还有用于登陆的 Google 令牌.有 7800 万用户使用了 Gmail 地址.Canva 证实它的数据库遭到非法访问,表示尚未发现账号被入侵,出于谨慎考虑它已经鼓励用户更改密码.
+    - 事件经过: 自称 GnosticPlayers 的黑客声称窃取了澳大利亚网站 Canva 的 1.39 亿用户数据.Canva 是一个非常受欢迎的平面设计服务,Alexa 排名在 200 以内.黑客窃取的数据包括了用户名字、真名 、电邮地址、城市国家信息,其中 6100 万用户有哈希密码,其他用户的信息还有用于登录的 Google 令牌.有 7800 万用户使用了 Gmail 地址.Canva 证实它的数据库遭到非法访问,表示尚未发现账号被入侵,出于谨慎考虑它已经鼓励用户更改密码.
 
     - link: https://www.zdnet.com/article/australian-tech-unicorn-canva-suffers-security-breach/
 
@@ -3826,7 +3826,7 @@
 
     - 影响人数: 官方宣传近千万条用户
 
-    - 事件经过: 北京时间 6 月 13 日凌晨,AcFun 发布公告称网站遭遇黑客攻击,近千万条用户数据外泄.呼吁 2017 年 7 月 7 日之后从未登陆过的用户以及密码强度低的用户及时更改密码.如果在其他网站使用与 A 站相同的密码,也应及时修改.
+    - 事件经过: 北京时间 6 月 13 日凌晨,AcFun 发布公告称网站遭遇黑客攻击,近千万条用户数据外泄.呼吁 2017 年 7 月 7 日之后从未登录过的用户以及密码强度低的用户及时更改密码.如果在其他网站使用与 A 站相同的密码,也应及时修改.
 
 - **Exactis** 3.4亿人口总数据泄露
 
@@ -4260,7 +4260,7 @@
 
     - 泄露内容: 用户帐号、明文密码、身份证邮箱等信息
 
-    - 事件经过: 12月25日,国内漏洞报告平台乌云官网爆出,大量12306用户数据在互联网疯传包括用户帐号、明文密码、身份证邮箱等信息.关于此次12306用户数据泄露事件,国内某安全研究团队方面验证了该消息的准确性,并获取到了该文中提到的样本数据,文件标题为《12306 邮箱-密码-姓名-身份证-手机(售后群: 31109xxxx).txt》,共计131653条记录、文件大小14M.随机抽取了一批帐号(约50个)均成功登陆12306,证明了该批数据是准确的,对于里面出现的明文用户密码,该团队初步推测是利用现有用户数据进行"撞库".针对用户信息泄露一事,12306官方网站随后发布公告称,经过调查,此次泄露信息全部含有用户的明文密码,并称12306网站数据库所有用户密码均为多次加密的非明文转换码,同时暗示用户的明文密码为第三方抢票软件泄漏.
+    - 事件经过: 12月25日,国内漏洞报告平台乌云官网爆出,大量12306用户数据在互联网疯传包括用户帐号、明文密码、身份证邮箱等信息.关于此次12306用户数据泄露事件,国内某安全研究团队方面验证了该消息的准确性,并获取到了该文中提到的样本数据,文件标题为《12306 邮箱-密码-姓名-身份证-手机(售后群: 31109xxxx).txt》,共计131653条记录、文件大小14M.随机抽取了一批帐号(约50个)均成功登录12306,证明了该批数据是准确的,对于里面出现的明文用户密码,该团队初步推测是利用现有用户数据进行"撞库".针对用户信息泄露一事,12306官方网站随后发布公告称,经过调查,此次泄露信息全部含有用户的明文密码,并称12306网站数据库所有用户密码均为多次加密的非明文转换码,同时暗示用户的明文密码为第三方抢票软件泄漏.
 
     - link: https://www.williamlong.info/archives/4089.html
 
@@ -5119,3 +5119,7 @@
 ---
 
 `"我想,你们这帮家伙应该考虑比这大得多的问题."`
+
+---
+
+> create by ffffffff0x
